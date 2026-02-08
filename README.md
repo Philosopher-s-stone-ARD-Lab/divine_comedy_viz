@@ -5,6 +5,7 @@ An interactive data visualization of Dante's *Divine Comedy* (Longfellow transla
 ## Features
 
 - **Spiral Journey** - A spiral visualization mapping all 100 cantos with color-coded realms, sized by word count, with sentiment glow effects
+- **3D World** - Immersive Three.js 3D scene with orbit controls, bloom post-processing, realm backdrops (inverted cone, mountain, celestial spheres), particle atmospheres, and raycasted hover/click interactions
 - **Emotional Arc** - Sentiment analysis chart showing the emotional progression from the darkness of Inferno through the light of Paradiso
 - **Character Network** - Force-directed graph of character co-occurrences and relationships across all three realms
 - **Thematic Radial Chart** - Radial visualization showing the distribution of 16 key themes, filterable by realm
@@ -77,6 +78,7 @@ divine-comedy-viz/
     main.js                  # Svelte mount point
     components/
       SpiralJourney.svelte   # Spiral descent/ascent visualization
+      Journey3D.svelte       # Three.js 3D immersive journey
       SentimentFlow.svelte   # Emotional arc line/area chart
       NetworkGraph.svelte    # Force-directed character network
       ThemeRadial.svelte     # Radial theme distribution chart
@@ -89,6 +91,7 @@ divine-comedy-viz/
     utils/
       dataProcessing.js      # Data loading and color utilities
       d3Helpers.js            # D3.js helper functions
+      threeHelpers.js         # Three.js scene building utilities
 ```
 
 ## Data Pipeline
@@ -111,4 +114,4 @@ divine-comedy-viz/
 
 - Text: *The Divine Comedy* by Dante Alighieri, translated by Henry Wadsworth Longfellow
 - PDF Source: Penn State Electronic Classics Series
-- Built with: Svelte 5, D3.js v7, NLTK, pdfplumber
+- Built with: Svelte 5, D3.js v7, Three.js r182, NLTK, pdfplumber

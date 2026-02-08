@@ -5,6 +5,7 @@
   import NetworkGraph from './components/NetworkGraph.svelte';
   import ThemeRadial from './components/ThemeRadial.svelte';
   import CantoExplorer from './components/CantoExplorer.svelte';
+  import Journey3D from './components/Journey3D.svelte';
 
   import mainDataJson from './data/divine-comedy-data.json';
   import networkDataJson from './data/network-data.json';
@@ -22,6 +23,7 @@
 
   const sections = [
     { id: 'spiral', label: 'Journey', icon: '&#10042;' },
+    { id: 'journey3d', label: '3D World', icon: '&#9672;' },
     { id: 'sentiment', label: 'Emotion', icon: '&#9829;' },
     { id: 'network', label: 'Characters', icon: '&#9733;' },
     { id: 'themes', label: 'Themes', icon: '&#9673;' },
@@ -124,6 +126,14 @@
             onCantoSelect={handleCantoSelect}
           />
         </section>
+      {:else if activeSection === 'journey3d'}
+        <section class="viz-section">
+          <Journey3D
+            {journeyData}
+            {mainData}
+            onCantoSelect={handleCantoSelect}
+          />
+        </section>
       {:else if activeSection === 'sentiment'}
         <section class="viz-section">
           <SentimentFlow
@@ -158,7 +168,7 @@
     <!-- Footer -->
     <footer class="footer">
       <p>Divine Comedy Data Visualization &middot; Data extracted from Longfellow translation</p>
-      <p class="footer-note">Built with Svelte & D3.js</p>
+      <p class="footer-note">Built with Svelte, D3.js & Three.js</p>
     </footer>
   {/if}
 </div>
