@@ -1,0 +1,1077 @@
+{
+  "rivers": {
+    "Acheron": {
+      "occurrences": [
+        {
+          "canto": 3,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 14,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 36,
+          "realm": "Purgatorio"
+        }
+      ],
+      "total": 3
+    },
+    "Styx": {
+      "occurrences": [
+        {
+          "canto": 7,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 9,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 14,
+          "realm": "Inferno"
+        }
+      ],
+      "total": 3
+    },
+    "Phlegethon": {
+      "occurrences": [
+        {
+          "canto": 14,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 15,
+          "realm": "Inferno"
+        }
+      ],
+      "total": 2
+    },
+    "Cocytus": {
+      "occurrences": [
+        {
+          "canto": 14,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 31,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 34,
+          "realm": "Inferno"
+        }
+      ],
+      "total": 3
+    },
+    "Lethe": {
+      "occurrences": [
+        {
+          "canto": 15,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 60,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 62,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 64,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 67,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 6
+    },
+    "Eunoe": {
+      "occurrences": [
+        {
+          "canto": 62,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 67,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 3
+    }
+  },
+  "creatures": {
+    "Lion": {
+      "occurrences": [
+        {
+          "canto": 1,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 3,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 8,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 12,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 15,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 17,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 21,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 27,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 30,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 31,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 34,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 36,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 40,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 46,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 54,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 60,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 61,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 62,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 63,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 73,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 79,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 83,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 88,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 93,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 95,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 25
+    },
+    "Wolf": {
+      "occurrences": [
+        {
+          "canto": 1,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 7,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 33,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 54,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 77,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 5
+    },
+    "Eagle": {
+      "occurrences": [
+        {
+          "canto": 4,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 27,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 43,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 44,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 66,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 67,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 68,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 73,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 85,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 87,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 93,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 12
+    },
+    "Serpent": {
+      "occurrences": [
+        {
+          "canto": 7,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 9,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 13,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 17,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 20,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 24,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 25,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 42,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 48,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 66,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 67,
+          "realm": "Purgatorio"
+        }
+      ],
+      "total": 11
+    },
+    "Phoenix": {
+      "occurrences": [
+        {
+          "canto": 24,
+          "realm": "Inferno"
+        }
+      ],
+      "total": 1
+    },
+    "Dragon": {
+      "occurrences": [
+        {
+          "canto": 25,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 66,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 83,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 4
+    },
+    "Griffin": {
+      "occurrences": [
+        {
+          "canto": 63,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 64,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 65,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 66,
+          "realm": "Purgatorio"
+        }
+      ],
+      "total": 4
+    }
+  },
+  "celestial_bodies": {
+    "Sun": {
+      "occurrences": [
+        {
+          "canto": 1,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 3,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 6,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 7,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 11,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 12,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 14,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 19,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 24,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 26,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 28,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 29,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 32,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 33,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 34,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 35,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 36,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 37,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 38,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 39,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 41,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 42,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 43,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 46,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 47,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 48,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 49,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 50,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 51,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 52,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 53,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 55,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 56,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 57,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 59,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 60,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 61,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 62,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 63,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 64,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 65,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 66,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 67,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 68,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 69,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 70,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 73,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 75,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 76,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 77,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 78,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 79,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 80,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 81,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 82,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 84,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 85,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 86,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 87,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 88,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 89,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 90,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 91,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 92,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 93,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 94,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 96,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 97,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 98,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 99,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 71
+    },
+    "Stars": {
+      "occurrences": [
+        {
+          "canto": 1,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 16,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 20,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 27,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 34,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 35,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 40,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 42,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 51,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 52,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 61,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 64,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 65,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 67,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 69,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 71,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 74,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 75,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 77,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 80,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 89,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 92,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 23
+    },
+    "Moon": {
+      "occurrences": [
+        {
+          "canto": 7,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 15,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 21,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 27,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 29,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 33,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 44,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 52,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 53,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 62,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 63,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 68,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 90,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 94,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 95,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 96,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 16
+    },
+    "Mars": {
+      "occurrences": [
+        {
+          "canto": 7,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 20,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 24,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 31,
+          "realm": "Inferno"
+        },
+        {
+          "canto": 36,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 37,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 42,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 46,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 52,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 58,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 68,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 71,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 75,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 76,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 81,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 83,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 94,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 17
+    },
+    "Saturn": {
+      "occurrences": [
+        {
+          "canto": 53,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 100,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 2
+    },
+    "Venus": {
+      "occurrences": [
+        {
+          "canto": 60,
+          "realm": "Purgatorio"
+        },
+        {
+          "canto": 62,
+          "realm": "Purgatorio"
+        }
+      ],
+      "total": 2
+    },
+    "Mercury": {
+      "occurrences": [
+        {
+          "canto": 71,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 1
+    },
+    "Jupiter": {
+      "occurrences": [
+        {
+          "canto": 85,
+          "realm": "Paradiso"
+        },
+        {
+          "canto": 94,
+          "realm": "Paradiso"
+        }
+      ],
+      "total": 2
+    }
+  },
+  "significant_numbers": {
+    "3": "Trinity",
+    "7": "Seven deadly sins/virtues",
+    "9": "Nine circles/spheres",
+    "10": "Perfection",
+    "33": "Cantos per canticle",
+    "100": "Total cantos"
+  },
+  "religious_references": {
+    "Inferno": {
+      "God": 26,
+      "Hell": 14,
+      "Heaven": 19,
+      "Holy": 3,
+      "Angels": 2,
+      "Satan": 2,
+      "Cross": 5,
+      "Virgin": 1,
+      "Devil": 5,
+      "Church": 1,
+      "Sacred": 1,
+      "Lucifer": 2
+    },
+    "Purgatorio": {
+      "Heaven": 50,
+      "Paradise": 1,
+      "Angel": 15,
+      "Holy": 23,
+      "God": 42,
+      "Hell": 5,
+      "Mary": 10,
+      "Church": 4,
+      "Cross": 3,
+      "Angels": 5,
+      "Sacred": 5,
+      "Devil": 1,
+      "Christ": 5
+    },
+    "Paradiso": {
+      "God": 65,
+      "Heaven": 72,
+      "Holy": 64,
+      "Angels": 8,
+      "Virgin": 4,
+      "Paradise": 12,
+      "Sacred": 10,
+      "Mary": 10,
+      "Church": 11,
+      "Scripture": 3,
+      "Christ": 37,
+      "Hell": 6,
+      "Cross": 12,
+      "Angel": 4,
+      "Jesus": 2,
+      "Satan": 2
+    }
+  },
+  "classical_references": {
+    "Inferno": {
+      "Troy": 3,
+      "Rome": 4,
+      "Aeneas": 3,
+      "Homer": 1,
+      "Caesar": 3,
+      "Plato": 1,
+      "Socrates": 1,
+      "Achilles": 4,
+      "Athens": 1,
+      "Mars": 2,
+      "Ulysses": 1,
+      "Neptune": 1,
+      "Juno": 1
+    },
+    "Purgatorio": {
+      "Mars": 3,
+      "Aristotle": 1,
+      "Plato": 1,
+      "Caesar": 4,
+      "Rome": 7,
+      "Athens": 1,
+      "Achilles": 2,
+      "Troy": 1,
+      "Diana": 2,
+      "Ulysses": 1,
+      "Minerva": 1
+    },
+    "Paradiso": {
+      "Caesar": 5,
+      "Apollo": 3,
+      "Minerva": 1,
+      "Plato": 1,
+      "Mars": 5,
+      "Rome": 8,
+      "Juno": 3,
+      "Athens": 1,
+      "Jupiter": 2,
+      "Ulysses": 1,
+      "Neptune": 1
+    }
+  }
+}

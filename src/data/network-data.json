@@ -1,0 +1,1393 @@
+{
+  "nodes": [
+    {
+      "id": "Dante",
+      "role": "Protagonist",
+      "mentions": 43,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "The pilgrim, narrator of the journey"
+    },
+    {
+      "id": "Peter",
+      "role": "Saint",
+      "mentions": 17,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Apostle Peter in the Fixed Stars"
+    },
+    {
+      "id": "God",
+      "role": "Divine",
+      "mentions": 62,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "The Divine Being"
+    },
+    {
+      "id": "Beatrice",
+      "role": "Guide",
+      "mentions": 36,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Dante's beloved, guide through Paradise, representing Divine Love"
+    },
+    {
+      "id": "Charon",
+      "role": "Ferryman",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Ferryman of the dead across Acheron"
+    },
+    {
+      "id": "Adam",
+      "role": "Soul",
+      "mentions": 6,
+      "realm_association": [
+        "Inferno",
+        "Purgatorio"
+      ],
+      "significance": "First man, in Fixed Stars"
+    },
+    {
+      "id": "Homer",
+      "role": "Historical",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Greek poet in Limbo"
+    },
+    {
+      "id": "Horace",
+      "role": "Historical",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Roman poet in Limbo"
+    },
+    {
+      "id": "Ovid",
+      "role": "Historical",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Roman poet in Limbo"
+    },
+    {
+      "id": "Lucan",
+      "role": "Historical",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Roman poet in Limbo"
+    },
+    {
+      "id": "Plato",
+      "role": "Historical",
+      "mentions": 3,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Greek philosopher in Limbo"
+    },
+    {
+      "id": "Socrates",
+      "role": "Historical",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Greek philosopher in Limbo"
+    },
+    {
+      "id": "Caesar",
+      "role": "Historical",
+      "mentions": 9,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Roman ruler in Limbo"
+    },
+    {
+      "id": "Moses",
+      "role": "Historical",
+      "mentions": 5,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Hebrew prophet"
+    },
+    {
+      "id": "David",
+      "role": "Historical",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "King of Israel"
+    },
+    {
+      "id": "Minos",
+      "role": "Judge",
+      "mentions": 7,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Judge of the damned, assigns circles"
+    },
+    {
+      "id": "Francesca",
+      "role": "Soul",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Lover punished in the circle of lust"
+    },
+    {
+      "id": "Cleopatra",
+      "role": "Historical",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno",
+        "Paradiso"
+      ],
+      "significance": "In circle of lust"
+    },
+    {
+      "id": "Helen",
+      "role": "Historical",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Helen of Troy, in circle of lust"
+    },
+    {
+      "id": "Achilles",
+      "role": "Historical",
+      "mentions": 6,
+      "realm_association": [
+        "Inferno",
+        "Purgatorio"
+      ],
+      "significance": "Greek hero in circle of lust"
+    },
+    {
+      "id": "Cerberus",
+      "role": "Guardian",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Three-headed beast guarding the gluttons"
+    },
+    {
+      "id": "Ciacco",
+      "role": "Soul",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Florentine glutton"
+    },
+    {
+      "id": "Farinata",
+      "role": "Soul",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Ghibelline leader, heretic"
+    },
+    {
+      "id": "Plutus",
+      "role": "Guardian",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Guardian of the Fourth Circle"
+    },
+    {
+      "id": "Satan",
+      "role": "Satan",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno",
+        "Paradiso"
+      ],
+      "significance": "The Devil, imprisoned in the Ninth Circle"
+    },
+    {
+      "id": "Phlegyas",
+      "role": "Ferryman",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Ferryman across the Styx"
+    },
+    {
+      "id": "Minotaur",
+      "role": "Guardian",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Guardian of the Seventh Circle"
+    },
+    {
+      "id": "Cato",
+      "role": "Guardian",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Guardian of Purgatory"
+    },
+    {
+      "id": "Brunetto Latini",
+      "role": "Soul",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Dante's former teacher"
+    },
+    {
+      "id": "Francis",
+      "role": "Saint",
+      "mentions": 5,
+      "realm_association": [
+        "Inferno",
+        "Paradiso"
+      ],
+      "significance": "Saint Francis of Assisi"
+    },
+    {
+      "id": "Geryon",
+      "role": "Monster",
+      "mentions": 3,
+      "realm_association": [
+        "Inferno",
+        "Purgatorio"
+      ],
+      "significance": "Monster of fraud, carries Dante and Virgil"
+    },
+    {
+      "id": "Ulysses",
+      "role": "Soul",
+      "mentions": 3,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Greek hero punished for fraudulent counsel"
+    },
+    {
+      "id": "Lucifer",
+      "role": "Satan",
+      "mentions": 2,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Fallen angel trapped in ice at center of Hell"
+    },
+    {
+      "id": "Ugolino",
+      "role": "Soul",
+      "mentions": 1,
+      "realm_association": [
+        "Inferno"
+      ],
+      "significance": "Count imprisoned and starved with his children"
+    },
+    {
+      "id": "Casella",
+      "role": "Soul",
+      "mentions": 1,
+      "realm_association": [
+        "Purgatorio"
+      ],
+      "significance": "Musician friend of Dante"
+    },
+    {
+      "id": "Aristotle",
+      "role": "Historical",
+      "mentions": 1,
+      "realm_association": [
+        "Purgatorio"
+      ],
+      "significance": "Greek philosopher in Limbo"
+    },
+    {
+      "id": "Mary",
+      "role": "Saint",
+      "mentions": 16,
+      "realm_association": [
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "The Virgin Mary, Queen of Heaven"
+    },
+    {
+      "id": "Sordello",
+      "role": "Soul",
+      "mentions": 4,
+      "realm_association": [
+        "Purgatorio"
+      ],
+      "significance": "Troubadour poet, guides through the Valley of Princes"
+    },
+    {
+      "id": "Justinian",
+      "role": "Soul",
+      "mentions": 2,
+      "realm_association": [
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Byzantine Emperor in Mercury"
+    },
+    {
+      "id": "Christ",
+      "role": "Divine",
+      "mentions": 21,
+      "realm_association": [
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Jesus Christ"
+    },
+    {
+      "id": "Statius",
+      "role": "Guide",
+      "mentions": 7,
+      "realm_association": [
+        "Purgatorio"
+      ],
+      "significance": "Roman poet who accompanies Dante and Virgil"
+    },
+    {
+      "id": "Matilda",
+      "role": "Guide",
+      "mentions": 1,
+      "realm_association": [
+        "Purgatorio"
+      ],
+      "significance": "Guardian of the Earthly Paradise"
+    },
+    {
+      "id": "Dominic",
+      "role": "Saint",
+      "mentions": 2,
+      "realm_association": [
+        "Paradiso"
+      ],
+      "significance": "Saint Dominic"
+    },
+    {
+      "id": "Bernard",
+      "role": "Guide",
+      "mentions": 3,
+      "realm_association": [
+        "Paradiso"
+      ],
+      "significance": "Saint Bernard, final guide to the Beatific Vision"
+    },
+    {
+      "id": "Cacciaguida",
+      "role": "Soul",
+      "mentions": 1,
+      "realm_association": [
+        "Paradiso"
+      ],
+      "significance": "Dante's great-great-grandfather in Mars"
+    }
+  ],
+  "links": [
+    {
+      "source": "Beatrice",
+      "target": "God",
+      "weight": 30
+    },
+    {
+      "source": "Dante",
+      "target": "God",
+      "weight": 26
+    },
+    {
+      "source": "Beatrice",
+      "target": "Dante",
+      "weight": 19
+    },
+    {
+      "source": "Christ",
+      "target": "God",
+      "weight": 16
+    },
+    {
+      "source": "Beatrice",
+      "target": "Christ",
+      "weight": 14
+    },
+    {
+      "source": "God",
+      "target": "Peter",
+      "weight": 13
+    },
+    {
+      "source": "God",
+      "target": "Mary",
+      "weight": 12
+    },
+    {
+      "source": "Beatrice",
+      "target": "Mary",
+      "weight": 10
+    },
+    {
+      "source": "Beatrice",
+      "target": "Peter",
+      "weight": 9
+    },
+    {
+      "source": "Christ",
+      "target": "Dante",
+      "weight": 9
+    },
+    {
+      "source": "Dante",
+      "target": "Mary",
+      "weight": 8
+    },
+    {
+      "source": "Christ",
+      "target": "Mary",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Peter",
+      "weight": 6
+    },
+    {
+      "source": "Dante",
+      "target": "Peter",
+      "weight": 5
+    },
+    {
+      "source": "Caesar",
+      "target": "God",
+      "weight": 5
+    },
+    {
+      "source": "Caesar",
+      "target": "Dante",
+      "weight": 5
+    },
+    {
+      "source": "God",
+      "target": "Moses",
+      "weight": 4
+    },
+    {
+      "source": "Adam",
+      "target": "Dante",
+      "weight": 4
+    },
+    {
+      "source": "Beatrice",
+      "target": "Caesar",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Sordello",
+      "weight": 4
+    },
+    {
+      "source": "God",
+      "target": "Statius",
+      "weight": 4
+    },
+    {
+      "source": "Beatrice",
+      "target": "Moses",
+      "weight": 4
+    },
+    {
+      "source": "Adam",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "God",
+      "target": "Plato",
+      "weight": 3
+    },
+    {
+      "source": "Achilles",
+      "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Achilles",
+      "target": "Dante",
+      "weight": 3
+    },
+    {
+      "source": "Achilles",
+      "target": "Peter",
+      "weight": 3
+    },
+    {
+      "source": "Mary",
+      "target": "Peter",
+      "weight": 3
+    },
+    {
+      "source": "Beatrice",
+      "target": "Statius",
+      "weight": 3
+    },
+    {
+      "source": "Bernard",
+      "target": "Christ",
+      "weight": 3
+    },
+    {
+      "source": "Francis",
+      "target": "Peter",
+      "weight": 3
+    },
+    {
+      "source": "Beatrice",
+      "target": "Bernard",
+      "weight": 3
+    },
+    {
+      "source": "Beatrice",
+      "target": "Francis",
+      "weight": 3
+    },
+    {
+      "source": "Lucan",
+      "target": "Ovid",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Ovid",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Lucan",
+      "weight": 2
+    },
+    {
+      "source": "Moses",
+      "target": "Plato",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Satan",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Minos",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Geryon",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Minos",
+      "weight": 2
+    },
+    {
+      "source": "Mary",
+      "target": "Plato",
+      "weight": 2
+    },
+    {
+      "source": "Caesar",
+      "target": "Justinian",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Justinian",
+      "weight": 2
+    },
+    {
+      "source": "Beatrice",
+      "target": "Sordello",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Sordello",
+      "weight": 2
+    },
+    {
+      "source": "Adam",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "God",
+      "target": "Ulysses",
+      "weight": 2
+    },
+    {
+      "source": "Peter",
+      "target": "Statius",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Statius",
+      "weight": 2
+    },
+    {
+      "source": "Mary",
+      "target": "Statius",
+      "weight": 2
+    },
+    {
+      "source": "Caesar",
+      "target": "Christ",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Statius",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Moses",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Moses",
+      "weight": 2
+    },
+    {
+      "source": "Dominic",
+      "target": "Peter",
+      "weight": 2
+    },
+    {
+      "source": "Dominic",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Christ",
+      "target": "Francis",
+      "weight": 2
+    },
+    {
+      "source": "Francis",
+      "target": "Mary",
+      "weight": 2
+    },
+    {
+      "source": "Francis",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Bernard",
+      "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Bernard",
+      "target": "Dante",
+      "weight": 2
+    },
+    {
+      "source": "Charon",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Charon",
+      "weight": 1
+    },
+    {
+      "source": "Homer",
+      "target": "Horace",
+      "weight": 1
+    },
+    {
+      "source": "Homer",
+      "target": "Ovid",
+      "weight": 1
+    },
+    {
+      "source": "Homer",
+      "target": "Lucan",
+      "weight": 1
+    },
+    {
+      "source": "Homer",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Homer",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Homer",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Homer",
+      "weight": 1
+    },
+    {
+      "source": "Homer",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Homer",
+      "weight": 1
+    },
+    {
+      "source": "Horace",
+      "target": "Ovid",
+      "weight": 1
+    },
+    {
+      "source": "Horace",
+      "target": "Lucan",
+      "weight": 1
+    },
+    {
+      "source": "Horace",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Horace",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Horace",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Horace",
+      "weight": 1
+    },
+    {
+      "source": "Horace",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Horace",
+      "weight": 1
+    },
+    {
+      "source": "Ovid",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Ovid",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Ovid",
+      "weight": 1
+    },
+    {
+      "source": "Moses",
+      "target": "Ovid",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Ovid",
+      "weight": 1
+    },
+    {
+      "source": "Lucan",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Lucan",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Lucan",
+      "weight": 1
+    },
+    {
+      "source": "Lucan",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Lucan",
+      "weight": 1
+    },
+    {
+      "source": "Plato",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Moses",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Socrates",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "Francesca",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Cleopatra",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Helen",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Cleopatra",
+      "target": "Francesca",
+      "weight": 1
+    },
+    {
+      "source": "Francesca",
+      "target": "Helen",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Francesca",
+      "weight": 1
+    },
+    {
+      "source": "Cleopatra",
+      "target": "Helen",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Cleopatra",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Helen",
+      "weight": 1
+    },
+    {
+      "source": "Cerberus",
+      "target": "Ciacco",
+      "weight": 1
+    },
+    {
+      "source": "Cerberus",
+      "target": "Farinata",
+      "weight": 1
+    },
+    {
+      "source": "Ciacco",
+      "target": "Farinata",
+      "weight": 1
+    },
+    {
+      "source": "Plutus",
+      "target": "Satan",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Plutus",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Phlegyas",
+      "weight": 1
+    },
+    {
+      "source": "Cerberus",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Minotaur",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Minotaur",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Minotaur",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Cato",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Brunetto Latini",
+      "target": "Francis",
+      "weight": 1
+    },
+    {
+      "source": "Geryon",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Ovid",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Lucan",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Ulysses",
+      "weight": 1
+    },
+    {
+      "source": "Francis",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "David",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Minos",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Lucifer",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Lucifer",
+      "weight": 1
+    },
+    {
+      "source": "Lucifer",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Casella",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Casella",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
+      "source": "Aristotle",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Aristotle",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Aristotle",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Aristotle",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Justinian",
+      "weight": 1
+    },
+    {
+      "source": "Justinian",
+      "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Mary",
+      "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Adam",
+      "weight": 1
+    },
+    {
+      "source": "Peter",
+      "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Ulysses",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Statius",
+      "weight": 1
+    },
+    {
+      "source": "Achilles",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Geryon",
+      "weight": 1
+    },
+    {
+      "source": "Geryon",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Geryon",
+      "target": "Statius",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Beatrice",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Statius",
+      "weight": 1
+    },
+    {
+      "source": "Moses",
+      "target": "Statius",
+      "weight": 1
+    },
+    {
+      "source": "Moses",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "God",
+      "target": "Matilda",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Matilda",
+      "weight": 1
+    },
+    {
+      "source": "Matilda",
+      "target": "Statius",
+      "weight": 1
+    },
+    {
+      "source": "Mary",
+      "target": "Matilda",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Plato",
+      "weight": 1
+    },
+    {
+      "source": "Mary",
+      "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
+      "target": "Cleopatra",
+      "weight": 1
+    },
+    {
+      "source": "Cleopatra",
+      "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Cleopatra",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Justinian",
+      "weight": 1
+    },
+    {
+      "source": "Cleopatra",
+      "target": "Justinian",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Cleopatra",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Justinian",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Dominic",
+      "weight": 1
+    },
+    {
+      "source": "Bernard",
+      "target": "Peter",
+      "weight": 1
+    },
+    {
+      "source": "Bernard",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Bernard",
+      "target": "Francis",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Dominic",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Cacciaguida",
+      "weight": 1
+    },
+    {
+      "source": "Cacciaguida",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
+      "source": "Cacciaguida",
+      "target": "Mary",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Ulysses",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Ulysses",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Francis",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Satan",
+      "weight": 1
+    },
+    {
+      "source": "Beatrice",
+      "target": "Satan",
+      "weight": 1
+    },
+    {
+      "source": "Christ",
+      "target": "Satan",
+      "weight": 1
+    },
+    {
+      "source": "Bernard",
+      "target": "Satan",
+      "weight": 1
+    }
+  ]
+}
