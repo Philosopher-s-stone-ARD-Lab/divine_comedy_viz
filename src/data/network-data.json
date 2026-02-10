@@ -1,9 +1,20 @@
 {
   "nodes": [
     {
+      "id": "Virgil",
+      "role": "Guide",
+      "mentions": 22,
+      "realm_association": [
+        "Inferno",
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Dante's guide through Hell and Purgatory, representing Reason"
+    },
+    {
       "id": "Dante",
       "role": "Protagonist",
-      "mentions": 43,
+      "mentions": 100,
       "realm_association": [
         "Inferno",
         "Paradiso",
@@ -378,6 +389,16 @@
       "significance": "Byzantine Emperor in Mercury"
     },
     {
+      "id": "Thomas Aquinas",
+      "role": "Soul",
+      "mentions": 5,
+      "realm_association": [
+        "Paradiso",
+        "Purgatorio"
+      ],
+      "significance": "Dominican theologian in the Sun"
+    },
+    {
       "id": "Christ",
       "role": "Divine",
       "mentions": 21,
@@ -435,19 +456,44 @@
   ],
   "links": [
     {
+      "source": "Dante",
+      "target": "God",
+      "weight": 62
+    },
+    {
+      "source": "Beatrice",
+      "target": "Dante",
+      "weight": 36
+    },
+    {
       "source": "Beatrice",
       "target": "God",
       "weight": 30
     },
     {
       "source": "Dante",
-      "target": "God",
-      "weight": 26
+      "target": "Virgil",
+      "weight": 22
     },
     {
-      "source": "Beatrice",
+      "source": "Christ",
       "target": "Dante",
-      "weight": 19
+      "weight": 21
+    },
+    {
+      "source": "God",
+      "target": "Virgil",
+      "weight": 17
+    },
+    {
+      "source": "Dante",
+      "target": "Peter",
+      "weight": 17
+    },
+    {
+      "source": "Dante",
+      "target": "Mary",
+      "weight": 16
     },
     {
       "source": "Christ",
@@ -480,28 +526,58 @@
       "weight": 9
     },
     {
-      "source": "Christ",
+      "source": "Caesar",
       "target": "Dante",
       "weight": 9
     },
     {
       "source": "Dante",
-      "target": "Mary",
-      "weight": 8
+      "target": "Minos",
+      "weight": 7
     },
     {
-      "source": "Christ",
-      "target": "Mary",
-      "weight": 6
-    },
-    {
-      "source": "Christ",
-      "target": "Peter",
-      "weight": 6
+      "source": "Beatrice",
+      "target": "Virgil",
+      "weight": 7
     },
     {
       "source": "Dante",
+      "target": "Statius",
+      "weight": 7
+    },
+    {
+      "source": "Adam",
+      "target": "Dante",
+      "weight": 6
+    },
+    {
+      "source": "Achilles",
+      "target": "Dante",
+      "weight": 6
+    },
+    {
+      "source": "Mary",
+      "target": "Virgil",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
+      "target": "Mary",
+      "weight": 6
+    },
+    {
+      "source": "Christ",
       "target": "Peter",
+      "weight": 6
+    },
+    {
+      "source": "Peter",
+      "target": "Virgil",
+      "weight": 5
+    },
+    {
+      "source": "Dante",
+      "target": "Moses",
       "weight": 5
     },
     {
@@ -510,8 +586,13 @@
       "weight": 5
     },
     {
-      "source": "Caesar",
-      "target": "Dante",
+      "source": "Dante",
+      "target": "Francis",
+      "weight": 5
+    },
+    {
+      "source": "Dante",
+      "target": "Thomas Aquinas",
       "weight": 5
     },
     {
@@ -520,8 +601,8 @@
       "weight": 4
     },
     {
-      "source": "Adam",
-      "target": "Dante",
+      "source": "Dante",
+      "target": "Sordello",
       "weight": 4
     },
     {
@@ -535,6 +616,16 @@
       "weight": 4
     },
     {
+      "source": "Statius",
+      "target": "Virgil",
+      "weight": 4
+    },
+    {
+      "source": "Christ",
+      "target": "Virgil",
+      "weight": 4
+    },
+    {
       "source": "God",
       "target": "Statius",
       "weight": 4
@@ -545,8 +636,18 @@
       "weight": 4
     },
     {
+      "source": "God",
+      "target": "Thomas Aquinas",
+      "weight": 4
+    },
+    {
       "source": "Adam",
       "target": "God",
+      "weight": 3
+    },
+    {
+      "source": "Dante",
+      "target": "Plato",
       "weight": 3
     },
     {
@@ -560,13 +661,23 @@
       "weight": 3
     },
     {
-      "source": "Achilles",
-      "target": "Dante",
+      "source": "Dante",
+      "target": "Geryon",
+      "weight": 3
+    },
+    {
+      "source": "Dante",
+      "target": "Ulysses",
       "weight": 3
     },
     {
       "source": "Achilles",
       "target": "Peter",
+      "weight": 3
+    },
+    {
+      "source": "Sordello",
+      "target": "Virgil",
       "weight": 3
     },
     {
@@ -575,8 +686,23 @@
       "weight": 3
     },
     {
+      "source": "Christ",
+      "target": "Thomas Aquinas",
+      "weight": 3
+    },
+    {
       "source": "Beatrice",
       "target": "Statius",
+      "weight": 3
+    },
+    {
+      "source": "Beatrice",
+      "target": "Thomas Aquinas",
+      "weight": 3
+    },
+    {
+      "source": "Bernard",
+      "target": "Dante",
       "weight": 3
     },
     {
@@ -600,6 +726,21 @@
       "weight": 3
     },
     {
+      "source": "Dante",
+      "target": "Ovid",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Lucan",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "David",
+      "weight": 2
+    },
+    {
       "source": "Lucan",
       "target": "Ovid",
       "weight": 2
@@ -620,28 +761,53 @@
       "weight": 2
     },
     {
+      "source": "Cleopatra",
+      "target": "Dante",
+      "weight": 2
+    },
+    {
+      "source": "Cerberus",
+      "target": "Dante",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Farinata",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Satan",
+      "weight": 2
+    },
+    {
       "source": "God",
       "target": "Satan",
       "weight": 2
     },
     {
-      "source": "Dante",
-      "target": "Minos",
-      "weight": 2
-    },
-    {
-      "source": "Dante",
-      "target": "Geryon",
-      "weight": 2
-    },
-    {
       "source": "God",
       "target": "Minos",
       "weight": 2
     },
     {
+      "source": "Dante",
+      "target": "Lucifer",
+      "weight": 2
+    },
+    {
+      "source": "Achilles",
+      "target": "Virgil",
+      "weight": 2
+    },
+    {
       "source": "Mary",
       "target": "Plato",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Justinian",
       "weight": 2
     },
     {
@@ -660,11 +826,6 @@
       "weight": 2
     },
     {
-      "source": "Dante",
-      "target": "Sordello",
-      "weight": 2
-    },
-    {
       "source": "Adam",
       "target": "Peter",
       "weight": 2
@@ -672,6 +833,11 @@
     {
       "source": "God",
       "target": "Ulysses",
+      "weight": 2
+    },
+    {
+      "source": "Mary",
+      "target": "Thomas Aquinas",
       "weight": 2
     },
     {
@@ -695,18 +861,18 @@
       "weight": 2
     },
     {
-      "source": "Dante",
-      "target": "Statius",
-      "weight": 2
-    },
-    {
-      "source": "Dante",
-      "target": "Moses",
-      "weight": 2
-    },
-    {
       "source": "Christ",
       "target": "Moses",
+      "weight": 2
+    },
+    {
+      "source": "Dante",
+      "target": "Dominic",
+      "weight": 2
+    },
+    {
+      "source": "Peter",
+      "target": "Thomas Aquinas",
       "weight": 2
     },
     {
@@ -717,6 +883,11 @@
     {
       "source": "Dominic",
       "target": "God",
+      "weight": 2
+    },
+    {
+      "source": "Dominic",
+      "target": "Thomas Aquinas",
       "weight": 2
     },
     {
@@ -740,9 +911,9 @@
       "weight": 2
     },
     {
-      "source": "Bernard",
+      "source": "Charon",
       "target": "Dante",
-      "weight": 2
+      "weight": 1
     },
     {
       "source": "Charon",
@@ -752,6 +923,21 @@
     {
       "source": "Adam",
       "target": "Charon",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Homer",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Horace",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Socrates",
       "weight": 1
     },
     {
@@ -945,6 +1131,16 @@
       "weight": 1
     },
     {
+      "source": "Dante",
+      "target": "Francesca",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Helen",
+      "weight": 1
+    },
+    {
       "source": "Francesca",
       "target": "Minos",
       "weight": 1
@@ -995,6 +1191,11 @@
       "weight": 1
     },
     {
+      "source": "Ciacco",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
       "source": "Cerberus",
       "target": "Ciacco",
       "weight": 1
@@ -1010,6 +1211,11 @@
       "weight": 1
     },
     {
+      "source": "Dante",
+      "target": "Plutus",
+      "weight": 1
+    },
+    {
       "source": "Plutus",
       "target": "Satan",
       "weight": 1
@@ -1020,22 +1226,22 @@
       "weight": 1
     },
     {
+      "source": "Dante",
+      "target": "Phlegyas",
+      "weight": 1
+    },
+    {
       "source": "God",
       "target": "Phlegyas",
       "weight": 1
     },
     {
-      "source": "Cerberus",
-      "target": "Dante",
-      "weight": 1
-    },
-    {
-      "source": "God",
+      "source": "Dante",
       "target": "Minotaur",
       "weight": 1
     },
     {
-      "source": "Dante",
+      "source": "God",
       "target": "Minotaur",
       "weight": 1
     },
@@ -1051,7 +1257,17 @@
     },
     {
       "source": "Cato",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
+      "source": "Cato",
       "target": "God",
+      "weight": 1
+    },
+    {
+      "source": "Brunetto Latini",
+      "target": "Dante",
       "weight": 1
     },
     {
@@ -1065,16 +1281,6 @@
       "weight": 1
     },
     {
-      "source": "Dante",
-      "target": "Ovid",
-      "weight": 1
-    },
-    {
-      "source": "Dante",
-      "target": "Lucan",
-      "weight": 1
-    },
-    {
       "source": "Achilles",
       "target": "Ulysses",
       "weight": 1
@@ -1085,8 +1291,13 @@
       "weight": 1
     },
     {
-      "source": "Dante",
-      "target": "David",
+      "source": "Minos",
+      "target": "Virgil",
+      "weight": 1
+    },
+    {
+      "source": "David",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1095,8 +1306,8 @@
       "weight": 1
     },
     {
-      "source": "Dante",
-      "target": "Lucifer",
+      "source": "Lucifer",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1110,13 +1321,23 @@
       "weight": 1
     },
     {
+      "source": "Dante",
+      "target": "Ugolino",
+      "weight": 1
+    },
+    {
+      "source": "Casella",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
       "source": "Casella",
       "target": "God",
       "weight": 1
     },
     {
       "source": "Casella",
-      "target": "Dante",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1125,8 +1346,13 @@
       "weight": 1
     },
     {
-      "source": "Dante",
-      "target": "Plato",
+      "source": "Aristotle",
+      "target": "Virgil",
+      "weight": 1
+    },
+    {
+      "source": "Plato",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1146,7 +1372,17 @@
     },
     {
       "source": "Caesar",
+      "target": "Virgil",
+      "weight": 1
+    },
+    {
+      "source": "Caesar",
       "target": "Sordello",
+      "weight": 1
+    },
+    {
+      "source": "Justinian",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1190,8 +1426,8 @@
       "weight": 1
     },
     {
-      "source": "Dante",
-      "target": "Ulysses",
+      "source": "Ulysses",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1202,6 +1438,11 @@
     {
       "source": "Achilles",
       "target": "Christ",
+      "weight": 1
+    },
+    {
+      "source": "Geryon",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1217,6 +1458,11 @@
     {
       "source": "Geryon",
       "target": "Statius",
+      "weight": 1
+    },
+    {
+      "source": "Adam",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1247,6 +1493,11 @@
     {
       "source": "Adam",
       "target": "Moses",
+      "weight": 1
+    },
+    {
+      "source": "Dante",
+      "target": "Matilda",
       "weight": 1
     },
     {
@@ -1291,16 +1542,6 @@
     },
     {
       "source": "Cleopatra",
-      "target": "Dante",
-      "weight": 1
-    },
-    {
-      "source": "Dante",
-      "target": "Justinian",
-      "weight": 1
-    },
-    {
-      "source": "Cleopatra",
       "target": "Justinian",
       "weight": 1
     },
@@ -1340,18 +1581,28 @@
       "weight": 1
     },
     {
+      "source": "Cacciaguida",
+      "target": "Dante",
+      "weight": 1
+    },
+    {
       "source": "Beatrice",
       "target": "Cacciaguida",
       "weight": 1
     },
     {
       "source": "Cacciaguida",
-      "target": "Dante",
+      "target": "Mary",
       "weight": 1
     },
     {
-      "source": "Cacciaguida",
-      "target": "Mary",
+      "source": "Caesar",
+      "target": "Thomas Aquinas",
+      "weight": 1
+    },
+    {
+      "source": "Moses",
+      "target": "Virgil",
       "weight": 1
     },
     {
@@ -1362,16 +1613,6 @@
     {
       "source": "Christ",
       "target": "Ulysses",
-      "weight": 1
-    },
-    {
-      "source": "Dante",
-      "target": "Francis",
-      "weight": 1
-    },
-    {
-      "source": "Dante",
-      "target": "Satan",
       "weight": 1
     },
     {

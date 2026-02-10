@@ -56,7 +56,7 @@ REALM_NAMES = ['Inferno', 'Purgatorio', 'Paradiso']
 # NOTE: This is a curated list. Manual enrichment recommended for completeness.
 KNOWN_CHARACTERS = {
     # Main characters
-    'Virgil': {'role': 'Guide', 'realms': ['Inferno', 'Purgatorio'], 'significance': "Dante's guide through Hell and Purgatory, representing Reason"},
+    'Virgil': {'role': 'Guide', 'realms': ['Inferno', 'Purgatorio'], 'significance': "Dante's guide through Hell and Purgatory, representing Reason", 'aliases': ['Virgilius']},
     'Beatrice': {'role': 'Guide', 'realms': ['Purgatorio', 'Paradiso'], 'significance': "Dante's beloved, guide through Paradise, representing Divine Love"},
     'Dante': {'role': 'Protagonist', 'realms': ['Inferno', 'Purgatorio', 'Paradiso'], 'significance': 'The pilgrim, narrator of the journey'},
 
@@ -103,7 +103,7 @@ KNOWN_CHARACTERS = {
 
     # Paradiso characters
     'Justinian': {'role': 'Soul', 'realms': ['Paradiso'], 'significance': 'Byzantine Emperor in Mercury'},
-    'Thomas Aquinas': {'role': 'Soul', 'realms': ['Paradiso'], 'significance': 'Dominican theologian in the Sun'},
+    'Thomas Aquinas': {'role': 'Soul', 'realms': ['Paradiso'], 'significance': 'Dominican theologian in the Sun', 'aliases': ['Thomas']},
     'Bonaventure': {'role': 'Soul', 'realms': ['Paradiso'], 'significance': 'Franciscan theologian in the Sun'},
     'Cacciaguida': {'role': 'Soul', 'realms': ['Paradiso'], 'significance': "Dante's great-great-grandfather in Mars"},
     'Peter': {'role': 'Saint', 'realms': ['Paradiso'], 'significance': 'Apostle Peter in the Fixed Stars'},
@@ -203,6 +203,8 @@ def extract_text_from_pdf(pdf_path):
     """Extract all text from the PDF, skipping TOC pages."""
     print(f"Extracting text from {pdf_path}...")
     full_text = []
+    # Running headers that appear as the first line on alternating pages
+    RUNNING_HEADERS = {'Dante', 'Longfellow'}
     with pdfplumber.open(pdf_path) as pdf:
         # Skip first 6 pages (title, copyright, TOC)
         for i, page in enumerate(pdf.pages):
@@ -210,6 +212,10 @@ def extract_text_from_pdf(pdf_path):
                 continue
             text = page.extract_text()
             if text:
+                # Strip running headers (author/translator names at top of pages)
+                lines = text.split('\n')
+                if lines and lines[0].strip() in RUNNING_HEADERS:
+                    text = '\n'.join(lines[1:])
                 full_text.append(text)
             if (i + 1) % 50 == 0:
                 print(f"  Processed {i + 1}/{len(pdf.pages)} pages")
@@ -359,14 +365,19 @@ def count_lines(text):
 
 
 def find_characters_in_text(text):
-    """Find known character names in text."""
+    """Find known character names in text, including aliases."""
     found = []
     for name, info in KNOWN_CHARACTERS.items():
-        # Use word boundary matching
+        total = 0
+        # Match the canonical name
         pattern = re.compile(r'\b' + re.escape(name) + r'\b', re.IGNORECASE)
-        matches = pattern.findall(text)
-        if matches:
-            found.append({'name': name, 'count': len(matches)})
+        total += len(pattern.findall(text))
+        # Match any aliases
+        for alias in info.get('aliases', []):
+            alias_pattern = re.compile(r'\b' + re.escape(alias) + r'\b', re.IGNORECASE)
+            total += len(alias_pattern.findall(text))
+        if total > 0:
+            found.append({'name': name, 'count': total})
     return sorted(found, key=lambda x: x['count'], reverse=True)
 
 
@@ -467,6 +478,10 @@ def analyze_cantos(cantos):
 
         # Characters
         canto['characters'] = find_characters_in_text(text)
+        # Dante is the narrator of every canto — ensure he is always present
+        # (his name rarely appears in the text since he uses first person)
+        if not any(c['name'] == 'Dante' for c in canto['characters']):
+            canto['characters'].insert(0, {'name': 'Dante', 'count': 1})
 
         # Themes
         canto['themes'] = find_themes_in_text(text)
