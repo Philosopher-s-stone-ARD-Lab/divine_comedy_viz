@@ -1,5 +1,7 @@
 # The Divine Comedy - Interactive Data Visualization
 
+**Disclaimer:** This project is a work in progress and is not yet complete. For contributions, please see the [CONTRIBUTING.md](CONTRIBUTING.md) file.
+
 An interactive data visualization of Dante's *Divine Comedy* (Longfellow translation) that reveals hidden patterns, themes, and structures in the text through multiple visual lenses.
 
 ## Features
