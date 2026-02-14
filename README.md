@@ -5,11 +5,17 @@ An interactive data visualization of Dante's *Divine Comedy* (Longfellow transla
 ## Features
 
 - **Spiral Journey** - A spiral visualization mapping all 100 cantos with color-coded realms, sized by word count, with sentiment glow effects
+![Spiral Journey](./screenshots/2d-journey.png)
 - **3D World** - Immersive Three.js 3D scene with orbit controls, bloom post-processing, realm backdrops (inverted cone, mountain, celestial spheres), particle atmospheres, and raycasted hover/click interactions
+![3D World](./screenshots/3d-journey.png)
 - **Emotional Arc** - Sentiment analysis chart showing the emotional progression from the darkness of Inferno through the light of Paradiso
+![Emotional Arc](./screenshots/emotion.png)
 - **Character Network** - Force-directed graph of character co-occurrences and relationships across all three realms
+![Character Network](./screenshots/characters.png)
 - **Thematic Radial Chart** - Radial visualization showing the distribution of 16 key themes, filterable by realm
+![Thematic Radial Chart](./screenshots/themes.png)
 - **Canto Explorer** - Detailed explorer with search, per-canto statistics, sentiment breakdowns, character lists, word frequencies, and notable passages
+![Canto Explorer](./screenshots/explorer.png)
 
 ## Prerequisites
 
@@ -105,7 +111,7 @@ divine-comedy-viz/
 
 ## Design
 
-- **Color Palette**: Inferno (deep reds, purples), Purgatorio (earth tones), Paradiso (blues, golds)
+- **Color Palette**: Inferno (deep reds), Purgatorio (earth tones), Paradiso (blues, golds)
 - **Typography**: EB Garamond and Crimson Text (elegant serif fonts)
 - **Dark Theme**: Deep dark background reflecting the cosmic journey
 - **Responsive**: Works on desktop and mobile
@@ -115,3 +121,7 @@ divine-comedy-viz/
 - Text: *The Divine Comedy* by Dante Alighieri, translated by Henry Wadsworth Longfellow
 - PDF Source: Penn State Electronic Classics Series
 - Built with: Svelte 5, D3.js v7, Three.js r182, NLTK, pdfplumber
+
+## Contributing
+
+Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project. Thank you in advance!
