@@ -91,7 +91,7 @@ export function hideTooltip(tooltip) {
  * Sentiment color: negative=red, neutral=gray, positive=gold/blue.
  */
 export function sentimentColor(score) {
-  if (score < -0.3) return d3.interpolateRgb('#8B0000', '#FF4500')(Math.min(1, (score + 1) / 0.7));
-  if (score > 0.3) return d3.interpolateRgb('#556B2F', '#FFD700')(Math.min(1, (score - 0.3) / 0.7));
+  if (score < -0.1) return d3.interpolateRgb('#8B0000', '#FF4500')(Math.min(1, (score + 1) / 0.9));
+  if (score > 0.1) return d3.interpolateRgb('#556B2F', '#FFD700')(Math.min(1, (score - 0.1) / 0.9));
   return '#696969';
 }

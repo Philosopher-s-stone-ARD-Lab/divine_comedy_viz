@@ -339,14 +339,61 @@ def roman_to_int(s):
 # ─── Text Analysis ───────────────────────────────────────────────────
 
 def analyze_sentiment(text):
-    """Analyze sentiment of a text using VADER."""
+    """
+    Analyze sentiment using sentence-level averaging + sliding window.
+
+    Instead of running VADER on the entire canto text (which saturates the
+    compound score to ±1 for long texts), we:
+      1. Tokenize into sentences
+      2. Score each sentence individually
+      3. Compute a length-weighted average for the overall score
+      4. Group sentences into ~10-line sliding windows for trajectory data
+    """
     sia = SentimentIntensityAnalyzer()
-    scores = sia.polarity_scores(text)
+    sentences = sent_tokenize(text)
+
+    if not sentences:
+        return {
+            'compound': 0.0, 'positive': 0.0,
+            'negative': 0.0, 'neutral': 0.0,
+            'trajectory': []
+        }
+
+    # ── Per-sentence scoring, weighted by sentence length ──
+    sent_scores = []
+    sent_weights = []
+    for sent in sentences:
+        scores = sia.polarity_scores(sent)
+        weight = len(sent.split())  # weight by word count
+        sent_scores.append(scores)
+        sent_weights.append(weight)
+
+    total_weight = sum(sent_weights) or 1
+    avg_compound = sum(s['compound'] * w for s, w in zip(sent_scores, sent_weights)) / total_weight
+    avg_pos = sum(s['pos'] * w for s, w in zip(sent_scores, sent_weights)) / total_weight
+    avg_neg = sum(s['neg'] * w for s, w in zip(sent_scores, sent_weights)) / total_weight
+    avg_neu = sum(s['neu'] * w for s, w in zip(sent_scores, sent_weights)) / total_weight
+
+    # ── Sliding window trajectory (chunks of ~10 sentences) ──
+    chunk_size = max(1, len(sentences) // 10) if len(sentences) >= 10 else max(1, len(sentences) // 3)
+    trajectory = []
+    for i in range(0, len(sentences), chunk_size):
+        chunk_sents = sent_scores[i:i + chunk_size]
+        chunk_weights = sent_weights[i:i + chunk_size]
+        cw = sum(chunk_weights) or 1
+        chunk_compound = sum(s['compound'] * w for s, w in zip(chunk_sents, chunk_weights)) / cw
+        progress = round((i + len(chunk_sents) / 2) / len(sentences), 4)
+        trajectory.append({
+            'position': progress,
+            'sentiment': round(chunk_compound, 4)
+        })
+
     return {
-        'compound': round(scores['compound'], 4),
-        'positive': round(scores['pos'], 4),
-        'negative': round(scores['neg'], 4),
-        'neutral': round(scores['neu'], 4)
+        'compound': round(avg_compound, 4),
+        'positive': round(avg_pos, 4),
+        'negative': round(avg_neg, 4),
+        'neutral': round(avg_neu, 4),
+        'trajectory': trajectory
     }
 
 

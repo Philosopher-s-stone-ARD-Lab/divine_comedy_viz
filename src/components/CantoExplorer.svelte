@@ -67,10 +67,10 @@
   }
 
   function sentimentLabel(value) {
-    if (value > 0.5) return 'Very Positive';
-    if (value > 0.15) return 'Positive';
-    if (value > -0.15) return 'Neutral';
-    if (value > -0.5) return 'Negative';
+    if (value > 0.4) return 'Very Positive';
+    if (value > 0.1) return 'Positive';
+    if (value > -0.1) return 'Neutral';
+    if (value > -0.4) return 'Negative';
     return 'Very Negative';
   }
 </script>
@@ -164,7 +164,7 @@
         </div>
         <div class="stat-card">
           <div class="stat-label">Sentiment</div>
-          <div class="stat-value" style="color: {activeCanto.sentiment.compound > 0.15 ? '#10B981' : activeCanto.sentiment.compound < -0.15 ? '#EF4444' : '#888'}">
+          <div class="stat-value" style="color: {activeCanto.sentiment.compound > 0.1 ? '#10B981' : activeCanto.sentiment.compound < -0.1 ? '#EF4444' : '#888'}">
             {sentimentLabel(activeCanto.sentiment.compound)}
             <span class="stat-sub">({activeCanto.sentiment.compound.toFixed(3)})</span>
           </div>

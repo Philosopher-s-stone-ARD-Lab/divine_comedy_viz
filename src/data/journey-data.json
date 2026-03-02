@@ -10,7 +10,7 @@
       "y": -0.0294,
       "z": 0.2712,
       "angle": 15.88,
-      "sentiment": -0.7309,
+      "sentiment": -0.0694,
       "word_count": 885,
       "dominant_theme": "Nature"
     },
@@ -24,7 +24,7 @@
       "y": -0.0294,
       "z": 0.2712,
       "angle": 15.88,
-      "sentiment": 0.998,
+      "sentiment": 0.3993,
       "word_count": 759,
       "dominant_theme": "Fear"
     },
@@ -38,7 +38,7 @@
       "y": -0.0294,
       "z": 0.2712,
       "angle": 15.88,
-      "sentiment": -0.9944,
+      "sentiment": -0.1053,
       "word_count": 954,
       "dominant_theme": "Power"
     },
@@ -52,7 +52,7 @@
       "y": -0.1176,
       "z": 0.8636,
       "angle": 63.53,
-      "sentiment": 0.9988,
+      "sentiment": 0.3255,
       "word_count": 905,
       "dominant_theme": "Power"
     },
@@ -66,7 +66,7 @@
       "y": -0.1471,
       "z": 0.9396,
       "angle": 79.41,
-      "sentiment": 0.9974,
+      "sentiment": 0.1323,
       "word_count": 761,
       "dominant_theme": "Love"
     },
@@ -80,7 +80,7 @@
       "y": -0.1765,
       "z": 0.943,
       "angle": 95.29,
-      "sentiment": -0.9581,
+      "sentiment": -0.117,
       "word_count": 772,
       "dominant_theme": "Love"
     },
@@ -94,7 +94,7 @@
       "y": -0.1765,
       "z": 0.943,
       "angle": 95.29,
-      "sentiment": 0.9813,
+      "sentiment": 0.1555,
       "word_count": 907,
       "dominant_theme": "Nature"
     },
@@ -108,7 +108,7 @@
       "y": -0.1765,
       "z": 0.943,
       "angle": 95.29,
-      "sentiment": 0.5988,
+      "sentiment": -0.0321,
       "word_count": 781,
       "dominant_theme": "Power"
     },
@@ -122,7 +122,7 @@
       "y": -0.2647,
       "z": 0.5548,
       "angle": 142.94,
-      "sentiment": -0.9952,
+      "sentiment": -0.0326,
       "word_count": 900,
       "dominant_theme": "Suffering"
     },
@@ -136,7 +136,7 @@
       "y": -0.2941,
       "z": 0.3294,
       "angle": 158.82,
-      "sentiment": -0.972,
+      "sentiment": -0.0777,
       "word_count": 765,
       "dominant_theme": "Knowledge"
     },
@@ -150,7 +150,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": 0.9179,
+      "sentiment": 0.0012,
       "word_count": 727,
       "dominant_theme": "Knowledge"
     },
@@ -164,7 +164,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.9974,
+      "sentiment": -0.26,
       "word_count": 964,
       "dominant_theme": "Nature"
     },
@@ -178,7 +178,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.9971,
+      "sentiment": -0.0716,
       "word_count": 964,
       "dominant_theme": "Power"
     },
@@ -192,7 +192,7 @@
       "y": -0.4118,
       "z": -0.5905,
       "angle": 222.35,
-      "sentiment": -0.9968,
+      "sentiment": -0.2424,
       "word_count": 804,
       "dominant_theme": "Nature"
     },
@@ -206,7 +206,7 @@
       "y": -0.4412,
       "z": -0.7377,
       "angle": 238.24,
-      "sentiment": 0.9961,
+      "sentiment": 0.1883,
       "word_count": 885,
       "dominant_theme": "Nature"
     },
@@ -220,7 +220,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": 0.997,
+      "sentiment": 0.1843,
       "word_count": 768,
       "dominant_theme": "Nature"
     },
@@ -234,7 +234,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": -0.9922,
+      "sentiment": -0.0492,
       "word_count": 948,
       "dominant_theme": "Nature"
     },
@@ -248,7 +248,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": -0.9897,
+      "sentiment": -0.0918,
       "word_count": 801,
       "dominant_theme": "Sin"
     },
@@ -262,7 +262,7 @@
       "y": -0.5588,
       "z": -0.7077,
       "angle": 301.76,
-      "sentiment": 0.9873,
+      "sentiment": 0.2407,
       "word_count": 929,
       "dominant_theme": "Knowledge"
     },
@@ -276,7 +276,7 @@
       "y": -0.2941,
       "z": 0.3294,
       "angle": 158.82,
-      "sentiment": -0.9895,
+      "sentiment": -0.1723,
       "word_count": 776,
       "dominant_theme": "Nature"
     },
@@ -290,7 +290,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.996,
+      "sentiment": -0.1461,
       "word_count": 939,
       "dominant_theme": "Fear"
     },
@@ -304,7 +304,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.9964,
+      "sentiment": -0.2601,
       "word_count": 952,
       "dominant_theme": "Power"
     },
@@ -318,7 +318,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.9807,
+      "sentiment": -0.22,
       "word_count": 925,
       "dominant_theme": "Fear"
     },
@@ -332,7 +332,7 @@
       "y": -0.4118,
       "z": -0.5905,
       "angle": 222.35,
-      "sentiment": -0.9977,
+      "sentiment": -0.2371,
       "word_count": 965,
       "dominant_theme": "Nature"
     },
@@ -346,7 +346,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": -0.99,
+      "sentiment": -0.1536,
       "word_count": 975,
       "dominant_theme": "Knowledge"
     },
@@ -360,7 +360,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": -0.9358,
+      "sentiment": -0.0009,
       "word_count": 778,
       "dominant_theme": "Nature"
     },
@@ -374,7 +374,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": -0.996,
+      "sentiment": -0.2396,
       "word_count": 980,
       "dominant_theme": "Nature"
     },
@@ -388,7 +388,7 @@
       "y": -0.4706,
       "z": -0.826,
       "angle": 254.12,
-      "sentiment": -0.9955,
+      "sentiment": -0.5089,
       "word_count": 767,
       "dominant_theme": "Suffering"
     },
@@ -402,7 +402,7 @@
       "y": -0.5588,
       "z": -0.7077,
       "angle": 301.76,
-      "sentiment": -0.9985,
+      "sentiment": -0.494,
       "word_count": 990,
       "dominant_theme": "Power"
     },
@@ -416,7 +416,7 @@
       "y": -0.2941,
       "z": 0.3294,
       "angle": 158.82,
-      "sentiment": -0.9964,
+      "sentiment": -0.2744,
       "word_count": 941,
       "dominant_theme": "Power"
     },
@@ -430,7 +430,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.774,
+      "sentiment": 0.0038,
       "word_count": 918,
       "dominant_theme": "Power"
     },
@@ -444,7 +444,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.9895,
+      "sentiment": -0.4113,
       "word_count": 799,
       "dominant_theme": "Knowledge"
     },
@@ -458,7 +458,7 @@
       "y": -0.3235,
       "z": 0.0833,
       "angle": 174.71,
-      "sentiment": -0.9994,
+      "sentiment": -0.4078,
       "word_count": 1026,
       "dominant_theme": "Suffering"
     },
@@ -472,7 +472,7 @@
       "y": -0.4118,
       "z": -0.5905,
       "angle": 222.35,
-      "sentiment": 0.9591,
+      "sentiment": 0.0599,
       "word_count": 1015,
       "dominant_theme": "Nature"
     },
@@ -486,7 +486,7 @@
       "y": 0.0303,
       "z": 0.1998,
       "angle": 16.36,
-      "sentiment": 0.995,
+      "sentiment": 0.3098,
       "word_count": 753,
       "dominant_theme": "Nature"
     },
@@ -500,7 +500,7 @@
       "y": 0.0303,
       "z": 0.1998,
       "angle": 16.36,
-      "sentiment": 0.9988,
+      "sentiment": 0.3676,
       "word_count": 899,
       "dominant_theme": "Nature"
     },
@@ -514,7 +514,7 @@
       "y": 0.0303,
       "z": 0.1998,
       "angle": 16.36,
-      "sentiment": 0.9967,
+      "sentiment": 0.3288,
       "word_count": 897,
       "dominant_theme": "Nature"
     },
@@ -528,7 +528,7 @@
       "y": 0.1212,
       "z": 0.6698,
       "angle": 65.45,
-      "sentiment": 0.9917,
+      "sentiment": 0.3211,
       "word_count": 772,
       "dominant_theme": "Power"
     },
@@ -542,7 +542,7 @@
       "y": 0.1515,
       "z": 0.7379,
       "angle": 81.82,
-      "sentiment": 0.9952,
+      "sentiment": 0.1739,
       "word_count": 941,
       "dominant_theme": "Nature"
     },
@@ -556,7 +556,7 @@
       "y": 0.1818,
       "z": 0.7469,
       "angle": 98.18,
-      "sentiment": 0.9871,
+      "sentiment": 0.1454,
       "word_count": 953,
       "dominant_theme": "Knowledge"
     },
@@ -570,7 +570,7 @@
       "y": 0.1818,
       "z": 0.7469,
       "angle": 98.18,
-      "sentiment": 0.9902,
+      "sentiment": 0.2607,
       "word_count": 805,
       "dominant_theme": "Nature"
     },
@@ -584,7 +584,7 @@
       "y": 0.1818,
       "z": 0.7469,
       "angle": 98.18,
-      "sentiment": 0.9983,
+      "sentiment": 0.4154,
       "word_count": 958,
       "dominant_theme": "Nature"
     },
@@ -598,7 +598,7 @@
       "y": 0.303,
       "z": 0.2228,
       "angle": 163.64,
-      "sentiment": 0.9932,
+      "sentiment": 0.1507,
       "word_count": 903,
       "dominant_theme": "Nature"
     },
@@ -612,7 +612,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9916,
+      "sentiment": 0.0631,
       "word_count": 766,
       "dominant_theme": "Suffering"
     },
@@ -626,7 +626,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9992,
+      "sentiment": 0.3575,
       "word_count": 986,
       "dominant_theme": "Virtue"
     },
@@ -640,7 +640,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": -0.8487,
+      "sentiment": 0.0837,
       "word_count": 763,
       "dominant_theme": "Death"
     },
@@ -654,7 +654,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9823,
+      "sentiment": 0.0649,
       "word_count": 969,
       "dominant_theme": "Nature"
     },
@@ -668,7 +668,7 @@
       "y": 0.4242,
       "z": -0.6252,
       "angle": 229.09,
-      "sentiment": 0.9887,
+      "sentiment": 0.1831,
       "word_count": 944,
       "dominant_theme": "Knowledge"
     },
@@ -682,7 +682,7 @@
       "y": 0.4545,
       "z": -0.7608,
       "angle": 245.45,
-      "sentiment": 0.9988,
+      "sentiment": 0.5959,
       "word_count": 897,
       "dominant_theme": "Love"
     },
@@ -696,7 +696,7 @@
       "y": 0.4848,
       "z": -0.8368,
       "angle": 261.82,
-      "sentiment": 0.9958,
+      "sentiment": 0.1653,
       "word_count": 909,
       "dominant_theme": "Virtue"
     },
@@ -710,7 +710,7 @@
       "y": 0.4848,
       "z": -0.8368,
       "angle": 261.82,
-      "sentiment": 0.9976,
+      "sentiment": 0.0983,
       "word_count": 860,
       "dominant_theme": "Love"
     },
@@ -724,7 +724,7 @@
       "y": 0.4848,
       "z": -0.8368,
       "angle": 261.82,
-      "sentiment": 0.9991,
+      "sentiment": 0.3089,
       "word_count": 872,
       "dominant_theme": "Love"
     },
@@ -738,7 +738,7 @@
       "y": 0.5758,
       "z": -0.6596,
       "angle": 310.91,
-      "sentiment": 0.9949,
+      "sentiment": 0.3346,
       "word_count": 907,
       "dominant_theme": "Nature"
     },
@@ -752,7 +752,7 @@
       "y": 0.303,
       "z": 0.2228,
       "angle": 163.64,
-      "sentiment": -0.9715,
+      "sentiment": -0.0464,
       "word_count": 917,
       "dominant_theme": "Power"
     },
@@ -766,7 +766,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9989,
+      "sentiment": 0.3761,
       "word_count": 809,
       "dominant_theme": "Nature"
     },
@@ -780,7 +780,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9931,
+      "sentiment": 0.2461,
       "word_count": 959,
       "dominant_theme": "Love"
     },
@@ -794,7 +794,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9826,
+      "sentiment": 0.0725,
       "word_count": 864,
       "dominant_theme": "Suffering"
     },
@@ -808,7 +808,7 @@
       "y": 0.4242,
       "z": -0.6252,
       "angle": 229.09,
-      "sentiment": 0.9986,
+      "sentiment": 0.3486,
       "word_count": 951,
       "dominant_theme": "Love"
     },
@@ -822,7 +822,7 @@
       "y": 0.4545,
       "z": -0.7608,
       "angle": 245.45,
-      "sentiment": 0.9993,
+      "sentiment": 0.4658,
       "word_count": 787,
       "dominant_theme": "Nature"
     },
@@ -836,7 +836,7 @@
       "y": 0.4848,
       "z": -0.8368,
       "angle": 261.82,
-      "sentiment": 0.9987,
+      "sentiment": 0.3781,
       "word_count": 1006,
       "dominant_theme": "Nature"
     },
@@ -850,7 +850,7 @@
       "y": 0.4848,
       "z": -0.8368,
       "angle": 261.82,
-      "sentiment": 0.9987,
+      "sentiment": 0.2404,
       "word_count": 938,
       "dominant_theme": "Nature"
     },
@@ -864,7 +864,7 @@
       "y": 0.4848,
       "z": -0.8368,
       "angle": 261.82,
-      "sentiment": 0.9988,
+      "sentiment": 0.2437,
       "word_count": 933,
       "dominant_theme": "Nature"
     },
@@ -878,7 +878,7 @@
       "y": 0.5758,
       "z": -0.6596,
       "angle": 310.91,
-      "sentiment": 0.9981,
+      "sentiment": 0.3294,
       "word_count": 943,
       "dominant_theme": "Nature"
     },
@@ -892,7 +892,7 @@
       "y": 0.303,
       "z": 0.2228,
       "angle": 163.64,
-      "sentiment": 0.9976,
+      "sentiment": 0.4232,
       "word_count": 887,
       "dominant_theme": "Suffering"
     },
@@ -906,7 +906,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.997,
+      "sentiment": 0.1256,
       "word_count": 916,
       "dominant_theme": "Nature"
     },
@@ -920,7 +920,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9923,
+      "sentiment": 0.128,
       "word_count": 1038,
       "dominant_theme": "Nature"
     },
@@ -934,7 +934,7 @@
       "y": 0.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9883,
+      "sentiment": 0.1337,
       "word_count": 924,
       "dominant_theme": "Nature"
     },
@@ -948,7 +948,7 @@
       "y": 1.0303,
       "z": 0.286,
       "angle": 16.36,
-      "sentiment": 0.9992,
+      "sentiment": 0.5073,
       "word_count": 853,
       "dominant_theme": "Nature"
     },
@@ -962,7 +962,7 @@
       "y": 1.0303,
       "z": 0.286,
       "angle": 16.36,
-      "sentiment": 0.999,
+      "sentiment": 0.485,
       "word_count": 891,
       "dominant_theme": "Light"
     },
@@ -976,7 +976,7 @@
       "y": 1.0303,
       "z": 0.286,
       "angle": 16.36,
-      "sentiment": 0.9997,
+      "sentiment": 0.7982,
       "word_count": 764,
       "dominant_theme": "Nature"
     },
@@ -990,7 +990,7 @@
       "y": 1.1212,
       "z": 0.9648,
       "angle": 65.45,
-      "sentiment": 0.9983,
+      "sentiment": 0.1667,
       "word_count": 894,
       "dominant_theme": "Knowledge"
     },
@@ -1004,7 +1004,7 @@
       "y": 1.1515,
       "z": 1.0648,
       "angle": 81.82,
-      "sentiment": 0.998,
+      "sentiment": 0.4095,
       "word_count": 773,
       "dominant_theme": "Knowledge"
     },
@@ -1018,7 +1018,7 @@
       "y": 1.1818,
       "z": 1.0798,
       "angle": 98.18,
-      "sentiment": 0.9989,
+      "sentiment": 0.335,
       "word_count": 1007,
       "dominant_theme": "Justice"
     },
@@ -1032,7 +1032,7 @@
       "y": 1.1818,
       "z": 1.0798,
       "angle": 98.18,
-      "sentiment": 0.9997,
+      "sentiment": 0.6012,
       "word_count": 898,
       "dominant_theme": "Justice"
     },
@@ -1046,7 +1046,7 @@
       "y": 1.1818,
       "z": 1.0798,
       "angle": 98.18,
-      "sentiment": 0.9988,
+      "sentiment": 0.2486,
       "word_count": 918,
       "dominant_theme": "Knowledge"
     },
@@ -1060,7 +1060,7 @@
       "y": 1.2727,
       "z": 0.6144,
       "angle": 147.27,
-      "sentiment": 0.9994,
+      "sentiment": 0.5333,
       "word_count": 765,
       "dominant_theme": "Nature"
     },
@@ -1074,7 +1074,7 @@
       "y": 1.303,
       "z": 0.3244,
       "angle": 163.64,
-      "sentiment": 0.9998,
+      "sentiment": 0.4452,
       "word_count": 1011,
       "dominant_theme": "Light"
     },
@@ -1088,7 +1088,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9992,
+      "sentiment": 0.4751,
       "word_count": 886,
       "dominant_theme": "Virtue"
     },
@@ -1102,7 +1102,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9982,
+      "sentiment": 0.4808,
       "word_count": 893,
       "dominant_theme": "Nature"
     },
@@ -1116,7 +1116,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9991,
+      "sentiment": 0.7219,
       "word_count": 791,
       "dominant_theme": "Light"
     },
@@ -1130,7 +1130,7 @@
       "y": 1.4242,
       "z": -0.9161,
       "angle": 229.09,
-      "sentiment": 0.9995,
+      "sentiment": 0.6879,
       "word_count": 964,
       "dominant_theme": "Light"
     },
@@ -1144,7 +1144,7 @@
       "y": 1.4545,
       "z": -1.1164,
       "angle": 245.45,
-      "sentiment": 0.9997,
+      "sentiment": 0.5885,
       "word_count": 913,
       "dominant_theme": "Love"
     },
@@ -1158,7 +1158,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.9975,
+      "sentiment": 0.2369,
       "word_count": 939,
       "dominant_theme": "Beauty"
     },
@@ -1172,7 +1172,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.9976,
+      "sentiment": 0.3645,
       "word_count": 778,
       "dominant_theme": "Light"
     },
@@ -1186,7 +1186,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.9995,
+      "sentiment": 0.3755,
       "word_count": 948,
       "dominant_theme": "Nature"
     },
@@ -1200,7 +1200,7 @@
       "y": 1.5758,
       "z": -0.9733,
       "angle": 310.91,
-      "sentiment": 0.9956,
+      "sentiment": 0.2412,
       "word_count": 906,
       "dominant_theme": "Justice"
     },
@@ -1214,7 +1214,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9993,
+      "sentiment": 0.5518,
       "word_count": 903,
       "dominant_theme": "Virtue"
     },
@@ -1228,7 +1228,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9994,
+      "sentiment": 0.6261,
       "word_count": 747,
       "dominant_theme": "Love"
     },
@@ -1242,7 +1242,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9988,
+      "sentiment": 0.3648,
       "word_count": 1014,
       "dominant_theme": "Virtue"
     },
@@ -1256,7 +1256,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9996,
+      "sentiment": 0.5902,
       "word_count": 925,
       "dominant_theme": "Nature"
     },
@@ -1270,7 +1270,7 @@
       "y": 1.4242,
       "z": -0.9161,
       "angle": 229.09,
-      "sentiment": 0.9996,
+      "sentiment": 0.8519,
       "word_count": 942,
       "dominant_theme": "Faith"
     },
@@ -1284,7 +1284,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.9995,
+      "sentiment": 0.5883,
       "word_count": 761,
       "dominant_theme": "Nature"
     },
@@ -1298,7 +1298,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.9997,
+      "sentiment": 0.6465,
       "word_count": 962,
       "dominant_theme": "Nature"
     },
@@ -1312,7 +1312,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.999,
+      "sentiment": 0.4193,
       "word_count": 921,
       "dominant_theme": "Nature"
     },
@@ -1326,7 +1326,7 @@
       "y": 1.4848,
       "z": -1.2298,
       "angle": 261.82,
-      "sentiment": 0.9994,
+      "sentiment": 0.6228,
       "word_count": 746,
       "dominant_theme": "Knowledge"
     },
@@ -1340,7 +1340,7 @@
       "y": 1.5758,
       "z": -0.9733,
       "angle": 310.91,
-      "sentiment": 0.9993,
+      "sentiment": 0.3776,
       "word_count": 985,
       "dominant_theme": "Love"
     },
@@ -1354,7 +1354,7 @@
       "y": 1.303,
       "z": 0.3244,
       "angle": 163.64,
-      "sentiment": 0.9997,
+      "sentiment": 0.6014,
       "word_count": 887,
       "dominant_theme": "Light"
     },
@@ -1368,7 +1368,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9998,
+      "sentiment": 0.8177,
       "word_count": 881,
       "dominant_theme": "Light"
     },
@@ -1382,7 +1382,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9996,
+      "sentiment": 0.6049,
       "word_count": 951,
       "dominant_theme": "Faith"
     },
@@ -1396,7 +1396,7 @@
       "y": 1.3333,
       "z": 0.0,
       "angle": 180.0,
-      "sentiment": 0.9998,
+      "sentiment": 0.5614,
       "word_count": 2066,
       "dominant_theme": "Light"
     }

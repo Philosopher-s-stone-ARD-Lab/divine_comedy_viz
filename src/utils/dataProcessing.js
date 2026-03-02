@@ -70,8 +70,8 @@ function interpolateColor(color1, color2, t) {
  * Format a sentiment score for display.
  */
 export function formatSentiment(score) {
-  if (score > 0.3) return 'Positive';
-  if (score < -0.3) return 'Negative';
+  if (score > 0.1) return 'Positive';
+  if (score < -0.1) return 'Negative';
   return 'Neutral';
 }
 

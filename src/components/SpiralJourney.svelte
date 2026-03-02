@@ -131,7 +131,7 @@
       .attr('stroke-width', 0.5)
       .attr('stroke-opacity', 0.5)
       .attr('cursor', 'pointer')
-      .style('filter', d => d.sentiment > 0.5 ? 'drop-shadow(0 0 3px gold)' : d.sentiment < -0.5 ? 'drop-shadow(0 0 3px #ff0000)' : 'none');
+      .style('filter', d => d.sentiment > 0.3 ? 'drop-shadow(0 0 3px gold)' : d.sentiment < -0.3 ? 'drop-shadow(0 0 3px #ff0000)' : 'none');
 
     // Interactions
     nodes.on('mouseenter', function(event, d) {

@@ -13,7 +13,7 @@
       "canto_count": 34,
       "total_words": 29925,
       "total_lines": 2779,
-      "avg_sentiment": -0.4067,
+      "avg_sentiment": -0.0878,
       "vocabulary_richness": 0.1718,
       "top_words": [
         {
@@ -250,10 +250,56 @@
             "Thee it behoves to take another road,"
           ],
           "sentiment": {
-            "compound": -0.7309,
-            "positive": 0.111,
-            "negative": 0.124,
-            "neutral": 0.765
+            "compound": -0.0694,
+            "positive": 0.0892,
+            "negative": 0.0979,
+            "neutral": 0.8127,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": -0.5072
+              },
+              {
+                "position": 0.1452,
+                "sentiment": 0.1661
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.5809
+              },
+              {
+                "position": 0.3387,
+                "sentiment": -0.3606
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.2898
+              },
+              {
+                "position": 0.5323,
+                "sentiment": -0.2937
+              },
+              {
+                "position": 0.629,
+                "sentiment": 0.6073
+              },
+              {
+                "position": 0.7258,
+                "sentiment": -0.145
+              },
+              {
+                "position": 0.8226,
+                "sentiment": -0.4379
+              },
+              {
+                "position": 0.9194,
+                "sentiment": -0.3223
+              },
+              {
+                "position": 0.9839,
+                "sentiment": -0.5423
+              }
+            ]
           },
           "top_words": [
             {
@@ -414,10 +460,52 @@
             "If I have well thy language understood,"
           ],
           "sentiment": {
-            "compound": 0.998,
-            "positive": 0.168,
-            "negative": 0.091,
-            "neutral": 0.74
+            "compound": 0.3993,
+            "positive": 0.1467,
+            "negative": 0.0736,
+            "neutral": 0.7796,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": 0.5631
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.3561
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.2157
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.3751
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.1175
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.9079
+              },
+              {
+                "position": 0.65,
+                "sentiment": 0.57
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.065
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.5395
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.0932
+              }
+            ]
           },
           "top_words": [
             {
@@ -566,10 +654,64 @@
             "Master, now vouchsafe to me, A lighter vessel needs must carry thee."
           ],
           "sentiment": {
-            "compound": -0.9944,
-            "positive": 0.099,
-            "negative": 0.127,
-            "neutral": 0.774
+            "compound": -0.1053,
+            "positive": 0.0989,
+            "negative": 0.1138,
+            "neutral": 0.7873,
+            "trajectory": [
+              {
+                "position": 0.0405,
+                "sentiment": 0.8853
+              },
+              {
+                "position": 0.1216,
+                "sentiment": 0.5293
+              },
+              {
+                "position": 0.2027,
+                "sentiment": -0.2119
+              },
+              {
+                "position": 0.2838,
+                "sentiment": -0.4045
+              },
+              {
+                "position": 0.3649,
+                "sentiment": -0.7197
+              },
+              {
+                "position": 0.4459,
+                "sentiment": 0.0585
+              },
+              {
+                "position": 0.527,
+                "sentiment": -0.4582
+              },
+              {
+                "position": 0.6081,
+                "sentiment": -0.4102
+              },
+              {
+                "position": 0.6892,
+                "sentiment": -0.2066
+              },
+              {
+                "position": 0.7703,
+                "sentiment": 0.3467
+              },
+              {
+                "position": 0.8514,
+                "sentiment": -0.6331
+              },
+              {
+                "position": 0.9324,
+                "sentiment": -0.3423
+              },
+              {
+                "position": 0.9865,
+                "sentiment": 0.6597
+              }
+            ]
           },
           "top_words": [
             {
@@ -750,10 +892,56 @@
             "Tell me, my Master, tell me, thou my Lord,"
           ],
           "sentiment": {
-            "compound": 0.9988,
-            "positive": 0.131,
-            "negative": 0.056,
-            "neutral": 0.812
+            "compound": 0.3255,
+            "positive": 0.0956,
+            "negative": 0.0464,
+            "neutral": 0.8582,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": -0.0894
+              },
+              {
+                "position": 0.1452,
+                "sentiment": 0.0096
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.3767
+              },
+              {
+                "position": 0.3387,
+                "sentiment": -0.4102
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.9132
+              },
+              {
+                "position": 0.5323,
+                "sentiment": 0.5145
+              },
+              {
+                "position": 0.629,
+                "sentiment": 0.3643
+              },
+              {
+                "position": 0.7258,
+                "sentiment": 0.5278
+              },
+              {
+                "position": 0.8226,
+                "sentiment": -0.0791
+              },
+              {
+                "position": 0.9194,
+                "sentiment": 0.6814
+              },
+              {
+                "position": 0.9839,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -909,10 +1097,72 @@
             "The empress was of many languages. And seem upon the wind to be so light."
           ],
           "sentiment": {
-            "compound": 0.9974,
-            "positive": 0.152,
-            "negative": 0.097,
-            "neutral": 0.751
+            "compound": 0.1323,
+            "positive": 0.1171,
+            "negative": 0.088,
+            "neutral": 0.795,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": -0.1234
+              },
+              {
+                "position": 0.1034,
+                "sentiment": -0.6076
+              },
+              {
+                "position": 0.1724,
+                "sentiment": -0.4521
+              },
+              {
+                "position": 0.2414,
+                "sentiment": -0.3168
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.1067
+              },
+              {
+                "position": 0.3793,
+                "sentiment": -0.1894
+              },
+              {
+                "position": 0.4483,
+                "sentiment": 0.2257
+              },
+              {
+                "position": 0.5172,
+                "sentiment": 0.0658
+              },
+              {
+                "position": 0.5862,
+                "sentiment": -0.0971
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.8946
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.7728
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.0669
+              },
+              {
+                "position": 0.8621,
+                "sentiment": 0.6965
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.677
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -1057,10 +1307,56 @@
             "O thou that art conducted through this Hell,"
           ],
           "sentiment": {
-            "compound": -0.9581,
-            "positive": 0.108,
-            "negative": 0.121,
-            "neutral": 0.771
+            "compound": -0.117,
+            "positive": 0.0925,
+            "negative": 0.1008,
+            "neutral": 0.8066,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": 0.5412
+              },
+              {
+                "position": 0.1452,
+                "sentiment": 0.1426
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.6474
+              },
+              {
+                "position": 0.3387,
+                "sentiment": -0.614
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.0447
+              },
+              {
+                "position": 0.5323,
+                "sentiment": -0.0171
+              },
+              {
+                "position": 0.629,
+                "sentiment": -0.4991
+              },
+              {
+                "position": 0.7258,
+                "sentiment": -0.3509
+              },
+              {
+                "position": 0.8226,
+                "sentiment": -0.0741
+              },
+              {
+                "position": 0.9194,
+                "sentiment": -0.2635
+              },
+              {
+                "position": 0.9839,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -1191,10 +1487,56 @@
             "Why keepest?” and, “Why squanderest thou?"
           ],
           "sentiment": {
-            "compound": 0.9813,
-            "positive": 0.09,
-            "negative": 0.067,
-            "neutral": 0.844
+            "compound": 0.1555,
+            "positive": 0.0935,
+            "negative": 0.0712,
+            "neutral": 0.8354,
+            "trajectory": [
+              {
+                "position": 0.0469,
+                "sentiment": 0.7201
+              },
+              {
+                "position": 0.1406,
+                "sentiment": -0.0734
+              },
+              {
+                "position": 0.2344,
+                "sentiment": -0.0343
+              },
+              {
+                "position": 0.3281,
+                "sentiment": 0.3766
+              },
+              {
+                "position": 0.4219,
+                "sentiment": -0.4626
+              },
+              {
+                "position": 0.5156,
+                "sentiment": -0.1626
+              },
+              {
+                "position": 0.6094,
+                "sentiment": -0.0689
+              },
+              {
+                "position": 0.7031,
+                "sentiment": 0.8115
+              },
+              {
+                "position": 0.7969,
+                "sentiment": -0.1384
+              },
+              {
+                "position": 0.8906,
+                "sentiment": 0.3272
+              },
+              {
+                "position": 0.9688,
+                "sentiment": -0.1833
+              }
+            ]
           },
           "top_words": [
             {
@@ -1333,10 +1675,56 @@
             "Now art thou arrived, fell soul?"
           ],
           "sentiment": {
-            "compound": 0.5988,
-            "positive": 0.109,
-            "negative": 0.107,
-            "neutral": 0.784
+            "compound": -0.0321,
+            "positive": 0.0875,
+            "negative": 0.0869,
+            "neutral": 0.8257,
+            "trajectory": [
+              {
+                "position": 0.0476,
+                "sentiment": -0.3743
+              },
+              {
+                "position": 0.1429,
+                "sentiment": -0.089
+              },
+              {
+                "position": 0.2381,
+                "sentiment": -0.387
+              },
+              {
+                "position": 0.3333,
+                "sentiment": -0.1611
+              },
+              {
+                "position": 0.4286,
+                "sentiment": -0.212
+              },
+              {
+                "position": 0.5238,
+                "sentiment": 0.8075
+              },
+              {
+                "position": 0.619,
+                "sentiment": 0.4229
+              },
+              {
+                "position": 0.7143,
+                "sentiment": 0.3508
+              },
+              {
+                "position": 0.8095,
+                "sentiment": -0.4529
+              },
+              {
+                "position": 0.9048,
+                "sentiment": -0.7345
+              },
+              {
+                "position": 0.9762,
+                "sentiment": -0.5267
+              }
+            ]
           },
           "top_words": [
             {
@@ -1456,10 +1844,56 @@
             "O banished out of Heaven, people despised!"
           ],
           "sentiment": {
-            "compound": -0.9952,
-            "positive": 0.076,
-            "negative": 0.114,
-            "neutral": 0.81
+            "compound": -0.0326,
+            "positive": 0.065,
+            "negative": 0.0835,
+            "neutral": 0.8515,
+            "trajectory": [
+              {
+                "position": 0.0469,
+                "sentiment": 0.0268
+              },
+              {
+                "position": 0.1406,
+                "sentiment": -0.649
+              },
+              {
+                "position": 0.2344,
+                "sentiment": -0.1879
+              },
+              {
+                "position": 0.3281,
+                "sentiment": -0.1296
+              },
+              {
+                "position": 0.4219,
+                "sentiment": 0.4875
+              },
+              {
+                "position": 0.5156,
+                "sentiment": -0.0199
+              },
+              {
+                "position": 0.6094,
+                "sentiment": 0.0758
+              },
+              {
+                "position": 0.7031,
+                "sentiment": 0.08
+              },
+              {
+                "position": 0.7969,
+                "sentiment": 0.0625
+              },
+              {
+                "position": 0.8906,
+                "sentiment": -0.1575
+              },
+              {
+                "position": 0.9688,
+                "sentiment": -0.6413
+              }
+            ]
           },
           "top_words": [
             {
@@ -1593,10 +2027,64 @@
             "If they were banished, they returned on all sides,"
           ],
           "sentiment": {
-            "compound": -0.972,
-            "positive": 0.079,
-            "negative": 0.1,
-            "neutral": 0.821
+            "compound": -0.0777,
+            "positive": 0.0609,
+            "negative": 0.076,
+            "neutral": 0.863,
+            "trajectory": [
+              {
+                "position": 0.04,
+                "sentiment": 0.3028
+              },
+              {
+                "position": 0.12,
+                "sentiment": 0.0062
+              },
+              {
+                "position": 0.2,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.28,
+                "sentiment": 0.1581
+              },
+              {
+                "position": 0.36,
+                "sentiment": -0.2623
+              },
+              {
+                "position": 0.44,
+                "sentiment": -0.6376
+              },
+              {
+                "position": 0.52,
+                "sentiment": 0.4489
+              },
+              {
+                "position": 0.6,
+                "sentiment": -0.2463
+              },
+              {
+                "position": 0.68,
+                "sentiment": -0.2871
+              },
+              {
+                "position": 0.76,
+                "sentiment": -0.7739
+              },
+              {
+                "position": 0.84,
+                "sentiment": 0.4299
+              },
+              {
+                "position": 0.92,
+                "sentiment": -0.0788
+              },
+              {
+                "position": 0.98,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -1713,10 +2201,60 @@
             "Why wanders so “Philosophy,"
           ],
           "sentiment": {
-            "compound": 0.9179,
-            "positive": 0.137,
-            "negative": 0.124,
-            "neutral": 0.739
+            "compound": 0.0012,
+            "positive": 0.1128,
+            "negative": 0.1107,
+            "neutral": 0.7764,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": -0.2401
+              },
+              {
+                "position": 0.125,
+                "sentiment": -0.0115
+              },
+              {
+                "position": 0.2083,
+                "sentiment": -0.2042
+              },
+              {
+                "position": 0.2917,
+                "sentiment": -0.6011
+              },
+              {
+                "position": 0.375,
+                "sentiment": -0.7884
+              },
+              {
+                "position": 0.4583,
+                "sentiment": -0.2444
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.1276
+              },
+              {
+                "position": 0.625,
+                "sentiment": -0.7731
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.3256
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.5852
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.4248
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.6041
+              }
+            ]
           },
           "top_words": [
             {
@@ -1859,10 +2397,68 @@
             "Now he be first to thee, and second I."
           ],
           "sentiment": {
-            "compound": -0.9974,
-            "positive": 0.068,
-            "negative": 0.121,
-            "neutral": 0.811
+            "compound": -0.26,
+            "positive": 0.0605,
+            "negative": 0.1041,
+            "neutral": 0.8354,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": 0.3578
+              },
+              {
+                "position": 0.1071,
+                "sentiment": -0.6705
+              },
+              {
+                "position": 0.1786,
+                "sentiment": -0.127
+              },
+              {
+                "position": 0.25,
+                "sentiment": -0.926
+              },
+              {
+                "position": 0.3214,
+                "sentiment": -0.5338
+              },
+              {
+                "position": 0.3929,
+                "sentiment": -0.4281
+              },
+              {
+                "position": 0.4643,
+                "sentiment": -0.7821
+              },
+              {
+                "position": 0.5357,
+                "sentiment": 0.422
+              },
+              {
+                "position": 0.6071,
+                "sentiment": -0.5902
+              },
+              {
+                "position": 0.6786,
+                "sentiment": 0.6134
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.3956
+              },
+              {
+                "position": 0.8214,
+                "sentiment": 0.0481
+              },
+              {
+                "position": 0.8929,
+                "sentiment": 0.4364
+              },
+              {
+                "position": 0.9643,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -2003,10 +2599,68 @@
             "Now help, Death, help!"
           ],
           "sentiment": {
-            "compound": -0.9971,
-            "positive": 0.093,
-            "negative": 0.14,
-            "neutral": 0.767
+            "compound": -0.0716,
+            "positive": 0.0792,
+            "negative": 0.1107,
+            "neutral": 0.8102,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": -0.2454
+              },
+              {
+                "position": 0.1071,
+                "sentiment": -0.7758
+              },
+              {
+                "position": 0.1786,
+                "sentiment": 0.2436
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.4776
+              },
+              {
+                "position": 0.3214,
+                "sentiment": -0.285
+              },
+              {
+                "position": 0.3929,
+                "sentiment": 0.2193
+              },
+              {
+                "position": 0.4643,
+                "sentiment": 0.9307
+              },
+              {
+                "position": 0.5357,
+                "sentiment": -0.431
+              },
+              {
+                "position": 0.6071,
+                "sentiment": -0.4653
+              },
+              {
+                "position": 0.6786,
+                "sentiment": -0.6198
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.2414
+              },
+              {
+                "position": 0.8214,
+                "sentiment": -0.5425
+              },
+              {
+                "position": 0.8929,
+                "sentiment": -0.5853
+              },
+              {
+                "position": 0.9643,
+                "sentiment": -0.7661
+              }
+            ]
           },
           "top_words": [
             {
@@ -2136,10 +2790,68 @@
             "Help, good Vulcan, help!"
           ],
           "sentiment": {
-            "compound": -0.9968,
-            "positive": 0.061,
-            "negative": 0.12,
-            "neutral": 0.818
+            "compound": -0.2424,
+            "positive": 0.0496,
+            "negative": 0.0922,
+            "neutral": 0.8582,
+            "trajectory": [
+              {
+                "position": 0.037,
+                "sentiment": -0.3756
+              },
+              {
+                "position": 0.1111,
+                "sentiment": -0.3486
+              },
+              {
+                "position": 0.1852,
+                "sentiment": -0.5027
+              },
+              {
+                "position": 0.2593,
+                "sentiment": -0.1192
+              },
+              {
+                "position": 0.3333,
+                "sentiment": 0.1115
+              },
+              {
+                "position": 0.4074,
+                "sentiment": 0.1988
+              },
+              {
+                "position": 0.4815,
+                "sentiment": -0.9204
+              },
+              {
+                "position": 0.5556,
+                "sentiment": -0.4672
+              },
+              {
+                "position": 0.6296,
+                "sentiment": 0.3706
+              },
+              {
+                "position": 0.7037,
+                "sentiment": -0.0767
+              },
+              {
+                "position": 0.7778,
+                "sentiment": 0.178
+              },
+              {
+                "position": 0.8519,
+                "sentiment": -0.2287
+              },
+              {
+                "position": 0.9259,
+                "sentiment": 0.2374
+              },
+              {
+                "position": 0.9815,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -2265,10 +2977,60 @@
             "Are you here, Ser Brunetto?"
           ],
           "sentiment": {
-            "compound": 0.9961,
-            "positive": 0.102,
-            "negative": 0.057,
-            "neutral": 0.841
+            "compound": 0.1883,
+            "positive": 0.0827,
+            "negative": 0.0501,
+            "neutral": 0.8671,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": -0.1472
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.1107
+              },
+              {
+                "position": 0.2083,
+                "sentiment": -0.7383
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.1842
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.8563
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.7792
+              },
+              {
+                "position": 0.5417,
+                "sentiment": -0.1514
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.4151
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.8507
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.3996
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.2331
+              },
+              {
+                "position": 0.9583,
+                "sentiment": -0.5169
+              }
+            ]
           },
           "top_words": [
             {
@@ -2391,10 +3153,60 @@
             "It must needs be some novelty respond,"
           ],
           "sentiment": {
-            "compound": 0.997,
-            "positive": 0.118,
-            "negative": 0.056,
-            "neutral": 0.826
+            "compound": 0.1843,
+            "positive": 0.0985,
+            "negative": 0.0507,
+            "neutral": 0.8509,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.4794
+              },
+              {
+                "position": 0.125,
+                "sentiment": -0.3546
+              },
+              {
+                "position": 0.2083,
+                "sentiment": -0.0584
+              },
+              {
+                "position": 0.2917,
+                "sentiment": -0.2863
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.8737
+              },
+              {
+                "position": 0.4583,
+                "sentiment": -0.1786
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.7485
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.7584
+              },
+              {
+                "position": 0.7083,
+                "sentiment": -0.3541
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.2678
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.4255
+              }
+            ]
           },
           "top_words": [
             {
@@ -2506,10 +3318,72 @@
             "An ill way thou takest!"
           ],
           "sentiment": {
-            "compound": -0.9922,
-            "positive": 0.061,
-            "negative": 0.093,
-            "neutral": 0.847
+            "compound": -0.0492,
+            "positive": 0.0484,
+            "negative": 0.0678,
+            "neutral": 0.8837,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.6207
+              },
+              {
+                "position": 0.1034,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.1724,
+                "sentiment": -0.7045
+              },
+              {
+                "position": 0.2414,
+                "sentiment": -0.4243
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.1085
+              },
+              {
+                "position": 0.4483,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.5172,
+                "sentiment": -0.3968
+              },
+              {
+                "position": 0.5862,
+                "sentiment": -0.083
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.1476
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.5413
+              },
+              {
+                "position": 0.7931,
+                "sentiment": -0.6453
+              },
+              {
+                "position": 0.8621,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.931,
+                "sentiment": -0.6769
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -2629,10 +3503,64 @@
             "Twixt Reno and Savena to say ‘sipa;"
           ],
           "sentiment": {
-            "compound": -0.9897,
-            "positive": 0.06,
-            "negative": 0.094,
-            "neutral": 0.846
+            "compound": -0.0918,
+            "positive": 0.0465,
+            "negative": 0.0725,
+            "neutral": 0.8812,
+            "trajectory": [
+              {
+                "position": 0.0385,
+                "sentiment": -0.4779
+              },
+              {
+                "position": 0.1154,
+                "sentiment": -0.021
+              },
+              {
+                "position": 0.1923,
+                "sentiment": 0.2464
+              },
+              {
+                "position": 0.2692,
+                "sentiment": -0.4134
+              },
+              {
+                "position": 0.3462,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.4231,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.1121
+              },
+              {
+                "position": 0.5769,
+                "sentiment": 0.2597
+              },
+              {
+                "position": 0.6538,
+                "sentiment": -0.4243
+              },
+              {
+                "position": 0.7308,
+                "sentiment": -0.6077
+              },
+              {
+                "position": 0.8077,
+                "sentiment": -0.6289
+              },
+              {
+                "position": 0.8846,
+                "sentiment": -0.7832
+              },
+              {
+                "position": 0.9615,
+                "sentiment": 0.28
+              }
+            ]
           },
           "top_words": [
             {
@@ -2777,10 +3705,60 @@
             "Then what wantest thou of me? So he who governs France shall be to this one."
           ],
           "sentiment": {
-            "compound": 0.9873,
-            "positive": 0.094,
-            "negative": 0.061,
-            "neutral": 0.846
+            "compound": 0.2407,
+            "positive": 0.097,
+            "negative": 0.0619,
+            "neutral": 0.841,
+            "trajectory": [
+              {
+                "position": 0.0441,
+                "sentiment": 0.4283
+              },
+              {
+                "position": 0.1324,
+                "sentiment": 0.4437
+              },
+              {
+                "position": 0.2206,
+                "sentiment": 0.2548
+              },
+              {
+                "position": 0.3088,
+                "sentiment": -0.3329
+              },
+              {
+                "position": 0.3971,
+                "sentiment": 0.428
+              },
+              {
+                "position": 0.4853,
+                "sentiment": -0.1162
+              },
+              {
+                "position": 0.5735,
+                "sentiment": 0.6871
+              },
+              {
+                "position": 0.6618,
+                "sentiment": -0.1092
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.0113
+              },
+              {
+                "position": 0.8382,
+                "sentiment": 0.6857
+              },
+              {
+                "position": 0.9265,
+                "sentiment": -0.3242
+              },
+              {
+                "position": 0.9853,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -2896,10 +3874,56 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": -0.9895,
-            "positive": 0.045,
-            "negative": 0.088,
-            "neutral": 0.867
+            "compound": -0.1723,
+            "positive": 0.0387,
+            "negative": 0.0813,
+            "neutral": 0.88,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": -0.5838
+              },
+              {
+                "position": 0.1452,
+                "sentiment": -0.5287
+              },
+              {
+                "position": 0.2419,
+                "sentiment": -0.3864
+              },
+              {
+                "position": 0.3387,
+                "sentiment": -0.097
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.5399
+              },
+              {
+                "position": 0.5323,
+                "sentiment": -0.0956
+              },
+              {
+                "position": 0.629,
+                "sentiment": -0.361
+              },
+              {
+                "position": 0.7258,
+                "sentiment": -0.1349
+              },
+              {
+                "position": 0.8226,
+                "sentiment": -0.4221
+              },
+              {
+                "position": 0.9194,
+                "sentiment": 0.1978
+              },
+              {
+                "position": 0.9839,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -3018,10 +4042,72 @@
             "Be quiet, be quiet, Scarmiglione;"
           ],
           "sentiment": {
-            "compound": -0.996,
-            "positive": 0.055,
-            "negative": 0.099,
-            "neutral": 0.846
+            "compound": -0.1461,
+            "positive": 0.0428,
+            "negative": 0.0807,
+            "neutral": 0.8766,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.5889
+              },
+              {
+                "position": 0.1034,
+                "sentiment": 0.6383
+              },
+              {
+                "position": 0.1724,
+                "sentiment": -0.3497
+              },
+              {
+                "position": 0.2414,
+                "sentiment": -0.8527
+              },
+              {
+                "position": 0.3103,
+                "sentiment": -0.5228
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.4483,
+                "sentiment": -0.5844
+              },
+              {
+                "position": 0.5172,
+                "sentiment": -0.5942
+              },
+              {
+                "position": 0.5862,
+                "sentiment": -0.2368
+              },
+              {
+                "position": 0.6552,
+                "sentiment": -0.0207
+              },
+              {
+                "position": 0.7241,
+                "sentiment": -0.4931
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.2593
+              },
+              {
+                "position": 0.8621,
+                "sentiment": -0.1816
+              },
+              {
+                "position": 0.931,
+                "sentiment": -0.1933
+              },
+              {
+                "position": 0.9828,
+                "sentiment": -0.4939
+              }
+            ]
           },
           "top_words": [
             {
@@ -3147,10 +4233,68 @@
             "Stand ye aside, while I enfork him."
           ],
           "sentiment": {
-            "compound": -0.9964,
-            "positive": 0.036,
-            "negative": 0.089,
-            "neutral": 0.874
+            "compound": -0.2601,
+            "positive": 0.039,
+            "negative": 0.0682,
+            "neutral": 0.8928,
+            "trajectory": [
+              {
+                "position": 0.037,
+                "sentiment": -0.1359
+              },
+              {
+                "position": 0.1111,
+                "sentiment": -0.3584
+              },
+              {
+                "position": 0.1852,
+                "sentiment": -0.1914
+              },
+              {
+                "position": 0.2593,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.3333,
+                "sentiment": -0.7062
+              },
+              {
+                "position": 0.4074,
+                "sentiment": -0.3683
+              },
+              {
+                "position": 0.4815,
+                "sentiment": -0.6731
+              },
+              {
+                "position": 0.5556,
+                "sentiment": 0.241
+              },
+              {
+                "position": 0.6296,
+                "sentiment": 0.5686
+              },
+              {
+                "position": 0.7037,
+                "sentiment": 0.6541
+              },
+              {
+                "position": 0.7778,
+                "sentiment": -0.8486
+              },
+              {
+                "position": 0.8519,
+                "sentiment": -0.2904
+              },
+              {
+                "position": 0.9259,
+                "sentiment": 0.209
+              },
+              {
+                "position": 0.9815,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -3280,10 +4424,68 @@
             "your iniquitous. . ."
           ],
           "sentiment": {
-            "compound": -0.9807,
-            "positive": 0.07,
-            "negative": 0.092,
-            "neutral": 0.838
+            "compound": -0.22,
+            "positive": 0.0556,
+            "negative": 0.0805,
+            "neutral": 0.863,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": -0.638
+              },
+              {
+                "position": 0.1071,
+                "sentiment": 0.1654
+              },
+              {
+                "position": 0.1786,
+                "sentiment": 0.0166
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.0811
+              },
+              {
+                "position": 0.3214,
+                "sentiment": 0.0421
+              },
+              {
+                "position": 0.3929,
+                "sentiment": -0.294
+              },
+              {
+                "position": 0.4643,
+                "sentiment": -0.4213
+              },
+              {
+                "position": 0.5357,
+                "sentiment": -0.5785
+              },
+              {
+                "position": 0.6071,
+                "sentiment": -0.4422
+              },
+              {
+                "position": 0.6786,
+                "sentiment": 0.5287
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.3455
+              },
+              {
+                "position": 0.8214,
+                "sentiment": -0.609
+              },
+              {
+                "position": 0.8929,
+                "sentiment": -0.2467
+              },
+              {
+                "position": 0.9643,
+                "sentiment": -0.5569
+              }
+            ]
           },
           "top_words": [
             {
@@ -3410,10 +4612,56 @@
             "O’ so quickly e’er, nor ‘I"
           ],
           "sentiment": {
-            "compound": -0.9977,
-            "positive": 0.057,
-            "negative": 0.111,
-            "neutral": 0.832
+            "compound": -0.2371,
+            "positive": 0.0439,
+            "negative": 0.0948,
+            "neutral": 0.8612,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": -0.0421
+              },
+              {
+                "position": 0.1452,
+                "sentiment": -0.5554
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.0021
+              },
+              {
+                "position": 0.3387,
+                "sentiment": -0.4212
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.1764
+              },
+              {
+                "position": 0.5323,
+                "sentiment": -0.2994
+              },
+              {
+                "position": 0.629,
+                "sentiment": -0.5702
+              },
+              {
+                "position": 0.7258,
+                "sentiment": 0.0588
+              },
+              {
+                "position": 0.8226,
+                "sentiment": -0.3635
+              },
+              {
+                "position": 0.9194,
+                "sentiment": -0.8163
+              },
+              {
+                "position": 0.9839,
+                "sentiment": -0.1922
+              }
+            ]
           },
           "top_words": [
             {
@@ -3538,10 +4786,64 @@
             "Where is, where is the scoffer?"
           ],
           "sentiment": {
-            "compound": -0.99,
-            "positive": 0.034,
-            "negative": 0.061,
-            "neutral": 0.905
+            "compound": -0.1536,
+            "positive": 0.0338,
+            "negative": 0.057,
+            "neutral": 0.9093,
+            "trajectory": [
+              {
+                "position": 0.0405,
+                "sentiment": -0.2676
+              },
+              {
+                "position": 0.1216,
+                "sentiment": -0.2547
+              },
+              {
+                "position": 0.2027,
+                "sentiment": -0.4189
+              },
+              {
+                "position": 0.2838,
+                "sentiment": -0.1803
+              },
+              {
+                "position": 0.3649,
+                "sentiment": -0.0447
+              },
+              {
+                "position": 0.4459,
+                "sentiment": 0.1882
+              },
+              {
+                "position": 0.527,
+                "sentiment": -0.2499
+              },
+              {
+                "position": 0.6081,
+                "sentiment": -0.2752
+              },
+              {
+                "position": 0.6892,
+                "sentiment": -0.4586
+              },
+              {
+                "position": 0.7703,
+                "sentiment": 0.2685
+              },
+              {
+                "position": 0.8514,
+                "sentiment": -0.1576
+              },
+              {
+                "position": 0.9324,
+                "sentiment": 0.0329
+              },
+              {
+                "position": 0.9865,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -3671,10 +4973,52 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": -0.9358,
-            "positive": 0.072,
-            "negative": 0.087,
-            "neutral": 0.842
+            "compound": -0.0009,
+            "positive": 0.0728,
+            "negative": 0.0647,
+            "neutral": 0.8627,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": -0.1296
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.7837
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.1304
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.7454
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.1849
+              },
+              {
+                "position": 0.65,
+                "sentiment": -0.4129
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.3237
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.2302
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -3814,10 +5158,56 @@
             "Now go thy way, no more I urge thee,"
           ],
           "sentiment": {
-            "compound": -0.996,
-            "positive": 0.068,
-            "negative": 0.11,
-            "neutral": 0.822
+            "compound": -0.2396,
+            "positive": 0.0654,
+            "negative": 0.0898,
+            "neutral": 0.8447,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": -0.2076
+              },
+              {
+                "position": 0.1364,
+                "sentiment": -0.0083
+              },
+              {
+                "position": 0.2273,
+                "sentiment": -0.5668
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.2378
+              },
+              {
+                "position": 0.4091,
+                "sentiment": -0.2957
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.3126
+              },
+              {
+                "position": 0.5909,
+                "sentiment": -0.4099
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.1569
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.8636,
+                "sentiment": -0.8573
+              },
+              {
+                "position": 0.9545,
+                "sentiment": -0.4713
+              }
+            ]
           },
           "top_words": [
             {
@@ -3953,10 +5343,84 @@
             "A thing done has an end!"
           ],
           "sentiment": {
-            "compound": -0.9955,
-            "positive": 0.072,
-            "negative": 0.126,
-            "neutral": 0.802
+            "compound": -0.5089,
+            "positive": 0.0626,
+            "negative": 0.1209,
+            "neutral": 0.8165,
+            "trajectory": [
+              {
+                "position": 0.0278,
+                "sentiment": -0.5267
+              },
+              {
+                "position": 0.0833,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.1389,
+                "sentiment": -0.4118
+              },
+              {
+                "position": 0.1944,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.25,
+                "sentiment": -0.6124
+              },
+              {
+                "position": 0.3056,
+                "sentiment": -0.9382
+              },
+              {
+                "position": 0.3611,
+                "sentiment": -0.8481
+              },
+              {
+                "position": 0.4167,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.4722,
+                "sentiment": -0.9611
+              },
+              {
+                "position": 0.5278,
+                "sentiment": -0.0176
+              },
+              {
+                "position": 0.5833,
+                "sentiment": 0.3534
+              },
+              {
+                "position": 0.6389,
+                "sentiment": -0.8172
+              },
+              {
+                "position": 0.6944,
+                "sentiment": -0.92
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.3324
+              },
+              {
+                "position": 0.8056,
+                "sentiment": 0.128
+              },
+              {
+                "position": 0.8611,
+                "sentiment": 0.0772
+              },
+              {
+                "position": 0.9167,
+                "sentiment": 0.7819
+              },
+              {
+                "position": 0.9722,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -4095,10 +5559,60 @@
             "Say unto them whate’er thou wishest."
           ],
           "sentiment": {
-            "compound": -0.9985,
-            "positive": 0.045,
-            "negative": 0.114,
-            "neutral": 0.841
+            "compound": -0.494,
+            "positive": 0.033,
+            "negative": 0.0889,
+            "neutral": 0.878,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": -0.2447
+              },
+              {
+                "position": 0.125,
+                "sentiment": -0.4654
+              },
+              {
+                "position": 0.2083,
+                "sentiment": -0.3713
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.3479
+              },
+              {
+                "position": 0.375,
+                "sentiment": -0.7672
+              },
+              {
+                "position": 0.4583,
+                "sentiment": -0.729
+              },
+              {
+                "position": 0.5417,
+                "sentiment": -0.0882
+              },
+              {
+                "position": 0.625,
+                "sentiment": -0.1805
+              },
+              {
+                "position": 0.7083,
+                "sentiment": -0.8494
+              },
+              {
+                "position": 0.7917,
+                "sentiment": -0.6093
+              },
+              {
+                "position": 0.875,
+                "sentiment": -0.3642
+              },
+              {
+                "position": 0.9583,
+                "sentiment": -0.504
+              }
+            ]
           },
           "top_words": [
             {
@@ -4218,10 +5732,88 @@
             "And rueful be it thee the whole world knows it."
           ],
           "sentiment": {
-            "compound": -0.9964,
-            "positive": 0.067,
-            "negative": 0.113,
-            "neutral": 0.82
+            "compound": -0.2744,
+            "positive": 0.056,
+            "negative": 0.0907,
+            "neutral": 0.8534,
+            "trajectory": [
+              {
+                "position": 0.0263,
+                "sentiment": -0.938
+              },
+              {
+                "position": 0.0789,
+                "sentiment": 0.1531
+              },
+              {
+                "position": 0.1316,
+                "sentiment": -0.9285
+              },
+              {
+                "position": 0.1842,
+                "sentiment": -0.8655
+              },
+              {
+                "position": 0.2368,
+                "sentiment": -0.2732
+              },
+              {
+                "position": 0.2895,
+                "sentiment": 0.7124
+              },
+              {
+                "position": 0.3421,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.3947,
+                "sentiment": -0.2263
+              },
+              {
+                "position": 0.4474,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.5,
+                "sentiment": -0.4215
+              },
+              {
+                "position": 0.5526,
+                "sentiment": 0.0258
+              },
+              {
+                "position": 0.6053,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.6579,
+                "sentiment": 0.1655
+              },
+              {
+                "position": 0.7105,
+                "sentiment": -0.0276
+              },
+              {
+                "position": 0.7632,
+                "sentiment": 0.355
+              },
+              {
+                "position": 0.8158,
+                "sentiment": -0.5859
+              },
+              {
+                "position": 0.8684,
+                "sentiment": -0.6728
+              },
+              {
+                "position": 0.9211,
+                "sentiment": 0.2732
+              },
+              {
+                "position": 0.9737,
+                "sentiment": -0.5423
+              }
+            ]
           },
           "top_words": [
             {
@@ -4365,10 +5957,68 @@
             "Draw nigh, that I may take thee;"
           ],
           "sentiment": {
-            "compound": -0.774,
-            "positive": 0.082,
-            "negative": 0.086,
-            "neutral": 0.832
+            "compound": 0.0038,
+            "positive": 0.0675,
+            "negative": 0.0679,
+            "neutral": 0.8647,
+            "trajectory": [
+              {
+                "position": 0.037,
+                "sentiment": 0.4139
+              },
+              {
+                "position": 0.1111,
+                "sentiment": 0.399
+              },
+              {
+                "position": 0.1852,
+                "sentiment": -0.5874
+              },
+              {
+                "position": 0.2593,
+                "sentiment": 0.46
+              },
+              {
+                "position": 0.3333,
+                "sentiment": 0.5673
+              },
+              {
+                "position": 0.4074,
+                "sentiment": -0.8212
+              },
+              {
+                "position": 0.4815,
+                "sentiment": 0.0646
+              },
+              {
+                "position": 0.5556,
+                "sentiment": -0.6972
+              },
+              {
+                "position": 0.6296,
+                "sentiment": 0.6375
+              },
+              {
+                "position": 0.7037,
+                "sentiment": -0.13
+              },
+              {
+                "position": 0.7778,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.8519,
+                "sentiment": 0.7341
+              },
+              {
+                "position": 0.9259,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.9815,
+                "sentiment": -0.4497
+              }
+            ]
           },
           "top_words": [
             {
@@ -4500,10 +6150,52 @@
             "Now who art thou, that goest through Antenora “Now,"
           ],
           "sentiment": {
-            "compound": -0.9895,
-            "positive": 0.056,
-            "negative": 0.093,
-            "neutral": 0.851
+            "compound": -0.4113,
+            "positive": 0.0415,
+            "negative": 0.0775,
+            "neutral": 0.8809,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": -0.7897
+              },
+              {
+                "position": 0.15,
+                "sentiment": -0.258
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.3149
+              },
+              {
+                "position": 0.35,
+                "sentiment": -0.6085
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.2294
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.2905
+              },
+              {
+                "position": 0.65,
+                "sentiment": -0.2718
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.2096
+              },
+              {
+                "position": 0.85,
+                "sentiment": -0.5453
+              },
+              {
+                "position": 0.95,
+                "sentiment": -0.8192
+              }
+            ]
           },
           "top_words": [
             {
@@ -4630,10 +6322,56 @@
             "Thou dost gaze so, father, what doth ail thee?"
           ],
           "sentiment": {
-            "compound": -0.9994,
-            "positive": 0.046,
-            "negative": 0.148,
-            "neutral": 0.806
+            "compound": -0.4078,
+            "positive": 0.0413,
+            "negative": 0.111,
+            "neutral": 0.8478,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": -0.6412
+              },
+              {
+                "position": 0.1364,
+                "sentiment": -0.2376
+              },
+              {
+                "position": 0.2273,
+                "sentiment": -0.7311
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.1636
+              },
+              {
+                "position": 0.4091,
+                "sentiment": -0.3932
+              },
+              {
+                "position": 0.5,
+                "sentiment": -0.5634
+              },
+              {
+                "position": 0.5909,
+                "sentiment": -0.2072
+              },
+              {
+                "position": 0.6818,
+                "sentiment": -0.3591
+              },
+              {
+                "position": 0.7727,
+                "sentiment": -0.8689
+              },
+              {
+                "position": 0.8636,
+                "sentiment": -0.5914
+              },
+              {
+                "position": 0.9545,
+                "sentiment": -0.0222
+              }
+            ]
           },
           "top_words": [
             {
@@ -4760,10 +6498,64 @@
             "Keep fast thy hold, for by such stairs as these,"
           ],
           "sentiment": {
-            "compound": 0.9591,
-            "positive": 0.081,
-            "negative": 0.068,
-            "neutral": 0.851
+            "compound": 0.0599,
+            "positive": 0.0588,
+            "negative": 0.0531,
+            "neutral": 0.8882,
+            "trajectory": [
+              {
+                "position": 0.0395,
+                "sentiment": 0.183
+              },
+              {
+                "position": 0.1184,
+                "sentiment": -0.0158
+              },
+              {
+                "position": 0.1974,
+                "sentiment": 0.1313
+              },
+              {
+                "position": 0.2763,
+                "sentiment": 0.4388
+              },
+              {
+                "position": 0.3553,
+                "sentiment": 0.183
+              },
+              {
+                "position": 0.4342,
+                "sentiment": 0.3363
+              },
+              {
+                "position": 0.5132,
+                "sentiment": 0.3304
+              },
+              {
+                "position": 0.5921,
+                "sentiment": -0.222
+              },
+              {
+                "position": 0.6711,
+                "sentiment": 0.0606
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.3726
+              },
+              {
+                "position": 0.8289,
+                "sentiment": 0.0294
+              },
+              {
+                "position": 0.9079,
+                "sentiment": 0.1952
+              },
+              {
+                "position": 0.9737,
+                "sentiment": -0.4353
+              }
+            ]
           },
           "top_words": [
             {
@@ -4845,13 +6637,13 @@
             "Virgil"
           ],
           "souls_mentioned": [
-            "Adam",
-            "Virgil",
-            "Beatrice",
             "Charon",
+            "God",
             "Peter",
             "Dante",
-            "God"
+            "Virgil",
+            "Adam",
+            "Beatrice"
           ]
         },
         {
@@ -4874,17 +6666,17 @@
             "Aristotle"
           ],
           "souls_mentioned": [
-            "Socrates",
-            "David",
-            "Horace",
-            "Plato",
             "Ovid",
-            "Homer",
             "Caesar",
+            "Horace",
+            "Socrates",
+            "God",
+            "David",
+            "Plato",
+            "Homer",
             "Dante",
             "Moses",
-            "Lucan",
-            "God"
+            "Lucan"
           ]
         },
         {
@@ -4905,12 +6697,12 @@
             "Cleopatra"
           ],
           "souls_mentioned": [
-            "Minos",
-            "Cleopatra",
-            "Helen",
+            "Francesca",
             "Achilles",
+            "Helen",
             "Dante",
-            "Francesca"
+            "Cleopatra",
+            "Minos"
           ]
         },
         {
@@ -4930,14 +6722,14 @@
             "Cerberus"
           ],
           "souls_mentioned": [
-            "Satan",
-            "Ciacco",
-            "Cerberus",
-            "Phlegyas",
             "Farinata",
             "Plutus",
+            "Satan",
+            "God",
+            "Ciacco",
+            "Phlegyas",
             "Dante",
-            "God"
+            "Cerberus"
           ]
         },
         {
@@ -4973,8 +6765,8 @@
             "Phlegyas"
           ],
           "souls_mentioned": [
-            "Cerberus",
-            "Dante"
+            "Dante",
+            "Cerberus"
           ]
         },
         {
@@ -4994,19 +6786,19 @@
             "Cavalcante"
           ],
           "souls_mentioned": [
-            "Adam",
-            "Virgil",
-            "Cerberus",
-            "Minos",
-            "Lucifer",
-            "Ugolino",
-            "Farinata",
-            "Peter",
             "Caesar",
-            "Achilles",
-            "Dante",
+            "Farinata",
             "God",
-            "Minotaur"
+            "Minotaur",
+            "Lucifer",
+            "Achilles",
+            "Peter",
+            "Ugolino",
+            "Dante",
+            "Virgil",
+            "Adam",
+            "Minos",
+            "Cerberus"
           ]
         },
         {
@@ -5027,20 +6819,20 @@
             "Brunetto Latini"
           ],
           "souls_mentioned": [
-            "Cato",
-            "Dante",
-            "Lucan",
-            "Minos",
-            "Lucifer",
-            "Geryon",
             "Ovid",
-            "Ulysses",
-            "Peter",
+            "Geryon",
             "Caesar",
-            "Achilles",
-            "Francis",
+            "Cato",
             "God",
-            "Brunetto Latini"
+            "Brunetto Latini",
+            "Peter",
+            "Achilles",
+            "Lucifer",
+            "Francis",
+            "Dante",
+            "Ulysses",
+            "Minos",
+            "Lucan"
           ]
         },
         {
@@ -5060,12 +6852,12 @@
             "Ulysses"
           ],
           "souls_mentioned": [
-            "Virgil",
-            "David",
-            "Minos",
+            "God",
             "Peter",
+            "David",
             "Dante",
-            "God"
+            "Virgil",
+            "Minos"
           ]
         },
         {
@@ -5094,7 +6886,7 @@
       "canto_count": 33,
       "total_words": 29626,
       "total_lines": 2782,
-      "avg_sentiment": 0.8793,
+      "avg_sentiment": 0.2483,
       "vocabulary_richness": 0.1708,
       "top_words": [
         {
@@ -5319,10 +7111,56 @@
             "twere not fitting that the eye o"
           ],
           "sentiment": {
-            "compound": 0.995,
-            "positive": 0.126,
-            "negative": 0.077,
-            "neutral": 0.797
+            "compound": 0.3098,
+            "positive": 0.1113,
+            "negative": 0.0616,
+            "neutral": 0.8271,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": 0.4916
+              },
+              {
+                "position": 0.1452,
+                "sentiment": -0.2024
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.362
+              },
+              {
+                "position": 0.3387,
+                "sentiment": 0.1225
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.5323,
+                "sentiment": 0.2671
+              },
+              {
+                "position": 0.629,
+                "sentiment": 0.5424
+              },
+              {
+                "position": 0.7258,
+                "sentiment": 0.6316
+              },
+              {
+                "position": 0.8226,
+                "sentiment": 0.505
+              },
+              {
+                "position": 0.9194,
+                "sentiment": -0.1899
+              },
+              {
+                "position": 0.9839,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -5469,10 +7307,60 @@
             "Love, that within my mind discourses with me,"
           ],
           "sentiment": {
-            "compound": 0.9988,
-            "positive": 0.119,
-            "negative": 0.038,
-            "neutral": 0.843
+            "compound": 0.3676,
+            "positive": 0.0904,
+            "negative": 0.0343,
+            "neutral": 0.8752,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.0299
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.1494
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.4785
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.341
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.1527
+              },
+              {
+                "position": 0.4583,
+                "sentiment": -0.2481
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.6161
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.4431
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.3513
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.7552
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.2107
+              },
+              {
+                "position": 0.9583,
+                "sentiment": -0.2195
+              }
+            ]
           },
           "top_words": [
             {
@@ -5638,10 +7526,72 @@
             "So that who goeth without wings may mount?"
           ],
           "sentiment": {
-            "compound": 0.9967,
-            "positive": 0.109,
-            "negative": 0.052,
-            "neutral": 0.839
+            "compound": 0.3288,
+            "positive": 0.1086,
+            "negative": 0.0567,
+            "neutral": 0.8348,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.2294
+              },
+              {
+                "position": 0.1034,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.1724,
+                "sentiment": -0.1038
+              },
+              {
+                "position": 0.2414,
+                "sentiment": 0.6849
+              },
+              {
+                "position": 0.3103,
+                "sentiment": -0.5081
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.457
+              },
+              {
+                "position": 0.4483,
+                "sentiment": 0.6186
+              },
+              {
+                "position": 0.5172,
+                "sentiment": 0.6312
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.8244
+              },
+              {
+                "position": 0.6552,
+                "sentiment": -0.1938
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.7867
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.4966
+              },
+              {
+                "position": 0.8621,
+                "sentiment": -0.1578
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.576
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.3291
+              }
+            ]
           },
           "top_words": [
             {
@@ -5769,10 +7719,52 @@
             "O son,” he said, “up yonder drag thyself,"
           ],
           "sentiment": {
-            "compound": 0.9917,
-            "positive": 0.09,
-            "negative": 0.059,
-            "neutral": 0.852
+            "compound": 0.3211,
+            "positive": 0.0717,
+            "negative": 0.0485,
+            "neutral": 0.8797,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": -0.1036
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.8375
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.4622
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.006
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.3225
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.4564
+              },
+              {
+                "position": 0.65,
+                "sentiment": 0.3368
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.85,
+                "sentiment": -0.3592
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.8359
+              }
+            ]
           },
           "top_words": [
             {
@@ -5909,10 +7901,60 @@
             "Of your condition make us cognisant."
           ],
           "sentiment": {
-            "compound": 0.9952,
-            "positive": 0.113,
-            "negative": 0.07,
-            "neutral": 0.817
+            "compound": 0.1739,
+            "positive": 0.0889,
+            "negative": 0.0523,
+            "neutral": 0.8589,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.1225
+              },
+              {
+                "position": 0.2083,
+                "sentiment": -0.0609
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.3309
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.682
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.2054
+              },
+              {
+                "position": 0.5417,
+                "sentiment": -0.5694
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.5096
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.1026
+              },
+              {
+                "position": 0.7917,
+                "sentiment": -0.3903
+              },
+              {
+                "position": 0.875,
+                "sentiment": -0.1931
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.3158
+              }
+            ]
           },
           "top_words": [
             {
@@ -6075,10 +8117,60 @@
             "My Caesar, why hast thou forsaken me?"
           ],
           "sentiment": {
-            "compound": 0.9871,
-            "positive": 0.124,
-            "negative": 0.102,
-            "neutral": 0.774
+            "compound": 0.1454,
+            "positive": 0.1118,
+            "negative": 0.0921,
+            "neutral": 0.7963,
+            "trajectory": [
+              {
+                "position": 0.0444,
+                "sentiment": 0.0901
+              },
+              {
+                "position": 0.1333,
+                "sentiment": 0.3051
+              },
+              {
+                "position": 0.2222,
+                "sentiment": 0.6234
+              },
+              {
+                "position": 0.3111,
+                "sentiment": -0.2654
+              },
+              {
+                "position": 0.4,
+                "sentiment": -0.1291
+              },
+              {
+                "position": 0.4889,
+                "sentiment": -0.2868
+              },
+              {
+                "position": 0.5778,
+                "sentiment": -0.2626
+              },
+              {
+                "position": 0.6667,
+                "sentiment": -0.3413
+              },
+              {
+                "position": 0.7556,
+                "sentiment": -0.0522
+              },
+              {
+                "position": 0.8444,
+                "sentiment": 0.1835
+              },
+              {
+                "position": 0.9333,
+                "sentiment": 0.5053
+              },
+              {
+                "position": 0.9889,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -6221,10 +8313,52 @@
             "Before the scanty sun now seeks his nest,"
           ],
           "sentiment": {
-            "compound": 0.9902,
-            "positive": 0.107,
-            "negative": 0.063,
-            "neutral": 0.83
+            "compound": 0.2607,
+            "positive": 0.0938,
+            "negative": 0.0541,
+            "neutral": 0.8521,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": 0.5617
+              },
+              {
+                "position": 0.15,
+                "sentiment": -0.3604
+              },
+              {
+                "position": 0.25,
+                "sentiment": -0.0529
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.5166
+              },
+              {
+                "position": 0.45,
+                "sentiment": 0.5981
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.5838
+              },
+              {
+                "position": 0.65,
+                "sentiment": -0.1107
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.122
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.2088
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.382
+              }
+            ]
           },
           "top_words": [
             {
@@ -6377,10 +8511,56 @@
             "Lo there our Adversary!"
           ],
           "sentiment": {
-            "compound": 0.9983,
-            "positive": 0.131,
-            "negative": 0.061,
-            "neutral": 0.808
+            "compound": 0.4154,
+            "positive": 0.115,
+            "negative": 0.054,
+            "neutral": 0.8309,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.4356
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.3876
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.4423
+              },
+              {
+                "position": 0.3182,
+                "sentiment": -0.0709
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.4178
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.4505
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.5392
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.1838
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.1721
+              },
+              {
+                "position": 0.8636,
+                "sentiment": 0.2198
+              },
+              {
+                "position": 0.9545,
+                "sentiment": 0.8218
+              }
+            ]
           },
           "top_words": [
             {
@@ -6530,10 +8710,52 @@
             "And may she speed your footsteps in all good,"
           ],
           "sentiment": {
-            "compound": 0.9932,
-            "positive": 0.074,
-            "negative": 0.036,
-            "neutral": 0.89
+            "compound": 0.1507,
+            "positive": 0.0658,
+            "negative": 0.0385,
+            "neutral": 0.8958,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": -0.3327
+              },
+              {
+                "position": 0.15,
+                "sentiment": -0.2077
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.5879
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.5713
+              },
+              {
+                "position": 0.45,
+                "sentiment": 0.4786
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.0826
+              },
+              {
+                "position": 0.65,
+                "sentiment": 0.258
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.4558
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.1962
+              }
+            ]
           },
           "top_words": [
             {
@@ -6672,10 +8894,56 @@
             "No,” the other, “Yes, they sing."
           ],
           "sentiment": {
-            "compound": 0.9916,
-            "positive": 0.113,
-            "negative": 0.081,
-            "neutral": 0.807
+            "compound": 0.0631,
+            "positive": 0.0926,
+            "negative": 0.0696,
+            "neutral": 0.8378,
+            "trajectory": [
+              {
+                "position": 0.0476,
+                "sentiment": 0.0285
+              },
+              {
+                "position": 0.1429,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.2381,
+                "sentiment": 0.2698
+              },
+              {
+                "position": 0.3333,
+                "sentiment": 0.6062
+              },
+              {
+                "position": 0.4286,
+                "sentiment": 0.3275
+              },
+              {
+                "position": 0.5238,
+                "sentiment": 0.6682
+              },
+              {
+                "position": 0.619,
+                "sentiment": -0.1884
+              },
+              {
+                "position": 0.7143,
+                "sentiment": -0.2341
+              },
+              {
+                "position": 0.8095,
+                "sentiment": -0.791
+              },
+              {
+                "position": 0.9048,
+                "sentiment": 0.8188
+              },
+              {
+                "position": 0.9762,
+                "sentiment": 0.6486
+              }
+            ]
           },
           "top_words": [
             {
@@ -6824,10 +9092,60 @@
             "pappo’ and the ‘dindi,"
           ],
           "sentiment": {
-            "compound": 0.9992,
-            "positive": 0.168,
-            "negative": 0.079,
-            "neutral": 0.753
+            "compound": 0.3575,
+            "positive": 0.1309,
+            "negative": 0.0617,
+            "neutral": 0.8074,
+            "trajectory": [
+              {
+                "position": 0.0441,
+                "sentiment": 0.3066
+              },
+              {
+                "position": 0.1324,
+                "sentiment": 0.6382
+              },
+              {
+                "position": 0.2206,
+                "sentiment": -0.1477
+              },
+              {
+                "position": 0.3088,
+                "sentiment": 0.6331
+              },
+              {
+                "position": 0.3971,
+                "sentiment": 0.6389
+              },
+              {
+                "position": 0.4853,
+                "sentiment": 0.7821
+              },
+              {
+                "position": 0.5735,
+                "sentiment": 0.0806
+              },
+              {
+                "position": 0.6618,
+                "sentiment": -0.0743
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.6571
+              },
+              {
+                "position": 0.8382,
+                "sentiment": 0.3636
+              },
+              {
+                "position": 0.9265,
+                "sentiment": -0.0378
+              },
+              {
+                "position": 0.9853,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -6941,10 +9259,60 @@
             "Beati pauperes spiritu,"
           ],
           "sentiment": {
-            "compound": -0.8487,
-            "positive": 0.1,
-            "negative": 0.105,
-            "neutral": 0.795
+            "compound": 0.0837,
+            "positive": 0.0802,
+            "negative": 0.0768,
+            "neutral": 0.843,
+            "trajectory": [
+              {
+                "position": 0.0441,
+                "sentiment": 0.6456
+              },
+              {
+                "position": 0.1324,
+                "sentiment": 0.2168
+              },
+              {
+                "position": 0.2206,
+                "sentiment": -0.521
+              },
+              {
+                "position": 0.3088,
+                "sentiment": -0.2344
+              },
+              {
+                "position": 0.3971,
+                "sentiment": -0.6133
+              },
+              {
+                "position": 0.4853,
+                "sentiment": 0.2035
+              },
+              {
+                "position": 0.5735,
+                "sentiment": -0.6792
+              },
+              {
+                "position": 0.6618,
+                "sentiment": 0.4231
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.415
+              },
+              {
+                "position": 0.8382,
+                "sentiment": 0.2634
+              },
+              {
+                "position": 0.9265,
+                "sentiment": 0.5123
+              },
+              {
+                "position": 0.9853,
+                "sentiment": 0.1918
+              }
+            ]
           },
           "top_words": [
             {
@@ -7112,10 +9480,72 @@
             "Michael, Peter, and all Saints!"
           ],
           "sentiment": {
-            "compound": 0.9823,
-            "positive": 0.122,
-            "negative": 0.101,
-            "neutral": 0.777
+            "compound": 0.0649,
+            "positive": 0.0933,
+            "negative": 0.0841,
+            "neutral": 0.8225,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.3097
+              },
+              {
+                "position": 0.1034,
+                "sentiment": -0.4138
+              },
+              {
+                "position": 0.1724,
+                "sentiment": -0.0138
+              },
+              {
+                "position": 0.2414,
+                "sentiment": 0.669
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.5713
+              },
+              {
+                "position": 0.3793,
+                "sentiment": -0.749
+              },
+              {
+                "position": 0.4483,
+                "sentiment": -0.577
+              },
+              {
+                "position": 0.5172,
+                "sentiment": -0.6069
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.4028
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.1826
+              },
+              {
+                "position": 0.7241,
+                "sentiment": -0.2024
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.4982
+              },
+              {
+                "position": 0.8621,
+                "sentiment": -0.1335
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.1909
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.3182
+              }
+            ]
           },
           "top_words": [
             {
@@ -7249,10 +9679,56 @@
             "I am Aglaurus, who became a stone!"
           ],
           "sentiment": {
-            "compound": 0.9887,
-            "positive": 0.132,
-            "negative": 0.104,
-            "neutral": 0.763
+            "compound": 0.1831,
+            "positive": 0.1108,
+            "negative": 0.0821,
+            "neutral": 0.8071,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.6223
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.4147
+              },
+              {
+                "position": 0.2273,
+                "sentiment": -0.2796
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.2443
+              },
+              {
+                "position": 0.4091,
+                "sentiment": -0.28
+              },
+              {
+                "position": 0.5,
+                "sentiment": -0.4981
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.371
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.7506
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.3984
+              },
+              {
+                "position": 0.8636,
+                "sentiment": -0.3884
+              },
+              {
+                "position": 0.9545,
+                "sentiment": -0.0874
+              }
+            ]
           },
           "top_words": [
             {
@@ -7393,10 +9869,60 @@
             "Rejoice, thou that o’ercomest!"
           ],
           "sentiment": {
-            "compound": 0.9988,
-            "positive": 0.132,
-            "negative": 0.048,
-            "neutral": 0.82
+            "compound": 0.5959,
+            "positive": 0.1182,
+            "negative": 0.0405,
+            "neutral": 0.8414,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.7651
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.3401
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.298
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.936
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.7074
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.1225
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.6501
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.6233
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.583
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.8261
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.2667
+              },
+              {
+                "position": 0.9583,
+                "sentiment": -0.1735
+              }
+            ]
           },
           "top_words": [
             {
@@ -7532,10 +10058,72 @@
             "Thee will I follow far as is allowed me,"
           ],
           "sentiment": {
-            "compound": 0.9958,
-            "positive": 0.148,
-            "negative": 0.107,
-            "neutral": 0.745
+            "compound": 0.1653,
+            "positive": 0.1235,
+            "negative": 0.0935,
+            "neutral": 0.783,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": -0.8141
+              },
+              {
+                "position": 0.1034,
+                "sentiment": -0.3013
+              },
+              {
+                "position": 0.1724,
+                "sentiment": 0.7652
+              },
+              {
+                "position": 0.2414,
+                "sentiment": -0.1307
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.632
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.6916
+              },
+              {
+                "position": 0.4483,
+                "sentiment": -0.3885
+              },
+              {
+                "position": 0.5172,
+                "sentiment": -0.1096
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.2625
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.8467
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.3653
+              },
+              {
+                "position": 0.7931,
+                "sentiment": -0.4657
+              },
+              {
+                "position": 0.8621,
+                "sentiment": -0.1934
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.195
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.8402
+              }
+            ]
           },
           "top_words": [
             {
@@ -7678,10 +10266,72 @@
             "O manhood mine, why dost thou vanish so?"
           ],
           "sentiment": {
-            "compound": 0.9976,
-            "positive": 0.153,
-            "negative": 0.095,
-            "neutral": 0.751
+            "compound": 0.0983,
+            "positive": 0.1175,
+            "negative": 0.0885,
+            "neutral": 0.794,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.1359
+              },
+              {
+                "position": 0.1034,
+                "sentiment": -0.5154
+              },
+              {
+                "position": 0.1724,
+                "sentiment": -0.4286
+              },
+              {
+                "position": 0.2414,
+                "sentiment": -0.0119
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.0711
+              },
+              {
+                "position": 0.3793,
+                "sentiment": -0.4272
+              },
+              {
+                "position": 0.4483,
+                "sentiment": -0.0518
+              },
+              {
+                "position": 0.5172,
+                "sentiment": 0.8037
+              },
+              {
+                "position": 0.5862,
+                "sentiment": -0.3847
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.7626
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.7223
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.5494
+              },
+              {
+                "position": 0.8621,
+                "sentiment": 0.4222
+              },
+              {
+                "position": 0.931,
+                "sentiment": -0.7989
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -7832,10 +10482,56 @@
             "For ardour in well-doing freshens grace!"
           ],
           "sentiment": {
-            "compound": 0.9991,
-            "positive": 0.162,
-            "negative": 0.074,
-            "neutral": 0.764
+            "compound": 0.3089,
+            "positive": 0.1365,
+            "negative": 0.0642,
+            "neutral": 0.7994,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.0714
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.5585
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.941
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.8127
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.6433
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.7035
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.8269
+              },
+              {
+                "position": 0.6818,
+                "sentiment": -0.3398
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.5755
+              },
+              {
+                "position": 0.8636,
+                "sentiment": -0.851
+              },
+              {
+                "position": 0.9545,
+                "sentiment": -0.2919
+              }
+            ]
           },
           "top_words": [
             {
@@ -7976,10 +10672,56 @@
             "What aileth thee, that aye to earth thou gazest?"
           ],
           "sentiment": {
-            "compound": 0.9949,
-            "positive": 0.101,
-            "negative": 0.057,
-            "neutral": 0.842
+            "compound": 0.3346,
+            "positive": 0.096,
+            "negative": 0.0564,
+            "neutral": 0.8476,
+            "trajectory": [
+              {
+                "position": 0.0469,
+                "sentiment": 0.2177
+              },
+              {
+                "position": 0.1406,
+                "sentiment": -0.2091
+              },
+              {
+                "position": 0.2344,
+                "sentiment": 0.4057
+              },
+              {
+                "position": 0.3281,
+                "sentiment": 0.5923
+              },
+              {
+                "position": 0.4219,
+                "sentiment": 0.2616
+              },
+              {
+                "position": 0.5156,
+                "sentiment": 0.6326
+              },
+              {
+                "position": 0.6094,
+                "sentiment": 0.4316
+              },
+              {
+                "position": 0.7031,
+                "sentiment": 0.296
+              },
+              {
+                "position": 0.7969,
+                "sentiment": -0.0542
+              },
+              {
+                "position": 0.8906,
+                "sentiment": 0.6203
+              },
+              {
+                "position": 0.9688,
+                "sentiment": -0.1262
+              }
+            ]
           },
           "top_words": [
             {
@@ -8133,10 +10875,64 @@
             "Gloria in excelsis Deo,"
           ],
           "sentiment": {
-            "compound": -0.9715,
-            "positive": 0.095,
-            "negative": 0.113,
-            "neutral": 0.793
+            "compound": -0.0464,
+            "positive": 0.0917,
+            "negative": 0.095,
+            "neutral": 0.8133,
+            "trajectory": [
+              {
+                "position": 0.0405,
+                "sentiment": 0.3359
+              },
+              {
+                "position": 0.1216,
+                "sentiment": 0.3053
+              },
+              {
+                "position": 0.2027,
+                "sentiment": -0.3664
+              },
+              {
+                "position": 0.2838,
+                "sentiment": 0.3593
+              },
+              {
+                "position": 0.3649,
+                "sentiment": 0.045
+              },
+              {
+                "position": 0.4459,
+                "sentiment": 0.432
+              },
+              {
+                "position": 0.527,
+                "sentiment": -0.5405
+              },
+              {
+                "position": 0.6081,
+                "sentiment": -0.4389
+              },
+              {
+                "position": 0.6892,
+                "sentiment": -0.084
+              },
+              {
+                "position": 0.7703,
+                "sentiment": 0.1195
+              },
+              {
+                "position": 0.8514,
+                "sentiment": -0.4666
+              },
+              {
+                "position": 0.9324,
+                "sentiment": -0.462
+              },
+              {
+                "position": 0.9865,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -8295,10 +11091,60 @@
             "In the blessed council, All seemed to cry, as far as its moist feet?"
           ],
           "sentiment": {
-            "compound": 0.9989,
-            "positive": 0.154,
-            "negative": 0.057,
-            "neutral": 0.789
+            "compound": 0.3761,
+            "positive": 0.1219,
+            "negative": 0.0473,
+            "neutral": 0.8308,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.5918
+              },
+              {
+                "position": 0.125,
+                "sentiment": -0.1653
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.6984
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.3658
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.2698
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.8771
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.7376
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.0056
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.8814
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.2272
+              },
+              {
+                "position": 0.875,
+                "sentiment": -0.3122
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.3705
+              }
+            ]
           },
           "top_words": [
             {
@@ -8459,10 +11305,60 @@
             "Of this food ye shall have scarcity."
           ],
           "sentiment": {
-            "compound": 0.9931,
-            "positive": 0.117,
-            "negative": 0.083,
-            "neutral": 0.799
+            "compound": 0.2461,
+            "positive": 0.1024,
+            "negative": 0.0669,
+            "neutral": 0.8308,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.7253
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.9125
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.6265
+              },
+              {
+                "position": 0.2917,
+                "sentiment": -0.5388
+              },
+              {
+                "position": 0.375,
+                "sentiment": -0.7763
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.0029
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.2209
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.6544
+              },
+              {
+                "position": 0.7083,
+                "sentiment": -0.3198
+              },
+              {
+                "position": 0.7917,
+                "sentiment": -0.2355
+              },
+              {
+                "position": 0.875,
+                "sentiment": -0.1457
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.334
+              }
+            ]
           },
           "top_words": [
             {
@@ -8617,10 +11513,72 @@
             "Behold, “Ah, do not look at this dry leprosy,"
           ],
           "sentiment": {
-            "compound": 0.9826,
-            "positive": 0.1,
-            "negative": 0.075,
-            "neutral": 0.825
+            "compound": 0.0725,
+            "positive": 0.088,
+            "negative": 0.0639,
+            "neutral": 0.8483,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.415
+              },
+              {
+                "position": 0.1034,
+                "sentiment": 0.5526
+              },
+              {
+                "position": 0.1724,
+                "sentiment": 0.5934
+              },
+              {
+                "position": 0.2414,
+                "sentiment": 0.0222
+              },
+              {
+                "position": 0.3103,
+                "sentiment": -0.3185
+              },
+              {
+                "position": 0.3793,
+                "sentiment": -0.7275
+              },
+              {
+                "position": 0.4483,
+                "sentiment": -0.5036
+              },
+              {
+                "position": 0.5172,
+                "sentiment": -0.1618
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.8504
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.4477
+              },
+              {
+                "position": 0.7241,
+                "sentiment": -0.0298
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.6554
+              },
+              {
+                "position": 0.8621,
+                "sentiment": -0.7197
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.085
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -8758,10 +11716,64 @@
             "O brother, now I see,"
           ],
           "sentiment": {
-            "compound": 0.9986,
-            "positive": 0.13,
-            "negative": 0.063,
-            "neutral": 0.806
+            "compound": 0.3486,
+            "positive": 0.1054,
+            "negative": 0.05,
+            "neutral": 0.8446,
+            "trajectory": [
+              {
+                "position": 0.0385,
+                "sentiment": -0.0094
+              },
+              {
+                "position": 0.1154,
+                "sentiment": 0.2267
+              },
+              {
+                "position": 0.1923,
+                "sentiment": 0.4383
+              },
+              {
+                "position": 0.2692,
+                "sentiment": 0.7084
+              },
+              {
+                "position": 0.3462,
+                "sentiment": 0.7422
+              },
+              {
+                "position": 0.4231,
+                "sentiment": 0.4731
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.9183
+              },
+              {
+                "position": 0.5769,
+                "sentiment": -0.7815
+              },
+              {
+                "position": 0.6538,
+                "sentiment": 0.2672
+              },
+              {
+                "position": 0.7308,
+                "sentiment": 0.2778
+              },
+              {
+                "position": 0.8077,
+                "sentiment": 0.6917
+              },
+              {
+                "position": 0.8846,
+                "sentiment": 0.1501
+              },
+              {
+                "position": 0.9615,
+                "sentiment": 0.5786
+              }
+            ]
           },
           "top_words": [
             {
@@ -8893,10 +11905,56 @@
             "Summae Deus clementiae,"
           ],
           "sentiment": {
-            "compound": 0.9993,
-            "positive": 0.16,
-            "negative": 0.038,
-            "neutral": 0.802
+            "compound": 0.4658,
+            "positive": 0.131,
+            "negative": 0.0346,
+            "neutral": 0.8343,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": -0.1295
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.6761
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.9082
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.9567
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.2949
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.5878
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.545
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.6939
+              },
+              {
+                "position": 0.7727,
+                "sentiment": -0.2718
+              },
+              {
+                "position": 0.8636,
+                "sentiment": -0.1732
+              },
+              {
+                "position": 0.9545,
+                "sentiment": 0.5796
+              }
+            ]
           },
           "top_words": [
             {
@@ -9033,10 +12091,56 @@
             "Blessed be thou, who of our border-lands,"
           ],
           "sentiment": {
-            "compound": 0.9987,
-            "positive": 0.121,
-            "negative": 0.049,
-            "neutral": 0.83
+            "compound": 0.3781,
+            "positive": 0.1018,
+            "negative": 0.0413,
+            "neutral": 0.857,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.1274
+              },
+              {
+                "position": 0.1364,
+                "sentiment": -0.133
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.4295
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.3779
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.0309
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.3829
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.2832
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.7044
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.6019
+              },
+              {
+                "position": 0.8636,
+                "sentiment": 0.806
+              },
+              {
+                "position": 0.9545,
+                "sentiment": 0.2908
+              }
+            ]
           },
           "top_words": [
             {
@@ -9191,10 +12295,64 @@
             "Venite, benedicti Patris mei,"
           ],
           "sentiment": {
-            "compound": 0.9987,
-            "positive": 0.125,
-            "negative": 0.056,
-            "neutral": 0.819
+            "compound": 0.2404,
+            "positive": 0.0988,
+            "negative": 0.0539,
+            "neutral": 0.8473,
+            "trajectory": [
+              {
+                "position": 0.0405,
+                "sentiment": 0.1916
+              },
+              {
+                "position": 0.1216,
+                "sentiment": -0.0657
+              },
+              {
+                "position": 0.2027,
+                "sentiment": -0.0795
+              },
+              {
+                "position": 0.2838,
+                "sentiment": 0.1215
+              },
+              {
+                "position": 0.3649,
+                "sentiment": 0.2443
+              },
+              {
+                "position": 0.4459,
+                "sentiment": -0.3032
+              },
+              {
+                "position": 0.527,
+                "sentiment": -0.0075
+              },
+              {
+                "position": 0.6081,
+                "sentiment": 0.1241
+              },
+              {
+                "position": 0.6892,
+                "sentiment": 0.3022
+              },
+              {
+                "position": 0.7703,
+                "sentiment": 0.6429
+              },
+              {
+                "position": 0.8514,
+                "sentiment": 0.6464
+              },
+              {
+                "position": 0.9324,
+                "sentiment": 0.4338
+              },
+              {
+                "position": 0.9865,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -9327,10 +12485,68 @@
             "Ye are new-comers; and because I smile,"
           ],
           "sentiment": {
-            "compound": 0.9988,
-            "positive": 0.137,
-            "negative": 0.056,
-            "neutral": 0.808
+            "compound": 0.2437,
+            "positive": 0.1114,
+            "negative": 0.0466,
+            "neutral": 0.8419,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": 0.3495
+              },
+              {
+                "position": 0.1071,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.1786,
+                "sentiment": -0.0644
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.0593
+              },
+              {
+                "position": 0.3214,
+                "sentiment": 0.4574
+              },
+              {
+                "position": 0.3929,
+                "sentiment": 0.8592
+              },
+              {
+                "position": 0.4643,
+                "sentiment": -0.5805
+              },
+              {
+                "position": 0.5357,
+                "sentiment": 0.184
+              },
+              {
+                "position": 0.6071,
+                "sentiment": 0.826
+              },
+              {
+                "position": 0.6786,
+                "sentiment": -0.3377
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.6705
+              },
+              {
+                "position": 0.8214,
+                "sentiment": 0.5076
+              },
+              {
+                "position": 0.8929,
+                "sentiment": 0.4341
+              },
+              {
+                "position": 0.9643,
+                "sentiment": 0.195
+              }
+            ]
           },
           "top_words": [
             {
@@ -9457,10 +12673,60 @@
             "Brother, look and listen!"
           ],
           "sentiment": {
-            "compound": 0.9981,
-            "positive": 0.113,
-            "negative": 0.054,
-            "neutral": 0.833
+            "compound": 0.3294,
+            "positive": 0.0906,
+            "negative": 0.0465,
+            "neutral": 0.8629,
+            "trajectory": [
+              {
+                "position": 0.0429,
+                "sentiment": 0.7785
+              },
+              {
+                "position": 0.1286,
+                "sentiment": 0.535
+              },
+              {
+                "position": 0.2143,
+                "sentiment": 0.328
+              },
+              {
+                "position": 0.3,
+                "sentiment": 0.2224
+              },
+              {
+                "position": 0.3857,
+                "sentiment": 0.2981
+              },
+              {
+                "position": 0.4714,
+                "sentiment": 0.5428
+              },
+              {
+                "position": 0.5571,
+                "sentiment": 0.4642
+              },
+              {
+                "position": 0.6429,
+                "sentiment": -0.1871
+              },
+              {
+                "position": 0.7286,
+                "sentiment": -0.5324
+              },
+              {
+                "position": 0.8143,
+                "sentiment": 0.3774
+              },
+              {
+                "position": 0.9,
+                "sentiment": 0.6465
+              },
+              {
+                "position": 0.9714,
+                "sentiment": -0.2381
+              }
+            ]
           },
           "top_words": [
             {
@@ -9614,10 +12880,56 @@
             "Veni, sponsa, de Libano"
           ],
           "sentiment": {
-            "compound": 0.9976,
-            "positive": 0.134,
-            "negative": 0.067,
-            "neutral": 0.799
+            "compound": 0.4232,
+            "positive": 0.1194,
+            "negative": 0.0587,
+            "neutral": 0.822,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.7921
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.092
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.7241
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.7774
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.6674
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.5451
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.2423
+              },
+              {
+                "position": 0.6818,
+                "sentiment": -0.3181
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.186
+              },
+              {
+                "position": 0.8636,
+                "sentiment": 0.7741
+              },
+              {
+                "position": 0.9545,
+                "sentiment": -0.658
+              }
+            ]
           },
           "top_words": [
             {
@@ -9762,10 +13074,56 @@
             "See that thou dost not spare thine eyes,"
           ],
           "sentiment": {
-            "compound": 0.997,
-            "positive": 0.13,
-            "negative": 0.084,
-            "neutral": 0.785
+            "compound": 0.1256,
+            "positive": 0.1065,
+            "negative": 0.0726,
+            "neutral": 0.8209,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.5003
+              },
+              {
+                "position": 0.1364,
+                "sentiment": -0.6008
+              },
+              {
+                "position": 0.2273,
+                "sentiment": -0.6136
+              },
+              {
+                "position": 0.3182,
+                "sentiment": -0.3687
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.2822
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.5546
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.5694
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.3309
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.1917
+              },
+              {
+                "position": 0.8636,
+                "sentiment": 0.4919
+              },
+              {
+                "position": 0.9545,
+                "sentiment": 0.6502
+              }
+            ]
           },
           "top_words": [
             {
@@ -9910,10 +13268,52 @@
             "My little bark, how badly art thou freighted!"
           ],
           "sentiment": {
-            "compound": 0.9923,
-            "positive": 0.093,
-            "negative": 0.063,
-            "neutral": 0.844
+            "compound": 0.128,
+            "positive": 0.0728,
+            "negative": 0.0503,
+            "neutral": 0.8769,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": 0.5455
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.6679
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.3891
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.1148
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.4509
+              },
+              {
+                "position": 0.65,
+                "sentiment": -0.3142
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.4744
+              },
+              {
+                "position": 0.85,
+                "sentiment": -0.3984
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.0399
+              }
+            ]
           },
           "top_words": [
             {
@@ -10082,10 +13482,52 @@
             "That thou mayst recognize,"
           ],
           "sentiment": {
-            "compound": 0.9883,
-            "positive": 0.106,
-            "negative": 0.08,
-            "neutral": 0.813
+            "compound": 0.1337,
+            "positive": 0.0953,
+            "negative": 0.0664,
+            "neutral": 0.8385,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": -0.656
+              },
+              {
+                "position": 0.15,
+                "sentiment": -0.1983
+              },
+              {
+                "position": 0.25,
+                "sentiment": -0.1964
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.8066
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.8003
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.0224
+              },
+              {
+                "position": 0.65,
+                "sentiment": 0.8087
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.1049
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.8577
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.7132
+              }
+            ]
           },
           "top_words": [
             {
@@ -10171,18 +13613,18 @@
             "Sordello"
           ],
           "souls_mentioned": [
-            "Virgil",
-            "Beatrice",
-            "Casella",
-            "Mary",
-            "Minos",
-            "Aristotle",
-            "Plato",
-            "Sordello",
-            "Justinian",
             "Caesar",
+            "Mary",
+            "God",
+            "Plato",
+            "Casella",
+            "Justinian",
             "Dante",
-            "God"
+            "Aristotle",
+            "Virgil",
+            "Minos",
+            "Beatrice",
+            "Sordello"
           ]
         },
         {
@@ -10197,20 +13639,20 @@
           "virtue": "Humility",
           "notable_characters": [],
           "souls_mentioned": [
-            "Adam",
-            "Virgil",
-            "Beatrice",
-            "Matilda",
             "Statius",
             "Mary",
-            "Sordello",
+            "God",
             "Christ",
             "Peter",
-            "Thomas Aquinas",
             "Achilles",
             "Dante",
             "Moses",
-            "God"
+            "Virgil",
+            "Adam",
+            "Matilda",
+            "Thomas Aquinas",
+            "Beatrice",
+            "Sordello"
           ]
         },
         {
@@ -10225,11 +13667,11 @@
           "virtue": "Generosity",
           "notable_characters": [],
           "souls_mentioned": [
-            "Virgil",
-            "Beatrice",
             "Statius",
+            "God",
             "Dante",
-            "God"
+            "Virgil",
+            "Beatrice"
           ]
         },
         {
@@ -10244,15 +13686,15 @@
           "virtue": "Meekness",
           "notable_characters": [],
           "souls_mentioned": [
-            "Virgil",
-            "Beatrice",
+            "Caesar",
+            "Geryon",
             "Statius",
             "Mary",
+            "God",
             "Christ",
-            "Geryon",
-            "Caesar",
             "Dante",
-            "God"
+            "Virgil",
+            "Beatrice"
           ]
         },
         {
@@ -10267,11 +13709,11 @@
           "virtue": "Zeal",
           "notable_characters": [],
           "souls_mentioned": [
-            "Adam",
-            "Virgil",
-            "Ulysses",
+            "God",
             "Dante",
-            "God"
+            "Ulysses",
+            "Virgil",
+            "Adam"
           ]
         },
         {
@@ -10288,11 +13730,11 @@
             "Statius"
           ],
           "souls_mentioned": [
-            "Adam",
-            "Virgil",
-            "Ulysses",
+            "God",
             "Dante",
-            "God"
+            "Ulysses",
+            "Virgil",
+            "Adam"
           ]
         },
         {
@@ -10345,7 +13787,7 @@
       "canto_count": 33,
       "total_words": 30483,
       "total_lines": 2942,
-      "avg_sentiment": 0.9991,
+      "avg_sentiment": 0.5129,
       "vocabulary_richness": 0.1703,
       "top_words": [
         {
@@ -10571,10 +14013,72 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9992,
-            "positive": 0.154,
-            "negative": 0.042,
-            "neutral": 0.803
+            "compound": 0.5073,
+            "positive": 0.1417,
+            "negative": 0.0363,
+            "neutral": 0.822,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.3773
+              },
+              {
+                "position": 0.1034,
+                "sentiment": 0.8941
+              },
+              {
+                "position": 0.1724,
+                "sentiment": 0.5578
+              },
+              {
+                "position": 0.2414,
+                "sentiment": 0.788
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.8551
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.2873
+              },
+              {
+                "position": 0.4483,
+                "sentiment": 0.7288
+              },
+              {
+                "position": 0.5172,
+                "sentiment": 0.3441
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.6703
+              },
+              {
+                "position": 0.6552,
+                "sentiment": -0.4512
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.3494
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.8617
+              },
+              {
+                "position": 0.8621,
+                "sentiment": 0.7476
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.6875
+              },
+              {
+                "position": 0.9828,
+                "sentiment": -0.6597
+              }
+            ]
           },
           "top_words": [
             {
@@ -10718,10 +14222,60 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.999,
-            "positive": 0.127,
-            "negative": 0.024,
-            "neutral": 0.848
+            "compound": 0.485,
+            "positive": 0.1166,
+            "negative": 0.0248,
+            "neutral": 0.8586,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": -0.0178
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.7502
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.5809
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.5396
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.7257
+              },
+              {
+                "position": 0.4583,
+                "sentiment": -0.0631
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.7101
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.717
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.5221
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.7468
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.7139
+              }
+            ]
           },
           "top_words": [
             {
@@ -10859,10 +14413,56 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9997,
-            "positive": 0.215,
-            "negative": 0.046,
-            "neutral": 0.739
+            "compound": 0.7982,
+            "positive": 0.1899,
+            "negative": 0.036,
+            "neutral": 0.7741,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.8908
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.7917
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.4371
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.9318
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.9703
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.7418
+              },
+              {
+                "position": 0.5909,
+                "sentiment": 0.549
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.8793
+              },
+              {
+                "position": 0.7727,
+                "sentiment": 0.5986
+              },
+              {
+                "position": 0.8636,
+                "sentiment": 0.8548
+              },
+              {
+                "position": 0.9545,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -11016,10 +14616,64 @@
             "O love of the first lover, O divine,"
           ],
           "sentiment": {
-            "compound": 0.9983,
-            "positive": 0.168,
-            "negative": 0.106,
-            "neutral": 0.726
+            "compound": 0.1667,
+            "positive": 0.1344,
+            "negative": 0.0909,
+            "neutral": 0.7748,
+            "trajectory": [
+              {
+                "position": 0.0395,
+                "sentiment": -0.4384
+              },
+              {
+                "position": 0.1184,
+                "sentiment": 0.4662
+              },
+              {
+                "position": 0.1974,
+                "sentiment": -0.0033
+              },
+              {
+                "position": 0.2763,
+                "sentiment": 0.3149
+              },
+              {
+                "position": 0.3553,
+                "sentiment": 0.4824
+              },
+              {
+                "position": 0.4342,
+                "sentiment": 0.4699
+              },
+              {
+                "position": 0.5132,
+                "sentiment": 0.0929
+              },
+              {
+                "position": 0.5921,
+                "sentiment": 0.2891
+              },
+              {
+                "position": 0.6711,
+                "sentiment": -0.7214
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.3873
+              },
+              {
+                "position": 0.8289,
+                "sentiment": -0.6494
+              },
+              {
+                "position": 0.9079,
+                "sentiment": 0.8381
+              },
+              {
+                "position": 0.9737,
+                "sentiment": 0.6408
+              }
+            ]
           },
           "top_words": [
             {
@@ -11166,10 +14820,60 @@
             "Lo, this is she who shall increase our love."
           ],
           "sentiment": {
-            "compound": 0.998,
-            "positive": 0.16,
-            "negative": 0.079,
-            "neutral": 0.761
+            "compound": 0.4095,
+            "positive": 0.1477,
+            "negative": 0.0622,
+            "neutral": 0.79,
+            "trajectory": [
+              {
+                "position": 0.0435,
+                "sentiment": 0.9517
+              },
+              {
+                "position": 0.1304,
+                "sentiment": 0.7174
+              },
+              {
+                "position": 0.2174,
+                "sentiment": 0.5239
+              },
+              {
+                "position": 0.3043,
+                "sentiment": 0.425
+              },
+              {
+                "position": 0.3913,
+                "sentiment": 0.6623
+              },
+              {
+                "position": 0.4783,
+                "sentiment": -0.2014
+              },
+              {
+                "position": 0.5652,
+                "sentiment": 0.1132
+              },
+              {
+                "position": 0.6522,
+                "sentiment": -0.1239
+              },
+              {
+                "position": 0.7391,
+                "sentiment": 0.7736
+              },
+              {
+                "position": 0.8261,
+                "sentiment": -0.4592
+              },
+              {
+                "position": 0.913,
+                "sentiment": 0.8882
+              },
+              {
+                "position": 0.9783,
+                "sentiment": 0.743
+              }
+            ]
           },
           "top_words": [
             {
@@ -11321,10 +15025,56 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9989,
-            "positive": 0.17,
-            "negative": 0.094,
-            "neutral": 0.736
+            "compound": 0.335,
+            "positive": 0.1331,
+            "negative": 0.074,
+            "neutral": 0.7929,
+            "trajectory": [
+              {
+                "position": 0.0455,
+                "sentiment": 0.736
+              },
+              {
+                "position": 0.1364,
+                "sentiment": 0.1295
+              },
+              {
+                "position": 0.2273,
+                "sentiment": 0.8135
+              },
+              {
+                "position": 0.3182,
+                "sentiment": 0.257
+              },
+              {
+                "position": 0.4091,
+                "sentiment": 0.1352
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.2654
+              },
+              {
+                "position": 0.5909,
+                "sentiment": -0.7716
+              },
+              {
+                "position": 0.6818,
+                "sentiment": 0.6028
+              },
+              {
+                "position": 0.7727,
+                "sentiment": -0.5056
+              },
+              {
+                "position": 0.8636,
+                "sentiment": 0.7544
+              },
+              {
+                "position": 0.9545,
+                "sentiment": 0.1913
+              }
+            ]
           },
           "top_words": [
             {
@@ -11473,10 +15223,68 @@
             "tell her,” saying, “tell my Lady,"
           ],
           "sentiment": {
-            "compound": 0.9997,
-            "positive": 0.224,
-            "negative": 0.065,
-            "neutral": 0.711
+            "compound": 0.6012,
+            "positive": 0.1863,
+            "negative": 0.05,
+            "neutral": 0.7636,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": 0.3169
+              },
+              {
+                "position": 0.1071,
+                "sentiment": 0.7545
+              },
+              {
+                "position": 0.1786,
+                "sentiment": 0.875
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.7433
+              },
+              {
+                "position": 0.3214,
+                "sentiment": 0.1658
+              },
+              {
+                "position": 0.3929,
+                "sentiment": -0.0453
+              },
+              {
+                "position": 0.4643,
+                "sentiment": 0.9205
+              },
+              {
+                "position": 0.5357,
+                "sentiment": 0.609
+              },
+              {
+                "position": 0.6071,
+                "sentiment": 0.4542
+              },
+              {
+                "position": 0.6786,
+                "sentiment": 0.8152
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.73
+              },
+              {
+                "position": 0.8214,
+                "sentiment": 0.091
+              },
+              {
+                "position": 0.8929,
+                "sentiment": 0.7176
+              },
+              {
+                "position": 0.9643,
+                "sentiment": 0.9269
+              }
+            ]
           },
           "top_words": [
             {
@@ -11607,10 +15415,68 @@
             "Ye who, intelligent, the third heaven are moving;"
           ],
           "sentiment": {
-            "compound": 0.9988,
-            "positive": 0.153,
-            "negative": 0.08,
-            "neutral": 0.768
+            "compound": 0.2486,
+            "positive": 0.1168,
+            "negative": 0.0671,
+            "neutral": 0.8161,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": 0.5761
+              },
+              {
+                "position": 0.1071,
+                "sentiment": -0.2817
+              },
+              {
+                "position": 0.1786,
+                "sentiment": 0.8511
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.9595
+              },
+              {
+                "position": 0.3214,
+                "sentiment": 0.0319
+              },
+              {
+                "position": 0.3929,
+                "sentiment": -0.7735
+              },
+              {
+                "position": 0.4643,
+                "sentiment": 0.3766
+              },
+              {
+                "position": 0.5357,
+                "sentiment": -0.4208
+              },
+              {
+                "position": 0.6071,
+                "sentiment": 0.6082
+              },
+              {
+                "position": 0.6786,
+                "sentiment": 0.574
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.3423
+              },
+              {
+                "position": 0.8214,
+                "sentiment": -0.7544
+              },
+              {
+                "position": 0.8929,
+                "sentiment": 0.5607
+              },
+              {
+                "position": 0.9643,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -11748,10 +15614,72 @@
             "Be still and let the years roll round;"
           ],
           "sentiment": {
-            "compound": 0.9994,
-            "positive": 0.19,
-            "negative": 0.051,
-            "neutral": 0.758
+            "compound": 0.5333,
+            "positive": 0.1525,
+            "negative": 0.04,
+            "neutral": 0.8072,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.6281
+              },
+              {
+                "position": 0.1034,
+                "sentiment": -0.1374
+              },
+              {
+                "position": 0.1724,
+                "sentiment": 0.7651
+              },
+              {
+                "position": 0.2414,
+                "sentiment": 0.8768
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.8076
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.3726
+              },
+              {
+                "position": 0.4483,
+                "sentiment": 0.5863
+              },
+              {
+                "position": 0.5172,
+                "sentiment": -0.5926
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.6436
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.8281
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.5897
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.8621,
+                "sentiment": 0.6834
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.5269
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.7906
+              }
+            ]
           },
           "top_words": [
             {
@@ -11886,10 +15814,64 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9998,
-            "positive": 0.193,
-            "negative": 0.037,
-            "neutral": 0.77
+            "compound": 0.4452,
+            "positive": 0.1542,
+            "negative": 0.0335,
+            "neutral": 0.8123,
+            "trajectory": [
+              {
+                "position": 0.0395,
+                "sentiment": -0.1491
+              },
+              {
+                "position": 0.1184,
+                "sentiment": 0.5735
+              },
+              {
+                "position": 0.1974,
+                "sentiment": -0.1532
+              },
+              {
+                "position": 0.2763,
+                "sentiment": 0.5613
+              },
+              {
+                "position": 0.3553,
+                "sentiment": 0.9476
+              },
+              {
+                "position": 0.4342,
+                "sentiment": 0.5562
+              },
+              {
+                "position": 0.5132,
+                "sentiment": 0.3336
+              },
+              {
+                "position": 0.5921,
+                "sentiment": 0.1721
+              },
+              {
+                "position": 0.6711,
+                "sentiment": 0.221
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.4082
+              },
+              {
+                "position": 0.8289,
+                "sentiment": 0.3012
+              },
+              {
+                "position": 0.9079,
+                "sentiment": 0.6996
+              },
+              {
+                "position": 0.9737,
+                "sentiment": 0.7599
+              }
+            ]
           },
           "top_words": [
             {
@@ -12050,10 +16032,68 @@
             "Where well one fattens, if he strayeth not."
           ],
           "sentiment": {
-            "compound": 0.9992,
-            "positive": 0.158,
-            "negative": 0.045,
-            "neutral": 0.796
+            "compound": 0.4751,
+            "positive": 0.1315,
+            "negative": 0.0364,
+            "neutral": 0.8321,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": 0.692
+              },
+              {
+                "position": 0.1071,
+                "sentiment": 0.8202
+              },
+              {
+                "position": 0.1786,
+                "sentiment": 0.4875
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.2391
+              },
+              {
+                "position": 0.3214,
+                "sentiment": 0.5581
+              },
+              {
+                "position": 0.3929,
+                "sentiment": 0.6282
+              },
+              {
+                "position": 0.4643,
+                "sentiment": 0.7555
+              },
+              {
+                "position": 0.5357,
+                "sentiment": 0.074
+              },
+              {
+                "position": 0.6071,
+                "sentiment": 0.4792
+              },
+              {
+                "position": 0.6786,
+                "sentiment": 0.9117
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.3049
+              },
+              {
+                "position": 0.8214,
+                "sentiment": 0.2392
+              },
+              {
+                "position": 0.8929,
+                "sentiment": 0.7759
+              },
+              {
+                "position": 0.9643,
+                "sentiment": 0.4221
+              }
+            ]
           },
           "top_words": [
             {
@@ -12181,10 +16221,64 @@
             "Non decimas quae sunt pauperum Dei,"
           ],
           "sentiment": {
-            "compound": 0.9982,
-            "positive": 0.123,
-            "negative": 0.046,
-            "neutral": 0.83
+            "compound": 0.4808,
+            "positive": 0.1189,
+            "negative": 0.042,
+            "neutral": 0.8392,
+            "trajectory": [
+              {
+                "position": 0.04,
+                "sentiment": 0.7651
+              },
+              {
+                "position": 0.12,
+                "sentiment": 0.53
+              },
+              {
+                "position": 0.2,
+                "sentiment": 0.9302
+              },
+              {
+                "position": 0.28,
+                "sentiment": 0.0284
+              },
+              {
+                "position": 0.36,
+                "sentiment": 0.6335
+              },
+              {
+                "position": 0.44,
+                "sentiment": 0.4741
+              },
+              {
+                "position": 0.52,
+                "sentiment": 0.4713
+              },
+              {
+                "position": 0.6,
+                "sentiment": 0.6273
+              },
+              {
+                "position": 0.68,
+                "sentiment": -0.2126
+              },
+              {
+                "position": 0.76,
+                "sentiment": -0.1465
+              },
+              {
+                "position": 0.84,
+                "sentiment": -0.1716
+              },
+              {
+                "position": 0.92,
+                "sentiment": 0.6089
+              },
+              {
+                "position": 0.98,
+                "sentiment": 0.9089
+              }
+            ]
           },
           "top_words": [
             {
@@ -12321,10 +16415,88 @@
             "Non si est dare primum motum esse,"
           ],
           "sentiment": {
-            "compound": 0.9991,
-            "positive": 0.181,
-            "negative": 0.075,
-            "neutral": 0.744
+            "compound": 0.7219,
+            "positive": 0.1642,
+            "negative": 0.0536,
+            "neutral": 0.7822,
+            "trajectory": [
+              {
+                "position": 0.0263,
+                "sentiment": 0.8481
+              },
+              {
+                "position": 0.0789,
+                "sentiment": 0.9315
+              },
+              {
+                "position": 0.1316,
+                "sentiment": 0.9325
+              },
+              {
+                "position": 0.1842,
+                "sentiment": 0.872
+              },
+              {
+                "position": 0.2368,
+                "sentiment": 0.8658
+              },
+              {
+                "position": 0.2895,
+                "sentiment": 0.3944
+              },
+              {
+                "position": 0.3421,
+                "sentiment": 0.886
+              },
+              {
+                "position": 0.3947,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.4474,
+                "sentiment": 0.9489
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.9403
+              },
+              {
+                "position": 0.5526,
+                "sentiment": 0.5719
+              },
+              {
+                "position": 0.6053,
+                "sentiment": 0.7269
+              },
+              {
+                "position": 0.6579,
+                "sentiment": 0.5423
+              },
+              {
+                "position": 0.7105,
+                "sentiment": 0.4404
+              },
+              {
+                "position": 0.7632,
+                "sentiment": -0.296
+              },
+              {
+                "position": 0.8158,
+                "sentiment": 0.5994
+              },
+              {
+                "position": 0.8684,
+                "sentiment": 0.9419
+              },
+              {
+                "position": 0.9211,
+                "sentiment": -0.6096
+              },
+              {
+                "position": 0.9737,
+                "sentiment": 0.0258
+              }
+            ]
           },
           "top_words": [
             {
@@ -12475,10 +16647,64 @@
             "O Helios who dost so adorn them!"
           ],
           "sentiment": {
-            "compound": 0.9995,
-            "positive": 0.167,
-            "negative": 0.026,
-            "neutral": 0.806
+            "compound": 0.6879,
+            "positive": 0.1583,
+            "negative": 0.0249,
+            "neutral": 0.8166,
+            "trajectory": [
+              {
+                "position": 0.0385,
+                "sentiment": -0.3145
+              },
+              {
+                "position": 0.1154,
+                "sentiment": 0.7908
+              },
+              {
+                "position": 0.1923,
+                "sentiment": 0.7986
+              },
+              {
+                "position": 0.2692,
+                "sentiment": 0.8302
+              },
+              {
+                "position": 0.3462,
+                "sentiment": 0.9532
+              },
+              {
+                "position": 0.4231,
+                "sentiment": 0.6612
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.5769,
+                "sentiment": 0.8326
+              },
+              {
+                "position": 0.6538,
+                "sentiment": 0.8379
+              },
+              {
+                "position": 0.7308,
+                "sentiment": -0.1332
+              },
+              {
+                "position": 0.8077,
+                "sentiment": 0.4516
+              },
+              {
+                "position": 0.8846,
+                "sentiment": 0.9004
+              },
+              {
+                "position": 0.9615,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -12630,10 +16856,52 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9997,
-            "positive": 0.196,
-            "negative": 0.034,
-            "neutral": 0.77
+            "compound": 0.5885,
+            "positive": 0.1601,
+            "negative": 0.028,
+            "neutral": 0.8119,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": 0.6956
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.8287
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.8938
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.4087
+              },
+              {
+                "position": 0.45,
+                "sentiment": -0.0581
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.5772
+              },
+              {
+                "position": 0.65,
+                "sentiment": 0.2576
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.0858
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.6633
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.1883
+              }
+            ]
           },
           "top_words": [
             {
@@ -12774,10 +17042,60 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9975,
-            "positive": 0.123,
-            "negative": 0.065,
-            "neutral": 0.812
+            "compound": 0.2369,
+            "positive": 0.1059,
+            "negative": 0.0516,
+            "neutral": 0.8425,
+            "trajectory": [
+              {
+                "position": 0.0429,
+                "sentiment": 0.6281
+              },
+              {
+                "position": 0.1286,
+                "sentiment": 0.5529
+              },
+              {
+                "position": 0.2143,
+                "sentiment": -0.4092
+              },
+              {
+                "position": 0.3,
+                "sentiment": -0.4258
+              },
+              {
+                "position": 0.3857,
+                "sentiment": -0.4734
+              },
+              {
+                "position": 0.4714,
+                "sentiment": 0.8507
+              },
+              {
+                "position": 0.5571,
+                "sentiment": 0.1921
+              },
+              {
+                "position": 0.6429,
+                "sentiment": 0.5782
+              },
+              {
+                "position": 0.7286,
+                "sentiment": 0.0562
+              },
+              {
+                "position": 0.8143,
+                "sentiment": 0.8164
+              },
+              {
+                "position": 0.9,
+                "sentiment": -0.2265
+              },
+              {
+                "position": 0.9714,
+                "sentiment": 0.4046
+              }
+            ]
           },
           "top_words": [
             {
@@ -12923,10 +17241,60 @@
             "Send forth Because foreseen an arrow comes more slowly."
           ],
           "sentiment": {
-            "compound": 0.9976,
-            "positive": 0.141,
-            "negative": 0.069,
-            "neutral": 0.79
+            "compound": 0.3645,
+            "positive": 0.1165,
+            "negative": 0.0591,
+            "neutral": 0.8243,
+            "trajectory": [
+              {
+                "position": 0.0435,
+                "sentiment": -0.5273
+              },
+              {
+                "position": 0.1304,
+                "sentiment": 0.8853
+              },
+              {
+                "position": 0.2174,
+                "sentiment": -0.1959
+              },
+              {
+                "position": 0.3043,
+                "sentiment": -0.2782
+              },
+              {
+                "position": 0.3913,
+                "sentiment": 0.3677
+              },
+              {
+                "position": 0.4783,
+                "sentiment": 0.2308
+              },
+              {
+                "position": 0.5652,
+                "sentiment": 0.7605
+              },
+              {
+                "position": 0.6522,
+                "sentiment": -0.0877
+              },
+              {
+                "position": 0.7391,
+                "sentiment": 0.7051
+              },
+              {
+                "position": 0.8261,
+                "sentiment": 0.7703
+              },
+              {
+                "position": 0.913,
+                "sentiment": 0.695
+              },
+              {
+                "position": 0.9783,
+                "sentiment": 0.2263
+              }
+            ]
           },
           "top_words": [
             {
@@ -13060,10 +17428,56 @@
             "Qui judicatis terram"
           ],
           "sentiment": {
-            "compound": 0.9995,
-            "positive": 0.168,
-            "negative": 0.055,
-            "neutral": 0.778
+            "compound": 0.3755,
+            "positive": 0.1302,
+            "negative": 0.0459,
+            "neutral": 0.8239,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": -0.0004
+              },
+              {
+                "position": 0.1452,
+                "sentiment": 0.744
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.7135
+              },
+              {
+                "position": 0.3387,
+                "sentiment": 0.8764
+              },
+              {
+                "position": 0.4355,
+                "sentiment": -0.0415
+              },
+              {
+                "position": 0.5323,
+                "sentiment": 0.6034
+              },
+              {
+                "position": 0.629,
+                "sentiment": 0.379
+              },
+              {
+                "position": 0.7258,
+                "sentiment": -0.6261
+              },
+              {
+                "position": 0.8226,
+                "sentiment": 0.3603
+              },
+              {
+                "position": 0.9194,
+                "sentiment": 0.6263
+              },
+              {
+                "position": 0.9839,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -13209,10 +17623,52 @@
             "Being just and merciful That is in me so very old a fast."
           ],
           "sentiment": {
-            "compound": 0.9956,
-            "positive": 0.118,
-            "negative": 0.071,
-            "neutral": 0.811
+            "compound": 0.2412,
+            "positive": 0.108,
+            "negative": 0.055,
+            "neutral": 0.8369,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": 0.712
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.7423
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.3265
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.62
+              },
+              {
+                "position": 0.45,
+                "sentiment": 0.2657
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.583
+              },
+              {
+                "position": 0.65,
+                "sentiment": 0.2462
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.6135
+              },
+              {
+                "position": 0.85,
+                "sentiment": -0.6996
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.2548
+              }
+            ]
           },
           "top_words": [
             {
@@ -13348,10 +17804,68 @@
             "What things are these?"
           ],
           "sentiment": {
-            "compound": 0.9993,
-            "positive": 0.168,
-            "negative": 0.058,
-            "neutral": 0.774
+            "compound": 0.5518,
+            "positive": 0.153,
+            "negative": 0.0529,
+            "neutral": 0.7939,
+            "trajectory": [
+              {
+                "position": 0.0357,
+                "sentiment": 0.3389
+              },
+              {
+                "position": 0.1071,
+                "sentiment": 0.5825
+              },
+              {
+                "position": 0.1786,
+                "sentiment": 0.6826
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.755
+              },
+              {
+                "position": 0.3214,
+                "sentiment": 0.5543
+              },
+              {
+                "position": 0.3929,
+                "sentiment": 0.4734
+              },
+              {
+                "position": 0.4643,
+                "sentiment": 0.1873
+              },
+              {
+                "position": 0.5357,
+                "sentiment": 0.6947
+              },
+              {
+                "position": 0.6071,
+                "sentiment": 0.681
+              },
+              {
+                "position": 0.6786,
+                "sentiment": 0.7453
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.8333
+              },
+              {
+                "position": 0.8214,
+                "sentiment": -0.1168
+              },
+              {
+                "position": 0.8929,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.9643,
+                "sentiment": 0.9403
+              }
+            ]
           },
           "top_words": [
             {
@@ -13485,10 +17999,88 @@
             "No merit of my own “I see full well,"
           ],
           "sentiment": {
-            "compound": 0.9994,
-            "positive": 0.171,
-            "negative": 0.037,
-            "neutral": 0.793
+            "compound": 0.6261,
+            "positive": 0.1365,
+            "negative": 0.038,
+            "neutral": 0.8253,
+            "trajectory": [
+              {
+                "position": 0.0263,
+                "sentiment": 0.7783
+              },
+              {
+                "position": 0.0789,
+                "sentiment": 0.3612
+              },
+              {
+                "position": 0.1316,
+                "sentiment": 0.5719
+              },
+              {
+                "position": 0.1842,
+                "sentiment": -0.4404
+              },
+              {
+                "position": 0.2368,
+                "sentiment": 0.8744
+              },
+              {
+                "position": 0.2895,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.3421,
+                "sentiment": 0.431
+              },
+              {
+                "position": 0.3947,
+                "sentiment": 0.9886
+              },
+              {
+                "position": 0.4474,
+                "sentiment": 0.7959
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.9455
+              },
+              {
+                "position": 0.5526,
+                "sentiment": 0.7351
+              },
+              {
+                "position": 0.6053,
+                "sentiment": 0.7506
+              },
+              {
+                "position": 0.6579,
+                "sentiment": 0.743
+              },
+              {
+                "position": 0.7105,
+                "sentiment": 0.7793
+              },
+              {
+                "position": 0.7632,
+                "sentiment": 0.34
+              },
+              {
+                "position": 0.8158,
+                "sentiment": 0.2263
+              },
+              {
+                "position": 0.8684,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.9211,
+                "sentiment": -0.4023
+              },
+              {
+                "position": 0.9737,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -13643,10 +18235,60 @@
             "Thou art so near unto the last salvation,"
           ],
           "sentiment": {
-            "compound": 0.9988,
-            "positive": 0.121,
-            "negative": 0.045,
-            "neutral": 0.834
+            "compound": 0.3648,
+            "positive": 0.1035,
+            "negative": 0.0435,
+            "neutral": 0.853,
+            "trajectory": [
+              {
+                "position": 0.0441,
+                "sentiment": 0.2489
+              },
+              {
+                "position": 0.1324,
+                "sentiment": 0.416
+              },
+              {
+                "position": 0.2206,
+                "sentiment": -0.2528
+              },
+              {
+                "position": 0.3088,
+                "sentiment": 0.3556
+              },
+              {
+                "position": 0.3971,
+                "sentiment": 0.717
+              },
+              {
+                "position": 0.4853,
+                "sentiment": 0.7401
+              },
+              {
+                "position": 0.5735,
+                "sentiment": 0.1968
+              },
+              {
+                "position": 0.6618,
+                "sentiment": -0.2757
+              },
+              {
+                "position": 0.75,
+                "sentiment": 0.4055
+              },
+              {
+                "position": 0.8382,
+                "sentiment": 0.5743
+              },
+              {
+                "position": 0.9265,
+                "sentiment": 0.2966
+              },
+              {
+                "position": 0.9853,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -13790,10 +18432,56 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9996,
-            "positive": 0.177,
-            "negative": 0.037,
-            "neutral": 0.786
+            "compound": 0.5902,
+            "positive": 0.1487,
+            "negative": 0.0318,
+            "neutral": 0.8195,
+            "trajectory": [
+              {
+                "position": 0.0484,
+                "sentiment": 0.8194
+              },
+              {
+                "position": 0.1452,
+                "sentiment": 0.4388
+              },
+              {
+                "position": 0.2419,
+                "sentiment": 0.8348
+              },
+              {
+                "position": 0.3387,
+                "sentiment": 0.7526
+              },
+              {
+                "position": 0.4355,
+                "sentiment": 0.3325
+              },
+              {
+                "position": 0.5323,
+                "sentiment": 0.1081
+              },
+              {
+                "position": 0.629,
+                "sentiment": 0.4108
+              },
+              {
+                "position": 0.7258,
+                "sentiment": 0.9182
+              },
+              {
+                "position": 0.8226,
+                "sentiment": 0.5972
+              },
+              {
+                "position": 0.9194,
+                "sentiment": 0.3191
+              },
+              {
+                "position": 0.9839,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -13930,10 +18618,76 @@
             "Were the world to Christianity converted,"
           ],
           "sentiment": {
-            "compound": 0.9996,
-            "positive": 0.169,
-            "negative": 0.023,
-            "neutral": 0.807
+            "compound": 0.8519,
+            "positive": 0.1611,
+            "negative": 0.0272,
+            "neutral": 0.8117,
+            "trajectory": [
+              {
+                "position": 0.0312,
+                "sentiment": 0.9791
+              },
+              {
+                "position": 0.0938,
+                "sentiment": 0.9476
+              },
+              {
+                "position": 0.1562,
+                "sentiment": 0.1531
+              },
+              {
+                "position": 0.2188,
+                "sentiment": 0.9096
+              },
+              {
+                "position": 0.2812,
+                "sentiment": 0.4767
+              },
+              {
+                "position": 0.3438,
+                "sentiment": 0.9382
+              },
+              {
+                "position": 0.4062,
+                "sentiment": 0.9689
+              },
+              {
+                "position": 0.4688,
+                "sentiment": 0.7003
+              },
+              {
+                "position": 0.5312,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.5938,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.6562,
+                "sentiment": 0.8478
+              },
+              {
+                "position": 0.7188,
+                "sentiment": 0.9387
+              },
+              {
+                "position": 0.7812,
+                "sentiment": 0.9782
+              },
+              {
+                "position": 0.8438,
+                "sentiment": 0.9443
+              },
+              {
+                "position": 0.9062,
+                "sentiment": 0.6369
+              },
+              {
+                "position": 0.9688,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -14066,10 +18820,88 @@
             "those who know thy name;"
           ],
           "sentiment": {
-            "compound": 0.9995,
-            "positive": 0.18,
-            "negative": 0.037,
-            "neutral": 0.783
+            "compound": 0.5883,
+            "positive": 0.1508,
+            "negative": 0.033,
+            "neutral": 0.8162,
+            "trajectory": [
+              {
+                "position": 0.0263,
+                "sentiment": 0.9468
+              },
+              {
+                "position": 0.0789,
+                "sentiment": -0.4678
+              },
+              {
+                "position": 0.1316,
+                "sentiment": 0.7845
+              },
+              {
+                "position": 0.1842,
+                "sentiment": 0.902
+              },
+              {
+                "position": 0.2368,
+                "sentiment": 0.6369
+              },
+              {
+                "position": 0.2895,
+                "sentiment": 0.9465
+              },
+              {
+                "position": 0.3421,
+                "sentiment": 0.8481
+              },
+              {
+                "position": 0.3947,
+                "sentiment": 0.2732
+              },
+              {
+                "position": 0.4474,
+                "sentiment": 0.802
+              },
+              {
+                "position": 0.5,
+                "sentiment": -0.296
+              },
+              {
+                "position": 0.5526,
+                "sentiment": 0.9965
+              },
+              {
+                "position": 0.6053,
+                "sentiment": 0.6369
+              },
+              {
+                "position": 0.6579,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.7105,
+                "sentiment": 0.6705
+              },
+              {
+                "position": 0.7632,
+                "sentiment": 0.3716
+              },
+              {
+                "position": 0.8158,
+                "sentiment": 0.3041
+              },
+              {
+                "position": 0.8684,
+                "sentiment": -0.6872
+              },
+              {
+                "position": 0.9211,
+                "sentiment": -0.296
+              },
+              {
+                "position": 0.9737,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -14221,10 +19053,60 @@
             "I will make all my goodness pass before thee."
           ],
           "sentiment": {
-            "compound": 0.9997,
-            "positive": 0.182,
-            "negative": 0.036,
-            "neutral": 0.782
+            "compound": 0.6465,
+            "positive": 0.1595,
+            "negative": 0.0376,
+            "neutral": 0.803,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.4888
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.1854
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.9049
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.9346
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.6446
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.9236
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.8492
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.8911
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.2174
+              },
+              {
+                "position": 0.7917,
+                "sentiment": 0.5827
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.6544
+              },
+              {
+                "position": 0.9583,
+                "sentiment": -0.3568
+              }
+            ]
           },
           "top_words": [
             {
@@ -14365,10 +19247,60 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.999,
-            "positive": 0.139,
-            "negative": 0.051,
-            "neutral": 0.811
+            "compound": 0.4193,
+            "positive": 0.1212,
+            "negative": 0.046,
+            "neutral": 0.8329,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.5234
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.206
+              },
+              {
+                "position": 0.2083,
+                "sentiment": -0.1631
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.7213
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.4501
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.103
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.6066
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.7472
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.7323
+              },
+              {
+                "position": 0.7917,
+                "sentiment": -0.2469
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.6405
+              },
+              {
+                "position": 0.9583,
+                "sentiment": -0.2173
+              }
+            ]
           },
           "top_words": [
             {
@@ -14487,10 +19419,60 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9994,
-            "positive": 0.171,
-            "negative": 0.026,
-            "neutral": 0.803
+            "compound": 0.6228,
+            "positive": 0.1519,
+            "negative": 0.0246,
+            "neutral": 0.8232,
+            "trajectory": [
+              {
+                "position": 0.0417,
+                "sentiment": 0.154
+              },
+              {
+                "position": 0.125,
+                "sentiment": 0.7007
+              },
+              {
+                "position": 0.2083,
+                "sentiment": 0.2119
+              },
+              {
+                "position": 0.2917,
+                "sentiment": 0.2495
+              },
+              {
+                "position": 0.375,
+                "sentiment": 0.7464
+              },
+              {
+                "position": 0.4583,
+                "sentiment": 0.8738
+              },
+              {
+                "position": 0.5417,
+                "sentiment": 0.9801
+              },
+              {
+                "position": 0.625,
+                "sentiment": 0.202
+              },
+              {
+                "position": 0.7083,
+                "sentiment": 0.7688
+              },
+              {
+                "position": 0.7917,
+                "sentiment": -0.0266
+              },
+              {
+                "position": 0.875,
+                "sentiment": 0.8173
+              },
+              {
+                "position": 0.9583,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -14623,10 +19605,64 @@
             "Go forth, and to the world preach idle tales,"
           ],
           "sentiment": {
-            "compound": 0.9993,
-            "positive": 0.158,
-            "negative": 0.054,
-            "neutral": 0.788
+            "compound": 0.3776,
+            "positive": 0.1335,
+            "negative": 0.0444,
+            "neutral": 0.8222,
+            "trajectory": [
+              {
+                "position": 0.0385,
+                "sentiment": 0.6652
+              },
+              {
+                "position": 0.1154,
+                "sentiment": 0.8021
+              },
+              {
+                "position": 0.1923,
+                "sentiment": 0.0125
+              },
+              {
+                "position": 0.2692,
+                "sentiment": 0.4902
+              },
+              {
+                "position": 0.3462,
+                "sentiment": 0.5865
+              },
+              {
+                "position": 0.4231,
+                "sentiment": 0.4782
+              },
+              {
+                "position": 0.5,
+                "sentiment": 0.6232
+              },
+              {
+                "position": 0.5769,
+                "sentiment": 0.1011
+              },
+              {
+                "position": 0.6538,
+                "sentiment": 0.0257
+              },
+              {
+                "position": 0.7308,
+                "sentiment": -0.4992
+              },
+              {
+                "position": 0.8077,
+                "sentiment": 0.3414
+              },
+              {
+                "position": 0.8846,
+                "sentiment": 0.7193
+              },
+              {
+                "position": 0.9615,
+                "sentiment": 0.746
+              }
+            ]
           },
           "top_words": [
             {
@@ -14758,10 +19794,72 @@
           ],
           "notable_quotes": [],
           "sentiment": {
-            "compound": 0.9997,
-            "positive": 0.186,
-            "negative": 0.039,
-            "neutral": 0.775
+            "compound": 0.6014,
+            "positive": 0.1479,
+            "negative": 0.0323,
+            "neutral": 0.8199,
+            "trajectory": [
+              {
+                "position": 0.0345,
+                "sentiment": 0.7416
+              },
+              {
+                "position": 0.1034,
+                "sentiment": 0.9623
+              },
+              {
+                "position": 0.1724,
+                "sentiment": 0.3074
+              },
+              {
+                "position": 0.2414,
+                "sentiment": 0.8661
+              },
+              {
+                "position": 0.3103,
+                "sentiment": 0.6234
+              },
+              {
+                "position": 0.3793,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.4483,
+                "sentiment": 0.8582
+              },
+              {
+                "position": 0.5172,
+                "sentiment": 0.8014
+              },
+              {
+                "position": 0.5862,
+                "sentiment": 0.6227
+              },
+              {
+                "position": 0.6552,
+                "sentiment": 0.0
+              },
+              {
+                "position": 0.7241,
+                "sentiment": 0.6245
+              },
+              {
+                "position": 0.7931,
+                "sentiment": 0.6793
+              },
+              {
+                "position": 0.8621,
+                "sentiment": 0.1981
+              },
+              {
+                "position": 0.931,
+                "sentiment": 0.4413
+              },
+              {
+                "position": 0.9828,
+                "sentiment": 0.3919
+              }
+            ]
           },
           "top_words": [
             {
@@ -14905,10 +20003,68 @@
             "Thou son of grace, this jocund life,"
           ],
           "sentiment": {
-            "compound": 0.9998,
-            "positive": 0.235,
-            "negative": 0.022,
-            "neutral": 0.744
+            "compound": 0.8177,
+            "positive": 0.1819,
+            "negative": 0.015,
+            "neutral": 0.8033,
+            "trajectory": [
+              {
+                "position": 0.037,
+                "sentiment": 0.7533
+              },
+              {
+                "position": 0.1111,
+                "sentiment": 0.7206
+              },
+              {
+                "position": 0.1852,
+                "sentiment": 0.7586
+              },
+              {
+                "position": 0.2593,
+                "sentiment": 0.7204
+              },
+              {
+                "position": 0.3333,
+                "sentiment": 0.8392
+              },
+              {
+                "position": 0.4074,
+                "sentiment": 0.8898
+              },
+              {
+                "position": 0.4815,
+                "sentiment": 0.768
+              },
+              {
+                "position": 0.5556,
+                "sentiment": 0.659
+              },
+              {
+                "position": 0.6296,
+                "sentiment": 0.8606
+              },
+              {
+                "position": 0.7037,
+                "sentiment": 0.7232
+              },
+              {
+                "position": 0.7778,
+                "sentiment": 0.9541
+              },
+              {
+                "position": 0.8519,
+                "sentiment": 0.9071
+              },
+              {
+                "position": 0.9259,
+                "sentiment": 0.7428
+              },
+              {
+                "position": 0.9815,
+                "sentiment": 0.0
+              }
+            ]
           },
           "top_words": [
             {
@@ -15066,10 +20222,60 @@
             "Ave Maria, gratia plena,"
           ],
           "sentiment": {
-            "compound": 0.9996,
-            "positive": 0.181,
-            "negative": 0.038,
-            "neutral": 0.781
+            "compound": 0.6049,
+            "positive": 0.1616,
+            "negative": 0.033,
+            "neutral": 0.8054,
+            "trajectory": [
+              {
+                "position": 0.0429,
+                "sentiment": 0.6603
+              },
+              {
+                "position": 0.1286,
+                "sentiment": 0.5367
+              },
+              {
+                "position": 0.2143,
+                "sentiment": 0.3594
+              },
+              {
+                "position": 0.3,
+                "sentiment": 0.8517
+              },
+              {
+                "position": 0.3857,
+                "sentiment": 0.5996
+              },
+              {
+                "position": 0.4714,
+                "sentiment": -0.1035
+              },
+              {
+                "position": 0.5571,
+                "sentiment": 0.8012
+              },
+              {
+                "position": 0.6429,
+                "sentiment": 0.8583
+              },
+              {
+                "position": 0.7286,
+                "sentiment": 0.5407
+              },
+              {
+                "position": 0.8143,
+                "sentiment": 0.6311
+              },
+              {
+                "position": 0.9,
+                "sentiment": 0.1526
+              },
+              {
+                "position": 0.9714,
+                "sentiment": 0.8666
+              }
+            ]
           },
           "top_words": [
             {
@@ -15229,10 +20435,52 @@
             "O thou who art beyond the sacred river,"
           ],
           "sentiment": {
-            "compound": 0.9998,
-            "positive": 0.157,
-            "negative": 0.08,
-            "neutral": 0.762
+            "compound": 0.5614,
+            "positive": 0.1321,
+            "negative": 0.0629,
+            "neutral": 0.8049,
+            "trajectory": [
+              {
+                "position": 0.05,
+                "sentiment": 0.4258
+              },
+              {
+                "position": 0.15,
+                "sentiment": 0.8396
+              },
+              {
+                "position": 0.25,
+                "sentiment": 0.7724
+              },
+              {
+                "position": 0.35,
+                "sentiment": 0.4891
+              },
+              {
+                "position": 0.45,
+                "sentiment": 0.2083
+              },
+              {
+                "position": 0.55,
+                "sentiment": 0.3627
+              },
+              {
+                "position": 0.65,
+                "sentiment": -0.2031
+              },
+              {
+                "position": 0.75,
+                "sentiment": -0.3249
+              },
+              {
+                "position": 0.85,
+                "sentiment": 0.5413
+              },
+              {
+                "position": 0.95,
+                "sentiment": 0.8861
+              }
+            ]
           },
           "top_words": [
             {
@@ -15322,13 +20570,13 @@
           "celestial_body": "Moon",
           "notable_characters": [],
           "souls_mentioned": [
-            "Beatrice",
-            "Mary",
-            "Plato",
             "Caesar",
+            "Mary",
+            "God",
+            "Plato",
             "Dante",
             "Moses",
-            "God"
+            "Beatrice"
           ]
         },
         {
@@ -15344,13 +20592,13 @@
             "Justinian"
           ],
           "souls_mentioned": [
-            "Beatrice",
-            "Cleopatra",
-            "Justinian",
-            "Christ",
             "Caesar",
+            "Christ",
+            "God",
+            "Justinian",
             "Dante",
-            "God"
+            "Cleopatra",
+            "Beatrice"
           ]
         },
         {
@@ -15365,9 +20613,9 @@
           "notable_characters": [],
           "souls_mentioned": [
             "Christ",
-            "Beatrice",
             "God",
-            "Dante"
+            "Dante",
+            "Beatrice"
           ]
         },
         {
@@ -15384,19 +20632,19 @@
             "Bonaventure"
           ],
           "souls_mentioned": [
-            "Satan",
-            "Beatrice",
-            "Mary",
-            "Minos",
             "Bernard",
             "Christ",
-            "Moses",
-            "Thomas Aquinas",
+            "God",
+            "Mary",
             "Peter",
+            "Satan",
             "Francis",
             "Dante",
-            "Dominic",
-            "God"
+            "Moses",
+            "Minos",
+            "Thomas Aquinas",
+            "Beatrice",
+            "Dominic"
           ]
         },
         {
@@ -15412,18 +20660,18 @@
             "Cacciaguida"
           ],
           "souls_mentioned": [
-            "Virgil",
-            "Beatrice",
-            "Cacciaguida",
-            "Mary",
-            "Ulysses",
-            "Thomas Aquinas",
-            "Peter",
             "Caesar",
+            "Christ",
+            "Mary",
+            "God",
+            "Peter",
             "Dante",
             "Moses",
-            "Christ",
-            "God"
+            "Ulysses",
+            "Virgil",
+            "Cacciaguida",
+            "Thomas Aquinas",
+            "Beatrice"
           ]
         },
         {
@@ -15437,10 +20685,10 @@
           "celestial_body": "Jupiter",
           "notable_characters": [],
           "souls_mentioned": [
-            "Beatrice",
             "Christ",
             "God",
-            "Dante"
+            "Dante",
+            "Beatrice"
           ]
         },
         {
