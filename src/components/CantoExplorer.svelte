@@ -6,6 +6,8 @@
   let { cantos = [], selectedCanto = $bindable(null) } = $props();
 
   let searchTerm = $state('');
+  let dropdownOpen = $state(false);
+  let expandedRealms = $state({ Inferno: true, Purgatorio: false, Paradiso: false });
 
   const filteredCantos = $derived(
     searchTerm
@@ -18,9 +20,46 @@
       : cantos
   );
 
+  const groupedCantos = $derived.by(() => {
+    const groups = {};
+    for (const c of filteredCantos) {
+      if (!groups[c.realm]) groups[c.realm] = [];
+      groups[c.realm].push(c);
+    }
+    return groups;
+  });
+
+  const realmOrder = ['Inferno', 'Purgatorio', 'Paradiso'];
+
   const activeCanto = $derived(
     selectedCanto ? cantos.find(c => c.global_number === selectedCanto) : null
   );
+
+  // Auto-expand the realm of the selected canto
+  $effect(() => {
+    if (activeCanto) {
+      expandedRealms[activeCanto.realm] = true;
+    }
+  });
+
+  // When searching, expand all realms that have results
+  $effect(() => {
+    if (searchTerm) {
+      const groups = groupedCantos;
+      for (const realm of realmOrder) {
+        expandedRealms[realm] = !!groups[realm]?.length;
+      }
+    }
+  });
+
+  function toggleRealm(realm) {
+    expandedRealms[realm] = !expandedRealms[realm];
+  }
+
+  function selectCanto(globalNumber) {
+    selectedCanto = globalNumber;
+    dropdownOpen = false;
+  }
 
   function sentimentBar(value) {
     const pct = ((value + 1) / 2) * 100;
@@ -37,32 +76,70 @@
 </script>
 
 <div class="explorer">
-  <div class="explorer-sidebar">
-    <div class="search-box">
-      <input
-        type="text"
-        placeholder="Search cantos, characters, locations..."
-        bind:value={searchTerm}
-      />
-    </div>
-    <div class="canto-list">
-      {#each filteredCantos as canto (canto.global_number)}
-        <button
-          class="canto-item"
-          class:active={selectedCanto === canto.global_number}
-          style="border-left: 3px solid {getCantoColor(canto.global_number)}"
-          onclick={() => { selectedCanto = canto.global_number; }}
-        >
-          <span class="canto-num">{canto.global_number}</span>
-          <span class="canto-info">
-            <span class="canto-title">{canto.realm}: {canto.title}</span>
-            <span class="canto-location">{canto.location}</span>
-          </span>
-        </button>
-      {/each}
-    </div>
+  <!-- Dropdown selector -->
+  <div class="canto-selector">
+    <button class="selector-trigger" onclick={() => { dropdownOpen = !dropdownOpen; }}>
+      {#if activeCanto}
+        <span class="trigger-color" style="background: {getCantoColor(activeCanto.global_number)}"></span>
+        <span class="trigger-label">{activeCanto.realm}: {activeCanto.title}</span>
+        <span class="trigger-location">{activeCanto.location}</span>
+      {:else}
+        <span class="trigger-label placeholder">Select a canto...</span>
+      {/if}
+      <span class="trigger-arrow">{dropdownOpen ? '\u25B4' : '\u25BE'}</span>
+    </button>
+
+    {#if dropdownOpen}
+      <button class="dropdown-backdrop" tabindex="-1" onclick={() => { dropdownOpen = false; }}></button>
+      <div class="dropdown-panel">
+        <div class="dropdown-search">
+          <input
+            type="text"
+            placeholder="Search cantos, characters, locations..."
+            bind:value={searchTerm}
+          />
+        </div>
+        <div class="dropdown-list">
+          {#each realmOrder as realm}
+            {@const realmCantos = groupedCantos[realm] || []}
+            {#if realmCantos.length > 0}
+              <div class="realm-group">
+                <button
+                  class="realm-header"
+                  class:expanded={expandedRealms[realm]}
+                  onclick={() => toggleRealm(realm)}
+                >
+                  <span class="realm-arrow">{expandedRealms[realm] ? '\u25BE' : '\u25B8'}</span>
+                  <span class="realm-name">{realm}</span>
+                  <span class="realm-count">{realmCantos.length}</span>
+                </button>
+                {#if expandedRealms[realm]}
+                  <div class="realm-cantos">
+                    {#each realmCantos as canto (canto.global_number)}
+                      <button
+                        class="canto-item"
+                        class:active={selectedCanto === canto.global_number}
+                        style="border-left: 3px solid {getCantoColor(canto.global_number)}"
+                        onclick={() => selectCanto(canto.global_number)}
+                      >
+                        <span class="canto-num">{canto.global_number}</span>
+                        <span class="canto-info">
+                          <span class="canto-title">{canto.title}</span>
+                          <span class="canto-location">{canto.location}</span>
+                        </span>
+                      </button>
+                    {/each}
+                  </div>
+                {/if}
+              </div>
+            {/if}
+          {/each}
+        </div>
+      </div>
+    {/if}
   </div>
 
+  <!-- Detail view -->
   <div class="explorer-detail">
     {#if activeCanto}
       <div class="detail-header" style="border-bottom-color: {getCantoColor(activeCanto.global_number)}">
@@ -194,46 +271,140 @@
 
 <style>
   .explorer {
-    display: grid;
-    grid-template-columns: 280px 1fr;
-    gap: 20px;
-    min-height: 500px;
-    max-height: 700px;
-  }
-  .explorer-sidebar {
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    overflow: hidden;
+    gap: 16px;
   }
-  .search-box input {
+
+  /* ── Dropdown selector ── */
+  .canto-selector {
+    position: relative;
+  }
+  .selector-trigger {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 100%;
-    padding: 8px 12px;
+    padding: 10px 14px;
     background: rgba(255,255,255,0.05);
     border: 1px solid #333;
     border-radius: 8px;
     color: #ccc;
-    font-size: 13px;
+    cursor: pointer;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 14px;
+    text-align: left;
+    transition: border-color 0.15s;
+  }
+  .selector-trigger:hover { border-color: #555; }
+  .trigger-color {
+    width: 4px;
+    height: 20px;
+    border-radius: 2px;
+    flex-shrink: 0;
+  }
+  .trigger-label { flex: 1; color: #e0e0e0; }
+  .trigger-label.placeholder { color: #666; }
+  .trigger-location { font-size: 12px; color: #666; }
+  .trigger-arrow { font-size: 10px; color: #666; flex-shrink: 0; }
+
+  .dropdown-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 9;
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: default;
+  }
+  .dropdown-panel {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    max-height: 360px;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 8px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .dropdown-search {
+    padding: 8px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .dropdown-search input {
+    width: 100%;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #333;
+    border-radius: 6px;
+    color: #ccc;
+    font-size: 12px;
     font-family: 'EB Garamond', Georgia, serif;
     box-sizing: border-box;
   }
-  .search-box input::placeholder { color: #666; }
-  .search-box input:focus { outline: none; border-color: #666; }
-  .canto-list {
+  .dropdown-search input::placeholder { color: #555; }
+  .dropdown-search input:focus { outline: none; border-color: #555; }
+  .dropdown-list {
     overflow-y: auto;
-    flex: 1;
+    padding: 4px;
     display: flex;
     flex-direction: column;
     gap: 2px;
   }
-  .canto-list::-webkit-scrollbar { width: 4px; }
-  .canto-list::-webkit-scrollbar-track { background: transparent; }
-  .canto-list::-webkit-scrollbar-thumb { background: #444; border-radius: 2px; }
+  .dropdown-list::-webkit-scrollbar { width: 4px; }
+  .dropdown-list::-webkit-scrollbar-track { background: transparent; }
+  .dropdown-list::-webkit-scrollbar-thumb { background: #444; border-radius: 2px; }
+
+  /* ── Realm groups inside dropdown ── */
+  .realm-group { margin-bottom: 2px; }
+  .realm-header {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    width: 100%;
+    padding: 6px 8px;
+    background: rgba(255,255,255,0.03);
+    border: none;
+    border-radius: 4px;
+    color: #ccc;
+    cursor: pointer;
+    font-family: 'EB Garamond', Georgia, serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: background 0.15s;
+  }
+  .realm-header:hover { background: rgba(255,255,255,0.07); }
+  .realm-header.expanded { color: #e0e0e0; }
+  .realm-arrow { font-size: 9px; width: 10px; color: #666; flex-shrink: 0; }
+  .realm-name { flex: 1; text-align: left; }
+  .realm-count {
+    font-size: 10px;
+    color: #555;
+    font-weight: normal;
+    background: rgba(255,255,255,0.05);
+    padding: 1px 6px;
+    border-radius: 8px;
+  }
+  .realm-cantos {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    padding-left: 4px;
+  }
+
   .canto-item {
     display: flex;
     align-items: center;
     gap: 8px;
-    padding: 6px 10px;
+    padding: 4px 8px;
     background: transparent;
     border: none;
     color: #aaa;
@@ -243,22 +414,22 @@
     transition: background 0.15s;
     border-radius: 4px;
   }
-  .canto-item:hover { background: rgba(255,255,255,0.05); }
+  .canto-item:hover { background: rgba(255,255,255,0.07); }
   .canto-item.active { background: rgba(255,255,255,0.1); color: #fff; }
   .canto-num {
-    font-size: 11px;
+    font-size: 10px;
     color: #666;
-    width: 24px;
+    width: 20px;
     text-align: right;
     flex-shrink: 0;
   }
   .canto-info { display: flex; flex-direction: column; }
   .canto-title { font-size: 12px; }
-  .canto-location { font-size: 10px; color: #666; }
+  .canto-location { font-size: 10px; color: #555; }
 
+  /* ── Detail panel ── */
   .explorer-detail {
     overflow-y: auto;
-    padding-right: 10px;
   }
   .detail-header {
     border-bottom: 2px solid #444;
@@ -348,21 +519,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    min-height: 200px;
     color: #666;
     font-family: 'EB Garamond', Georgia, serif;
     text-align: center;
   }
   .detail-empty p { margin: 4px 0; }
   .hint { font-size: 12px; color: #555; }
-
-  @media (max-width: 768px) {
-    .explorer {
-      grid-template-columns: 1fr;
-      max-height: none;
-    }
-    .explorer-sidebar {
-      max-height: 250px;
-    }
-  }
 </style>
