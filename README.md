@@ -106,7 +106,7 @@ divine-comedy-viz/
 
 1. **PDF Extraction** (`pdfplumber`): Parses the decorative-header PDF format, splitting text into 100 cantos across 3 realms
 2. **Text Cleaning**: Removes page headers, page numbers, and formatting artifacts
-3. **Sentiment Analysis** (`NLTK VADER`): Computes compound, positive, negative, and neutral scores per canto
+3. **Sentiment Analysis** Sentence-level averaging + sliding window: Computes compound, positive, negative, and neutral scores per canto
 4. **Frequency Analysis**: Word frequencies, character mentions, theme keyword counting
 5. **Network Building**: Character co-occurrence matrix from shared canto appearances
 6. **Spatial Mapping**: Journey coordinates for spiral visualization
